@@ -1,4 +1,5 @@
-lg_brand=[
+{
+“lg_brand”:[
   {
     "model": "NG182C4 SK1",
     "brand": "LG",
@@ -197,9 +198,9 @@ lg_brand=[
     "long_arabic_description_ksa": "جهاز تنقية الهواء القابل للارتداء من إل جي PuriCare ™ ، فلاتر H13 HEPA ، مراوح مزدوجة ، مستشعر تنفس حاصل على براءة اختراع ، مصنوع من السيليكون الطبي ، لون أبيض",
     "warranty_compressor": "2 years"
   }
-]
+],
 
-midea=[
+“midea”:[
   {
     "model": "NG182C4 SK1",
     "brand": "LG",
@@ -398,9 +399,9 @@ midea=[
     "long_arabic_description_ksa": "جهاز تنقية الهواء القابل للارتداء من إل جي PuriCare ™ ، فلاتر H13 HEPA ، مراوح مزدوجة ، مستشعر تنفس حاصل على براءة اختراع ، مصنوع من السيليكون الطبي ، لون أبيض",
     "warranty_compressor": "2 years"
   }
-]
+],
 
-ariston=[
+“ariston”:[
   {
     "model": "AQD1170D49EX.60HZ",
     "brand": "Ariston",
@@ -830,9 +831,9 @@ ariston=[
     "manufacturing_country": "Italy",
     "color": "White"
   }
-]
+],
 
-maytag=[
+“maytag”:[
   {
     "model": "4KMVWC410JW",
     "brand": "Maytag",
@@ -932,9 +933,9 @@ maytag=[
     "manufacturing_country": "USA",
     "color": "White"
   }
-]
+],
 
-bompani=[
+“bompani”:[
   {
     "model": "DIVA90GG5TCIX",
     "opposite_model": "BO693MNL",
@@ -1007,9 +1008,9 @@ bompani=[
     "manufacturing_country": "Italy",
     "color": "Silver"
   }
-]
+],
 
-indesit=[
+“indesit”:[
   {
     "model": "BIM951EGSS",
     "opposite_model": "BIM951EGSS",
@@ -1094,9 +1095,9 @@ indesit=[
     "manufacturing_country": "United Kingdom",
     "color": "white"
   }
-]
+],
 
-daewoo=[
+“daewoo”:[
   {
     "model": "DR-O1541WH",
     "brand": "Daewoo",
@@ -1207,9 +1208,9 @@ daewoo=[
     "brand": "Daewoo",
     "material_description": "Daewoo Split AC Ellite 21.6K, H/C-Outdoor"
   }
-]
+],
 
-maintenance_fees=[
+“maintenance_fees”:[
   {
     "new_service_price": 50,
     "products_included_en": "Carry in items (Vacuum Cleaner, Microwave… etc.)",
@@ -1280,9 +1281,9 @@ maintenance_fees=[
     "product_category_en": "Air Conditions",
     "product_category_ar": "المكيفات"
   }
-]
+],
 
-ton_conversion=[
+“ton_conversion”:[
   {
     "capacity_ton": "0.5 Ton",
     "equivalent_btu_h": "6,000 BTU/h"
@@ -1311,9 +1312,9 @@ ton_conversion=[
     "capacity_ton": "4 Ton",
     "equivalent_btu_h": "48,000 BTU/h"
   }
-]
+],
 
-escalation_hashtags=[
+“escalation_hashtags”:[
   {
     "hashtag": "#MR",
     "usage_ar": "فترة صباحية (8AM - 11AM)",
@@ -1409,9 +1410,9 @@ escalation_hashtags=[
     "usage_ar": "توضيح أن الموعد تم الاتفاق عليه مسبقًا مع الفني ليكون في نفس اليوم",
     "notes_ar": "يستخدم لتوضيح الاتفاق المسبق مع الفني"
   }
-]
+],
 
-maintenance_centres_locations=[
+“maintenance_centres_locations”:[
   {
     "city_ar": "الرياض",
     "location_description_ar": "طريق الجنادرية ، القادسية ، بجوار صراف البنك الاول."
@@ -1452,9 +1453,9 @@ maintenance_centres_locations=[
     "city_ar": "جازان - نجران",
     "location_description_ar": "طريق الملك عبدالعزيز مقابل مؤسسة ذهبية الرواد للتجارة"
   }
-]
+],
 
-visit_times=[
+“visit_times”:[
   {
     "region_ar": "الخرّج",
     "branch_en": "Riyadh",
@@ -2135,9 +2136,9 @@ visit_times=[
     "branch_en": "Jazan",
     "visit_date_ar": "الخميس"
   }
-]
+],
 
-visit_times_west=[
+“visit_times_west”:[
   {
     "region_ar": "Jeddah",
     "mr": true,
@@ -2498,9 +2499,9 @@ visit_times_west=[
     "fri": false,
     "remarks_ar": "سيتم التواصل عن طريق الفرع خلال 48 ساعة لتحديد موعد"
   }
-]
+],
 
-discount_codes=[
+“discount_codes”:[
   {
     "id": 1,
     "customer_name": "Eastern province Municipality",
@@ -3281,9 +3282,9 @@ discount_codes=[
     "company_name_ar": "صندوق الاستثمارات العامة والجهات التابعة لها ( شركة تأجير الطائرات افيليس - شركة تراث المدينة - شركة تطوير البلد - شركة العلا للتطوير - شركة أردارا للتطوير - شركة أرسيلور ميتال تيوبيلر برودكتس الجبيل - شركة عسير للاستثمار - شركة خدمات الطيران طيران الرياض - شركة بدائل - شركة مجموعة بوتيك - شركة سير الوطنية للسيارات - شركة مركز الحوكمة - شركة دان )",
     "code": "PIF"
   }
-]
+],
 
-showrooms_locations=[
+“showrooms_locations”:[
   {
     "id": 1,
     "city": "الرياض",
@@ -3903,3 +3904,6 @@ installation_delivery=[
     "additional_fees": "لايوجد"
   }
 ]
+}
+
+
