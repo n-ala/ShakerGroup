@@ -1,83 +1,135 @@
 const http = require('http');
 const url = require('url');
+const fs = require('fs');
+const path = require('path');
 
-const consultations = [];
+// Global database storage context mapped at runtime
+const db = {};
 
-// Create the HTTP server
-const server = http.createServer((req, res) => {
+/**
+ * Bootstraps the application database by reading configurations from the data directory
+ */
+function bootstrapDatabase() {
+    try {
+        const dataDir = path.join(__dirname, 'data');
+
+        if (!fs.existsSync(dataDir)) {
+            console.error(`Missing vital directory: ${dataDir}. Creating an empty one...`);
+            fs.mkdirSync(dataDir);
+            return;
+        }
+
+        // 1. Process standard array data structures (Regions)
+        const regionsPath = path.join(dataDir, 'regions_and_neighbourhoods.json');
+        if (fs.existsSync(regionsPath)) {
+            const regionsData = JSON.parse(fs.readFileSync(regionsPath, 'utf8'));
+            db['regions'] = Array.isArray(regionsData) ? regionsData : [];
+        }
+
+        // 2. Process combined structural maps (Data Arrays map)
+        const dataArraysPath = path.join(dataDir, 'data_arrays.json');
+        if (fs.existsSync(dataArraysPath)) {
+            const structuralMap = JSON.parse(fs.readFileSync(dataArraysPath, 'utf8'));
+            
+            for (const collectionKey in structuralMap) {
+                if (Array.isArray(structuralMap[collectionKey])) {
+                    db[collectionKey] = structuralMap[collectionKey];
+                }
+            }
+        }
+
+        console.log('Successfully registered entities:', Object.keys(db));
+    } catch (error) {
+        console.error('Critical failure mapping files into process memory:', error.message);
+        process.exit(1);
+    }
+}
+
+// Initialize target datasets
+bootstrapDatabase();
+
+/**
+ * Formats data chunks streaming from incoming requests
+ */
+function collectRequestBody(req) {
+    return new Promise((resolve, reject) => {
+        let buffer = '';
+        req.on('data', chunk => { buffer += chunk.toString(); });
+        req.on('end', () => resolve(buffer));
+        req.on('error', err => reject(err));
+    });
+}
+
+// Instantiate server instance
+const server = http.createServer(async (req, res) => {
     const parsedUrl = url.parse(req.url, true);
-    const pathname = parsedUrl.pathname.replace(/\/$/, ''); // Remove trailing slash
+    const pathname = parsedUrl.pathname.replace(/\/$/, '').toLowerCase();
     const method = req.method;
 
-    // Set standard response headers
-    res.setHeader('Content-Type', 'application/json');
+    // Enforce global UTF-8 encoding across all routing variations for Arabic text safety
+    res.setHeader('Content-Type', 'application/json; charset=utf-8');
 
-    // --- POST /api/schedule_consultation: Book a legal consultation ---
-    if (pathname === '/api/schedule_consultation' && method === 'POST') {
-        let body = '';
+    try {
+        // Enforce basic API namespace parsing path filters
+        if (pathname.startsWith('/api/')) {
+            const TargetCollection = pathname.substring(5);
 
-        // 1. Collect the incoming data payload
-        req.on('data', chunk => {
-            body += chunk.toString();
-        });
+            if (db.hasOwnProperty(TargetCollection)) {
+                
+                // --- GET METHOD ENDPOINT ---
+                if (method === 'GET') {
+                    res.statusCode = 200;
+                    return res.end(JSON.stringify(db[TargetCollection]));
+                }
 
-        // 2. Process the data and respond
-        req.on('end', () => {
-            try {
-                const { name, email, date, time, caseType, attorneyName } = JSON.parse(body);
+                // --- POST METHOD ENDPOINT ---
+                if (method === 'POST') {
+                    const rawBody = await collectRequestBody(req);
+                    
+                    if (!rawBody) {
+                        res.statusCode = 400;
+                        return res.end(JSON.stringify({ error: "Payload body missing on data registration attempt." }));
+                    }
 
-                // Basic Validation: Ensure necessary legal consultation fields are present
-                if (!name || !date || !time || !caseType) {
-                    res.statusCode = 400;
-                    return res.end(JSON.stringify({ 
-                        error: "Missing required fields (name, date, time, and caseType are mandatory)" 
+                    const payload = JSON.parse(rawBody);
+
+                    if (typeof payload !== 'object' || Array.isArray(payload)) {
+                        res.statusCode = 400;
+                        return res.end(JSON.stringify({ error: "Payload item must be structured as a valid single JSON object." }));
+                    }
+
+                    // Dynamically push the custom body object into our memory array map
+                    db[TargetCollection].push(payload);
+                    
+                    res.statusCode = 201;
+                    return res.end(JSON.stringify({
+                        message: `Record successfully injected into collection context: '${TargetCollection}'`,
+                        storedData: payload
                     }));
                 }
-                
-                // Log the consultation (simulating a database save)
-                const newConsultation = {
-                    id: consultations.length + 1,
-                    clientName: name,
-                    email,
-                    date,
-                    time,
-                    caseType,
-                    attorneyName: attorneyName || "Next Available",
-                    timestamp: new Date().toISOString()
-                };
 
-                consultations.push(newConsultation);
-
-                // Success Response
-                res.statusCode = 200; // 200 Created is more standard for POST
-                res.end(JSON.stringify({ 
-                    message: "Consultation scheduled successfully", 
-                    consultationId: newConsultation.id 
-                }));
-            } catch (err) {
-                res.statusCode = 400;
-                res.end(JSON.stringify({ error: "Invalid JSON payload" }));
+                res.statusCode = 405;
+                return res.end(JSON.stringify({ error: `Method action ${method} explicitly unsupported here.` }));
             }
-        });
-    }
+        }
 
-    // --- GET /api/consultations: View all scheduled appointments ---
-    else if (pathname === '/api/consultations' && method === 'GET') {
-        res.statusCode = 200;
-        res.end(JSON.stringify(consultations)); 
-    }
-
-    // --- Handle unknown or unsupported routes ---
-    else {
+        // Catch-all fallthrough mismatch
         res.statusCode = 404;
-        res.end(JSON.stringify({ error: "Route not found or method not supported" }));
+        res.end(JSON.stringify({ error: "Target route entity reference missing from collection index definitions." }));
+
+    } catch (err) {
+        res.statusCode = 500;
+        res.end(JSON.stringify({ error: "Process engine crash on evaluation parsing lifecycle.", errors: err.message }));
     }
 });
 
-// Start the server
 const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {
-    console.log(`Legal Consultation Server running on http://localhost:${PORT}`);
-    console.log(`- POST /api/schedule_consultation (Schedule an appointment)`);
-    console.log(`- GET  /api/consultations (View all appointments)`);
+    console.log(`\n🚀 Dynamic REST Engine live at: http://localhost:${PORT}`);
+    console.log('=====================================================');
+    console.log('Automated routes actively registered for execution:');
+    Object.keys(db).forEach(collection => {
+        console.log(`  • [GET/POST]  http://localhost:${PORT}/api/${collection}`);
+    });
+    console.log('=====================================================\n');
 });
