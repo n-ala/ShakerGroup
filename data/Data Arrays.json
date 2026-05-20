@@ -1,5 +1,5 @@
 {
-“lg_brand”:[
+"lg_brand":[
   {
     "model": "NG182C4 SK1",
     "brand": "LG",
@@ -200,7 +200,7 @@
   }
 ],
 
-“midea”:[
+"midea":[
   {
     "model": "NG182C4 SK1",
     "brand": "LG",
@@ -401,7 +401,7 @@
   }
 ],
 
-“ariston”:[
+"ariston":[
   {
     "model": "AQD1170D49EX.60HZ",
     "brand": "Ariston",
@@ -833,7 +833,7 @@
   }
 ],
 
-“maytag”:[
+"maytag":[
   {
     "model": "4KMVWC410JW",
     "brand": "Maytag",
@@ -935,7 +935,7 @@
   }
 ],
 
-“bompani”:[
+"bompani":[
   {
     "model": "DIVA90GG5TCIX",
     "opposite_model": "BO693MNL",
@@ -1010,7 +1010,7 @@
   }
 ],
 
-“indesit”:[
+"indesit":[
   {
     "model": "BIM951EGSS",
     "opposite_model": "BIM951EGSS",
@@ -1097,7 +1097,7 @@
   }
 ],
 
-“daewoo”:[
+"daewoo":[
   {
     "model": "DR-O1541WH",
     "brand": "Daewoo",
@@ -1210,7 +1210,7 @@
   }
 ],
 
-“maintenance_fees”:[
+"maintenance_fees":[
   {
     "new_service_price": 50,
     "products_included_en": "Carry in items (Vacuum Cleaner, Microwave… etc.)",
@@ -1283,7 +1283,7 @@
   }
 ],
 
-“ton_conversion”:[
+"ton_conversion":[
   {
     "capacity_ton": "0.5 Ton",
     "equivalent_btu_h": "6,000 BTU/h"
@@ -1314,7 +1314,7 @@
   }
 ],
 
-“escalation_hashtags”:[
+"escalation_hashtags":[
   {
     "hashtag": "#MR",
     "usage_ar": "فترة صباحية (8AM - 11AM)",
@@ -1412,7 +1412,7 @@
   }
 ],
 
-“maintenance_centres_locations”:[
+"maintenance_centres_locations":[
   {
     "city_ar": "الرياض",
     "location_description_ar": "طريق الجنادرية ، القادسية ، بجوار صراف البنك الاول."
@@ -1455,7 +1455,7 @@
   }
 ],
 
-“visit_times”:[
+"visit_times":[
   {
     "region_ar": "الخرّج",
     "branch_en": "Riyadh",
@@ -2138,7 +2138,7 @@
   }
 ],
 
-“visit_times_west”:[
+"visit_times_west":[
   {
     "region_ar": "Jeddah",
     "mr": true,
@@ -2501,7 +2501,7 @@
   }
 ],
 
-“discount_codes”:[
+"discount_codes":[
   {
     "id": 1,
     "customer_name": "Eastern province Municipality",
@@ -3284,7 +3284,7 @@
   }
 ],
 
-“showrooms_locations”:[
+"showrooms_locations":[
   {
     "id": 1,
     "city": "الرياض",
