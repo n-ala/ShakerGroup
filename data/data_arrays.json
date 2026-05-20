@@ -1,0 +1,3909 @@
+{
+"lg_brand":[
+  {
+    "model": "NG182C4 SK1",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Split Inverter",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "مكيف ال جي  BTU 18000  ،  بارد ،صنف جولد انفرتر،صناعة سعودية، فئه (د)،تعقيم بالأشعة فوق البنفسجية،ايونايزر بلازماستر ، فلتر غبار وفلتر للحساسية، ،توزيع الهواء 4 إتجاه تحكم بالواي فاي،ريش ذهبية,50/60 هرتز",
+    "warranty_compressor": "10 years"
+  },
+  {
+    "model": "NG182H4 SK2",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Split Inverter",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "مكيف ال جي  BTU 18000  ،  حار بارد ،صنف جولد انفرتر،صناعة سعودية، فئه (د)،تعقيم بالأشعة فوق البنفسجية،ايونايزر بلازماستر ، فلتر غبار وفلتر للحساسية، ،توزيع الهواء 4 إتجاه تحكم بالواي فاي،ريش ذهبية,50/60 هرتز",
+    "warranty_compressor": "10 years"
+  },
+  {
+    "model": "NG242C4 SK3",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Split Inverter",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "مكيف ال جي  BTU 21500  ،  بارد ،صنف جولد انفرتر،صناعة سعودية، فئه (د)،تعقيم بالأشعة فوق البنفسجية،ايونايزر بلازماستر ، فلتر غبار وفلتر للحساسية، ،توزيع الهواء 4 إتجاه تحكم بالواي فاي،ريش ذهبية,50/60 هرتز",
+    "warranty_compressor": "10 years"
+  },
+  {
+    "model": "NG242H4 SK4",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Split Inverter",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "مكيف ال جي  BTU 21500  ، حار بارد ،صنف جولد انفرتر،صناعة سعودية، فئه (د)،تعقيم بالأشعة فوق البنفسجية،ايونايزر بلازماستر ، فلتر غبار وفلتر للحساسية، ،توزيع الهواء 4 إتجاه تحكم بالواي فاي،ريش ذهبية,50/60 هرتز",
+    "warranty_compressor": "10 years"
+  },
+  {
+    "model": "NS182C2SK1",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Split Inverter",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "ال جي سمارت 18.000 وحدة بارد فقط ، إنفيرتر كومريسور ، تنظيف تلقائي ، WI-FI ، ضوضاء منخفضة ، 4 اتجاهات ، زعنفة ذهبية مقاومة للغبار ، فلتر حماية مزدوج ، لون أبيض ، 220 فولت ، 50/60 هرتز",
+    "warranty_compressor": "10 years"
+  },
+  {
+    "model": "NS182H2SK1",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Split Inverter",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "ال جي سمارت 18.000 وحدة حار بارد ، إنفيرتر كومريسور ، تنظيف تلقائي ، WI-FI ، ضوضاء منخفضة ، 4 اتجاهات ، زعنفة ذهبية مقاومة للغبار ، فلتر حماية مزدوج ، لون أبيض ، 220 فولت ، 50/60 هرتز",
+    "warranty_compressor": "10 years"
+  },
+  {
+    "model": "NS242C3SK1",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Split Inverter",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "ال جي سمارت 21.500 وحدة بارد فقط ، إنفيرتر كومريسور ، تنظيف تلقائي ، WI-FI ، ضوضاء منخفضة ، 4 اتجاهات ، زعنفة ذهبية مقاومة للغبار ، فلتر حماية مزدوج ، لون أبيض ، 220 فولت ، 50/60 هرتز",
+    "warranty_compressor": "10 years"
+  },
+  {
+    "model": "NS242H3SK1",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Split Inverter",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "ال جي سمارت 21.500 وحدة حار بارد ، إنفيرتر كومريسور ، تنظيف تلقائي ، WI-FI ، ضوضاء منخفضة ، 4 اتجاهات ، زعنفة ذهبية مقاومة للغبار ، فلتر حماية مزدوج ، لون أبيض ، 220 فولت ، 50/60 هرتز",
+    "warranty_compressor": "10 years"
+  },
+  {
+    "model": "NF182C2SK1",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Split Inverter",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "ال جي فريش 18.000 وحدة بارد فقط ، إنفيرتر كومريسور ، تنظيف تلقائي ، WI-FI ، ضوضاء منخفضة ، 4 اتجاهات ، زعنفة ذهبية مقاومة للغبار ، فلتر حماية مزدوج ، لون أبيض ، 220 فولت ، 50/60 هرتز",
+    "warranty_compressor": "10 years"
+  },
+  {
+    "model": "NF182H2SK1",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Split Inverter",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "ال جي فريش 18.000 وحدة حار بارد ، إنفيرتر كومريسور ، تنظيف تلقائي ، WI-FI ، ضوضاء منخفضة ، 4 اتجاهات ، زعنفة ذهبية مقاومة للغبار ، فلتر حماية مزدوج ، لون أبيض ، 220 فولت ، 50/60 هرتز",
+    "warranty_compressor": "10 years"
+  },
+  {
+    "model": "NF242C3SK1",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Split Inverter",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "ال جي فريش 21.500 وحدة بارد فقط ، إنفيرتر كومريسور ، تنظيف تلقائي ، WI-FI ، ضوضاء منخفضة ، 4 اتجاهات ، زعنفة ذهبية مقاومة للغبار ، فلتر حماية مزدوج ، لون أبيض ، 220 فولت ، 50/60 هرتز",
+    "warranty_compressor": "10 years"
+  },
+  {
+    "model": "NF242H3SK1",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Split Inverter",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "ال جي فريش 21.500 وحدة حار بارد ، إنفيرتر كومريسور ، تنظيف تلقائي ، WI-FI ، ضوضاء منخفضة ، 4 اتجاهات ، زعنفة ذهبية مقاومة للغبار ، فلتر حماية مزدوج ، لون أبيض ، 220 فولت ، 50/60 هرتز",
+    "warranty_compressor": "10 years"
+  },
+  {
+    "model": "NT382C2SR0",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Split Inverter",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "ال جي تيتان 30.000 وحدة بارد فقط ، إنفيرتر كومريسور ، تنظيف تلقائي ، WI-FI ، ضوضاء منخفضة ، 4 اتجاهات ، زعنفة ذهبية مقاومة للغبار ، فلتر حماية مزدوج ، لون أبيض ، 220 فولت ، 50/60 هرتز",
+    "warranty_compressor": "10 years"
+  },
+  {
+    "model": "NT382H2SR0",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Split Inverter",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "ال جي تيتان 30.000 وحدة حار بارد ، إنفيرتر كومريسور ، تنظيف تلقائي ، WI-FI ، ضوضاء منخفضة ، 4 اتجاهات ، زعنفة ذهبية مقاومة للغبار ، فلتر حماية مزدوج ، لون أبيض ، 220 فولت ، 50/60 هرتز",
+    "warranty_compressor": "10 years"
+  },
+  {
+    "model": "H182EC",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Window",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "مكيف ال جي شباك 18.500 وحدة بارد فقط ، ضاغط استوائي ، ريشة ذهبية مقاومة للغبار ، ضجيج منخفض ، 4 اتجاهات ، إيقاف مؤقت 12 ، لون أبيض 220 فولت ، 60 هرتز",
+    "warranty_compressor": "5 years"
+  },
+  {
+    "model": "H182EH",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Window",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "مكيف ال جي شباك 18.500 وحدة حار بارد ، ضاغط استوائي ، ريشة ذهبية مقاومة للغبار ، ضجيج منخفض ، 4 اتجاهات ، إيقاف مؤقت 12 ، لون أبيض 220 فولت ، 60 هرتز",
+    "warranty_compressor": "5 years"
+  },
+  {
+    "model": "H242EC",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Window",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "مكيف ال جي شباك 22.200 وحدة بارد فقط ، ضاغط استوائي ، ريشة ذهبية مقاومة للغبار ، ضجيج منخفض ، 4 اتجاهات ، إيقاف مؤقت 12 ، لون أبيض 220 فولت ، 60 هرتز",
+    "warranty_compressor": "5 years"
+  },
+  {
+    "model": "H242EH",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Window",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "مكيف ال جي شباك 22.200 وحدة حار بارد ، ضاغط استوائي ، ريشة ذهبية مقاومة للغبار ، ضجيج منخفض ، 4 اتجاهات ، إيقاف مؤقت 12 ، لون أبيض 220 فولت ، 60 هرتز",
+    "warranty_compressor": "5 years"
+  },
+  {
+    "model": "APQ55GT3E4",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Freestanding",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "إل جي مكيف دولابي ديلوكس، 48,000 وحدة، حار بارد ،صناعة سعوديه،  فئه (د) 220v. انفرتر,50/60 هرتز",
+    "warranty_compressor": "10 years"
+  },
+  {
+    "model": "APW55GT3E4",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Freestanding",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "إل جي مكيف دولابي ديلوكس، 46,000 وحدة، حار بارد ،صناعة سعوديه،  فئه (د) 220v. انفرتر,50/60 هرتز",
+    "warranty_compressor": "10 years"
+  },
+  {
+    "model": "AS65GDWH0",
+    "brand": "LG",
+    "category": "air care",
+    "type": "Air Purifier",
+    "sub_family": "Purifier",
+    "long_arabic_description_ksa": "منقي هواء ال جي، مساحة التغطية 58 مترًا مربعًا ، تصفية 6 خطوات ، مستشعر PM 1.0 ، مروحة Clean Boost ، لون أبيض",
+    "warranty_compressor": "2 years"
+  },
+  {
+    "model": "AP300AWFA",
+    "brand": "LG",
+    "category": "air care",
+    "type": "mask",
+    "sub_family": "Purifier",
+    "long_arabic_description_ksa": "جهاز تنقية الهواء القابل للارتداء من إل جي PuriCare ™ ، فلاتر H13 HEPA ، مراوح مزدوجة ، مستشعر تنفس حاصل على براءة اختراع ، مصنوع من السيليكون الطبي ، لون أبيض",
+    "warranty_compressor": "2 years"
+  }
+],
+
+"midea":[
+  {
+    "model": "NG182C4 SK1",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Split Inverter",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "مكيف ال جي  BTU 18000  ،  بارد ،صنف جولد انفرتر،صناعة سعودية، فئه (د)،تعقيم بالأشعة فوق البنفسجية،ايونايزر بلازماستر ، فلتر غبار وفلتر للحساسية، ،توزيع الهواء 4 إتجاه تحكم بالواي فاي،ريش ذهبية,50/60 هرتز",
+    "warranty_compressor": "10 years"
+  },
+  {
+    "model": "NG182H4 SK2",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Split Inverter",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "مكيف ال جي  BTU 18000  ،  حار بارد ،صنف جولد انفرتر،صناعة سعودية، فئه (د)،تعقيم بالأشعة فوق البنفسجية،ايونايزر بلازماستر ، فلتر غبار وفلتر للحساسية، ،توزيع الهواء 4 إتجاه تحكم بالواي فاي،ريش ذهبية,50/60 هرتز",
+    "warranty_compressor": "10 years"
+  },
+  {
+    "model": "NG242C4 SK3",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Split Inverter",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "مكيف ال جي  BTU 21500  ،  بارد ،صنف جولد انفرتر،صناعة سعودية، فئه (د)،تعقيم بالأشعة فوق البنفسجية،ايونايزر بلازماستر ، فلتر غبار وفلتر للحساسية، ،توزيع الهواء 4 إتجاه تحكم بالواي فاي،ريش ذهبية,50/60 هرتز",
+    "warranty_compressor": "10 years"
+  },
+  {
+    "model": "NG242H4 SK4",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Split Inverter",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "مكيف ال جي  BTU 21500  ، حار بارد ،صنف جولد انفرتر،صناعة سعودية، فئه (د)،تعقيم بالأشعة فوق البنفسجية،ايونايزر بلازماستر ، فلتر غبار وفلتر للحساسية، ،توزيع الهواء 4 إتجاه تحكم بالواي فاي،ريش ذهبية,50/60 هرتز",
+    "warranty_compressor": "10 years"
+  },
+  {
+    "model": "NS182C2SK1",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Split Inverter",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "ال جي سمارت 18.000 وحدة بارد فقط ، إنفيرتر كومريسور ، تنظيف تلقائي ، WI-FI ، ضوضاء منخفضة ، 4 اتجاهات ، زعنفة ذهبية مقاومة للغبار ، فلتر حماية مزدوج ، لون أبيض ، 220 فولت ، 50/60 هرتز",
+    "warranty_compressor": "10 years"
+  },
+  {
+    "model": "NS182H2SK1",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Split Inverter",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "ال جي سمارت 18.000 وحدة حار بارد ، إنفيرتر كومريسور ، تنظيف تلقائي ، WI-FI ، ضوضاء منخفضة ، 4 اتجاهات ، زعنفة ذهبية مقاومة للغبار ، فلتر حماية مزدوج ، لون أبيض ، 220 فولت ، 50/60 هرتز",
+    "warranty_compressor": "10 years"
+  },
+  {
+    "model": "NS242C3SK1",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Split Inverter",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "ال جي سمارت 21.500 وحدة بارد فقط ، إنفيرتر كومريسور ، تنظيف تلقائي ، WI-FI ، ضوضاء منخفضة ، 4 اتجاهات ، زعنفة ذهبية مقاومة للغبار ، فلتر حماية مزدوج ، لون أبيض ، 220 فولت ، 50/60 هرتز",
+    "warranty_compressor": "10 years"
+  },
+  {
+    "model": "NS242H3SK1",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Split Inverter",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "ال جي سمارت 21.500 وحدة حار بارد ، إنفيرتر كومريسور ، تنظيف تلقائي ، WI-FI ، ضوضاء منخفضة ، 4 اتجاهات ، زعنفة ذهبية مقاومة للغبار ، فلتر حماية مزدوج ، لون أبيض ، 220 فولت ، 50/60 هرتز",
+    "warranty_compressor": "10 years"
+  },
+  {
+    "model": "NF182C2SK1",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Split Inverter",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "ال جي فريش 18.000 وحدة بارد فقط ، إنفيرتر كومريسور ، تنظيف تلقائي ، WI-FI ، ضوضاء منخفضة ، 4 اتجاهات ، زعنفة ذهبية مقاومة للغبار ، فلتر حماية مزدوج ، لون أبيض ، 220 فولت ، 50/60 هرتز",
+    "warranty_compressor": "10 years"
+  },
+  {
+    "model": "NF182H2SK1",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Split Inverter",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "ال جي فريش 18.000 وحدة حار بارد ، إنفيرتر كومريسور ، تنظيف تلقائي ، WI-FI ، ضوضاء منخفضة ، 4 اتجاهات ، زعنفة ذهبية مقاومة للغبار ، فلتر حماية مزدوج ، لون أبيض ، 220 فولت ، 50/60 هرتز",
+    "warranty_compressor": "10 years"
+  },
+  {
+    "model": "NF242C3SK1",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Split Inverter",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "ال جي فريش 21.500 وحدة بارد فقط ، إنفيرتر كومريسور ، تنظيف تلقائي ، WI-FI ، ضوضاء منخفضة ، 4 اتجاهات ، زعنفة ذهبية مقاومة للغبار ، فلتر حماية مزدوج ، لون أبيض ، 220 فولت ، 50/60 هرتز",
+    "warranty_compressor": "10 years"
+  },
+  {
+    "model": "NF242H3SK1",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Split Inverter",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "ال جي فريش 21.500 وحدة حار بارد ، إنفيرتر كومريسور ، تنظيف تلقائي ، WI-FI ، ضوضاء منخفضة ، 4 اتجاهات ، زعنفة ذهبية مقاومة للغبار ، فلتر حماية مزدوج ، لون أبيض ، 220 فولت ، 50/60 هرتز",
+    "warranty_compressor": "10 years"
+  },
+  {
+    "model": "NT382C2SR0",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Split Inverter",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "ال جي تيتان 30.000 وحدة بارد فقط ، إنفيرتر كومريسور ، تنظيف تلقائي ، WI-FI ، ضوضاء منخفضة ، 4 اتجاهات ، زعنفة ذهبية مقاومة للغبار ، فلتر حماية مزدوج ، لون أبيض ، 220 فولت ، 50/60 هرتز",
+    "warranty_compressor": "10 years"
+  },
+  {
+    "model": "NT382H2SR0",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Split Inverter",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "ال جي تيتان 30.000 وحدة حار بارد ، إنفيرتر كومريسور ، تنظيف تلقائي ، WI-FI ، ضوضاء منخفضة ، 4 اتجاهات ، زعنفة ذهبية مقاومة للغبار ، فلتر حماية مزدوج ، لون أبيض ، 220 فولت ، 50/60 هرتز",
+    "warranty_compressor": "10 years"
+  },
+  {
+    "model": "H182EC",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Window",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "مكيف ال جي شباك 18.500 وحدة بارد فقط ، ضاغط استوائي ، ريشة ذهبية مقاومة للغبار ، ضجيج منخفض ، 4 اتجاهات ، إيقاف مؤقت 12 ، لون أبيض 220 فولت ، 60 هرتز",
+    "warranty_compressor": "5 years"
+  },
+  {
+    "model": "H182EH",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Window",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "مكيف ال جي شباك 18.500 وحدة حار بارد ، ضاغط استوائي ، ريشة ذهبية مقاومة للغبار ، ضجيج منخفض ، 4 اتجاهات ، إيقاف مؤقت 12 ، لون أبيض 220 فولت ، 60 هرتز",
+    "warranty_compressor": "5 years"
+  },
+  {
+    "model": "H242EC",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Window",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "مكيف ال جي شباك 22.200 وحدة بارد فقط ، ضاغط استوائي ، ريشة ذهبية مقاومة للغبار ، ضجيج منخفض ، 4 اتجاهات ، إيقاف مؤقت 12 ، لون أبيض 220 فولت ، 60 هرتز",
+    "warranty_compressor": "5 years"
+  },
+  {
+    "model": "H242EH",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Window",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "مكيف ال جي شباك 22.200 وحدة حار بارد ، ضاغط استوائي ، ريشة ذهبية مقاومة للغبار ، ضجيج منخفض ، 4 اتجاهات ، إيقاف مؤقت 12 ، لون أبيض 220 فولت ، 60 هرتز",
+    "warranty_compressor": "5 years"
+  },
+  {
+    "model": "APQ55GT3E4",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Freestanding",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "إل جي مكيف دولابي ديلوكس، 48,000 وحدة، حار بارد ،صناعة سعوديه،  فئه (د) 220v. انفرتر,50/60 هرتز",
+    "warranty_compressor": "10 years"
+  },
+  {
+    "model": "APW55GT3E4",
+    "brand": "LG",
+    "category": "AC",
+    "type": "Freestanding",
+    "sub_family": "Air Conditioners",
+    "long_arabic_description_ksa": "إل جي مكيف دولابي ديلوكس، 46,000 وحدة، حار بارد ،صناعة سعوديه،  فئه (د) 220v. انفرتر,50/60 هرتز",
+    "warranty_compressor": "10 years"
+  },
+  {
+    "model": "AS65GDWH0",
+    "brand": "LG",
+    "category": "air care",
+    "type": "Air Purifier",
+    "sub_family": "Purifier",
+    "long_arabic_description_ksa": "منقي هواء ال جي، مساحة التغطية 58 مترًا مربعًا ، تصفية 6 خطوات ، مستشعر PM 1.0 ، مروحة Clean Boost ، لون أبيض",
+    "warranty_compressor": "2 years"
+  },
+  {
+    "model": "AP300AWFA",
+    "brand": "LG",
+    "category": "air care",
+    "type": "mask",
+    "sub_family": "Purifier",
+    "long_arabic_description_ksa": "جهاز تنقية الهواء القابل للارتداء من إل جي PuriCare ™ ، فلاتر H13 HEPA ، مراوح مزدوجة ، مستشعر تنفس حاصل على براءة اختراع ، مصنوع من السيليكون الطبي ، لون أبيض",
+    "warranty_compressor": "2 years"
+  }
+],
+
+"ariston":[
+  {
+    "model": "AQD1170D49EX.60HZ",
+    "brand": "Ariston",
+    "category": "Washer",
+    "sub_family": "HA",
+    "type": "front load",
+    "long_arabic_description": "غسالة اريستون أكوالتس ، 11 كيلو غسيل ، 7 كيلو تجفيف ، 1400 دورة ، الكي السهل ،عناية وول مارك للصوف،صوت منخفض جداً، قفل الأطفال ، لون أبيض، 220فولت/60 هيرتز",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Italy",
+    "color": "White"
+  },
+  {
+    "model": "AQD1170D49X EX60HZ",
+    "brand": "Ariston",
+    "category": "Washer",
+    "sub_family": "HA",
+    "type": "front load",
+    "long_arabic_description": "غسالة اريستون أكوالتس ، 11 كيلو غسيل ، 7 كيلو تجفيف ، 1400 دورة ، الكي السهل، عناية وول مارك للصوف،صوت منخفض جداً، قفل الأطفال ، لون سلفر،, 220فولت/60 هيرتز",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Italy",
+    "color": "Silver"
+  },
+  {
+    "model": "RDPG96207S60HZ",
+    "brand": "Ariston",
+    "category": "Washer",
+    "sub_family": "HA",
+    "type": "front load",
+    "long_arabic_description": "غسالة اريستون ، 9 كيلو غسيل ، 6 كيلو تجفيف ، 1200 دورة ، الكي السهل، عناية وول مارك للصوف،صامت للغاية، قفل الأطفال ، صوت منخفض جداً ، برنامج إنعاش البخار ، لون أبيض ، 220 فولت / 60 هرتز",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Italy",
+    "color": "Silver"
+  },
+  {
+    "model": "NLLCD1045SCA60hz",
+    "brand": "Ariston",
+    "category": "Washer",
+    "sub_family": "HA",
+    "type": "front load",
+    "long_arabic_description": "غسالة أكتيف كير نيتس، غسالة ، 10 كجم غسيل ، 1200 دورة ، تعقيم بخار ، إنعاش البخار ، محرك عاكس ، صوت منخفض جداً ، لون أبيض ، 220 فولت / 60 هرتز",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Italy",
+    "color": "Silver"
+  },
+  {
+    "model": "MN10823SS60HZ",
+    "brand": "Ariston",
+    "category": "Washer",
+    "sub_family": "HA",
+    "type": "front load",
+    "long_arabic_description": "اريستون نيتس غساله ، 10 كيلو غسيل ، 1400 دورة ، تعقيم بخار ، إنعاش البخار ، محرك عاكس ، صوت منخفض جداً، لون سلفر ، 220 فولت / 60 هرتز",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Poland",
+    "color": "Silver"
+  },
+  {
+    "model": "MN10823WS60HZ",
+    "brand": "Ariston",
+    "category": "Washer",
+    "sub_family": "HA",
+    "type": "front load",
+    "long_arabic_description": "اريستون نيتس غساله ، 10 كيلو غسيل ، 1400 دورة ، تعقيم بخار ، إنعاش البخار ، محرك عاكس ، صوت منخفض جداً، لون سلفر ، 220 فولت / 60 هرتز",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Poland",
+    "color": "Silver"
+  },
+  {
+    "model": "MN10723SS60HZ",
+    "brand": "Ariston",
+    "category": "Washer",
+    "sub_family": "HA",
+    "type": "front load",
+    "long_arabic_description": "اريستون نيتس غساله ، 10 كيلو غسيل ، 1400 دورة ، تعقيم بخار ، إنعاش البخار ، محرك عاكس ، صوت منخفض جداً، لون أبيض ، 220 فولت / 60 هرتز",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Poland",
+    "color": "White"
+  },
+  {
+    "model": "LFP5P31WLTOX60HZ",
+    "brand": "Ariston",
+    "category": "Dish Washer",
+    "sub_family": "HA",
+    "type": "Dish Washer",
+    "long_arabic_description": "غسالة أطباق أريستون، 9 برامج ، 14 أماكن تخزين ، موتور انفرتر، 3D زون ووش، رف ثالث، 9 لتر استهلاك المياه، تحكم بالأزرار، شاشة رقمية، تقنية الاوكسجين النشط، إضاءة داخلية، A++، صوت منخفض جداً، ستانلس ستيل،  220فولت/60 هيرتز",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Poland",
+    "color": "Silver"
+  },
+  {
+    "model": "LFO3P31WLX60HZ",
+    "brand": "Ariston",
+    "category": "Dish Washer",
+    "sub_family": "HA",
+    "type": "Dish Washer",
+    "long_arabic_description": "غسالة أطباق أريستون 9 برامج ، 15 أماكن تخزين ، موتور انفرتر، 3D زون ووش، رف ثالث، 11 لتر استهلاك المياه، تحكم بالأزرار، شاشة رقمية، A++، صوت منخفض جداً، ستانلس ستيل، 220فولت/60 هيرتز",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Poland",
+    "color": "Silver"
+  },
+  {
+    "model": "LFC3T132WX60HZ",
+    "brand": "Ariston",
+    "category": "Dish Washer",
+    "sub_family": "HA",
+    "type": "Dish Washer",
+    "long_arabic_description": "غسالة أطباق أريستون 9 برامج ، 14 أماكن تخزين ، موتور انفرتر، 3D زون ووش، رف ثالث، 11 لتر استهلاك المياه، تحكم بالأزرار، شاشة رقمية، A++، صوت منخفض جداً، ستانلس ستيل، 220فولت/60 هيرتز",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Poland",
+    "color": "Silver"
+  },
+  {
+    "model": "LFC3C26WX60HZ",
+    "brand": "Ariston",
+    "category": "Dish Washer",
+    "sub_family": "HA",
+    "type": "Dish Washer",
+    "long_arabic_description": "غسالة أطباق أريستون 7 برامج ، 14 أماكن تخزين ، موتور انفرتر، 3D زون ووش، رف ثالث، 11 لتر استهلاك المياه، تحكم بالأزرار، شاشة رقمية، A++، صوت منخفض جداً، ستانلس ستيل، 220فولت/60 هيرتز",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Poland",
+    "color": "Silver"
+  },
+  {
+    "model": "LFC3C26W60HZ",
+    "brand": "Ariston",
+    "category": "Dish Washer",
+    "sub_family": "HA",
+    "type": "Dish Washer",
+    "long_arabic_description": "غسالة أطباق أريستون 7 برامج ، 14 أماكن تخزين ، موتور انفرتر، 3D زون ووش، رف ثالث، 11 لتر استهلاك المياه، تحكم بالأزرار، شاشة رقمية، A++، صوت منخفض جداً، أبيض، 220فولت/60 هيرتز",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Poland",
+    "color": "White"
+  },
+  {
+    "model": "LIC3C26C60HZ",
+    "brand": "Ariston",
+    "category": "Dish Washer",
+    "sub_family": "built in",
+    "type": "Dish Washer",
+    "long_arabic_description": "غسالة أطباق أريستون 6 برامج ، 15 أماكن تخزين ، موتور انفرتر، 3D زون ووش، رف ثالث، 11 لتر استهلاك المياه، تحكم بالأزرار، شاشة رقمية، A++، صوت منخفض جداً، أبيض، 220فولت/60 هيرتز",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Poland",
+    "color": "White"
+  },
+  {
+    "model": "BAM951EGSS",
+    "brand": "Ariston",
+    "category": "Oven",
+    "sub_family": "HA",
+    "type": "cooker",
+    "long_arabic_description": "فرن غاز أريستون 5عيون غاز 1 مع شعلة ثلاثي ،فرن غاز/ شواية غاز، أمان شامل ، سيخ شواء دوار،مؤقت ، ستانلس ستيل",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Italy",
+    "color": "Stainless Steel"
+  },
+  {
+    "model": "BAM951EMSS",
+    "brand": "Ariston",
+    "category": "Oven",
+    "sub_family": "HA",
+    "type": "cooker",
+    "long_arabic_description": "فرن غاز أريستون 4عيون غاز ، 2 كهرباء ،فرن غاز/ شواية غاز، أمان شامل ، إشعال ذاتي ،مؤقت، سيخ شواء دوار، ستانلس ستيل",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Italy",
+    "color": "Stainless Steel"
+  },
+  {
+    "model": "DK 02 (IX)",
+    "brand": "Ariston",
+    "category": "Hob",
+    "sub_family": "built in",
+    "type": "Electric Hob",
+    "long_arabic_description": "موقد أريستون  كهربائي مدمج ٣٠ سم، 2 عين كهرباء (حجر) لون ستانلس ستيل",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Italy",
+    "color": "Stainless Steel"
+  },
+  {
+    "model": "DK2K(IX)",
+    "brand": "Ariston",
+    "category": "Hob",
+    "sub_family": "built in",
+    "type": "Ceramic Hob",
+    "long_arabic_description": "اريستون موقد تسخين مدمج 30 سم، 2 عين سيراميك 2 مؤشر حرارة, لون ستانلس ستيل",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Italy",
+    "color": "Stainless Steel"
+  },
+  {
+    "model": "AM64T0GMIXSA",
+    "brand": "Ariston",
+    "category": "Hob",
+    "sub_family": "built in",
+    "type": "Gas Hob",
+    "long_arabic_description": "اريستون مسطح غاز مدمج 60 سم 4 غاز و شعلة بحلقة ثلاثية",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Italy",
+    "color": "Stainless Steel"
+  },
+  {
+    "model": "HR602BA",
+    "brand": "Ariston",
+    "category": "Hob",
+    "sub_family": "built in",
+    "type": "Ceramic Hob",
+    "long_arabic_description": "اريستون مسطح سيراميك مدمج  60 سم 4 عيون 1 عين مزدوجة لوحة تحكم 9 مستويات حرارة لون زجاج اسود",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Italy",
+    "color": "black"
+  },
+  {
+    "model": "HR611CA",
+    "brand": "Ariston",
+    "category": "Hob",
+    "sub_family": "built in",
+    "type": "Ceramic Hob",
+    "long_arabic_description": "اريستون مسطح سيراميك مدمج  60 سم 4 عيون  لوحة تحكم 9 مستويات حرارة لون زجاج اسود",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Italy",
+    "color": "black"
+  },
+  {
+    "model": "AM95E0GMIXSA",
+    "brand": "Ariston",
+    "category": "Hob",
+    "sub_family": "built in",
+    "type": "Gas Hob",
+    "long_arabic_description": "أريستون موقد مدمج، 90 سم، 5 شعلات غاز ، عين كهربائية، أشعال ذاتي",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Italy",
+    "color": "Stainless Steel"
+  },
+  {
+    "model": "AM96T0GMIXSA",
+    "brand": "Ariston",
+    "category": "Hob",
+    "sub_family": "built in",
+    "type": "Gas Hob",
+    "long_arabic_description": "أريستون موقد مدمج، ٩٠ سم، ٦ شعلات، أشعال ذاتي",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Italy",
+    "color": "Stainless Steel"
+  },
+  {
+    "model": "PK951TGHSA",
+    "brand": "Ariston",
+    "category": "Hob",
+    "sub_family": "built in",
+    "type": "Gas Hob",
+    "long_arabic_description": "أريستون موقد غاز 90 سم ، 5 شعلات ، أشعال ذاتي",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Italy",
+    "color": "Stainless Steel"
+  },
+  {
+    "model": "AHBS6.7FLLX",
+    "brand": "Ariston",
+    "category": "Hoods",
+    "sub_family": "built in",
+    "type": "Hoods",
+    "long_arabic_description": "أريستون شفاط عامودي الخطوط مع فلتر كربوني ، 3 سرعات مع مقوي، قوة سحب 713 متر مكعب / ساعة ، 220 - 240 فولت ، 50 - 60 هرتز",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Italy",
+    "color": "Stainless Steel"
+  },
+  {
+    "model": "AHPN6.4FLMX",
+    "brand": "Ariston",
+    "category": "Hoods",
+    "sub_family": "built in",
+    "type": "Hoods",
+    "long_arabic_description": "أريستون شفاط هرمي مع فلتر كربوني ، 3 سرعات ، قوة سحب 420متر مكعب/ ساعة ،لون ستانلس ستيل, 220 - 240 فولت ، 50 - 60 هرتز",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Italy",
+    "color": "Stainless Steel"
+  },
+  {
+    "model": "SL161LIX",
+    "brand": "Ariston",
+    "category": "Hoods",
+    "sub_family": "built in",
+    "type": "Hoods",
+    "long_arabic_description": "شفاط مع فلتر معدني ، قوة سحب متر مكعب / ساعة, لون ستانلس ستيل ،220 - 240 فولت ، 50 - 60 هرتز",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Italy",
+    "color": "Stainless Steel"
+  },
+  {
+    "model": "AHBS9.3FLLX",
+    "brand": "Ariston",
+    "category": "Hoods",
+    "sub_family": "built in",
+    "type": "Hoods",
+    "long_arabic_description": "أريستون شفاط مع فلتر كربوني ، 3 سرعات مع معزز ، 2 فلتر مضادة للزيوت ، قوة سحب 432 متر مكعب / ساعة, لون ستانلس ستيل،220 - 240 فولت ، 50 - 60 هرتز",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Italy",
+    "color": "Stainless Steel"
+  },
+  {
+    "model": "AHBS9.7FLTIX",
+    "brand": "Ariston",
+    "category": "Hoods",
+    "sub_family": "built in",
+    "type": "Hoods",
+    "long_arabic_description": "أريستون شفاط  735 متر مكعب / ساعة ، تحكم في الضجيج ، 3 سرعات + معزز ، التحكم باللمس - إضاءة LED  ، فلتر الشحوم فولاذي يعمل بالتصفية أو الشفط،220 - 240 فولت ، 50 - 60 هرتز",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Italy",
+    "color": "Stainless Steel"
+  },
+  {
+    "model": "AHC9.7FLBX",
+    "brand": "Ariston",
+    "category": "Hoods",
+    "sub_family": "built in",
+    "type": "Hoods",
+    "long_arabic_description": "أريستون شفاط هرمي رفيع ، 3 سرعات مع تيربو ، قوة سحب 650 متر مكعب / ساعة ، 220 - 240 فولت، 50 - 60 هرتز",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Italy",
+    "color": "Stainless Steel"
+  },
+  {
+    "model": "AHPN9.7FLMX",
+    "brand": "Ariston",
+    "category": "Hoods",
+    "sub_family": "built in",
+    "type": "Hoods",
+    "long_arabic_description": "أريستون شفاط مع فلتر كربوني ، 3 سرعات مع تيربو، 2 فلتر مضادة للزيوت ، قوة سحب 760 متر مكعب / ساعة  220 - 240 فولت، 50 - 60 هرتز",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Italy",
+    "color": "Stainless Steel"
+  },
+  {
+    "model": "AIF9.7FLBX",
+    "brand": "Ariston",
+    "category": "Hoods",
+    "sub_family": "built in",
+    "type": "Hoods",
+    "long_arabic_description": "أريستون شفاط مدمج ٩٠ سم ستيل + زجاج  جزيرة ، فلتر ، قوة سحب 560 متر مكعب / ساعة 220 - 240 فولت، 50 - 60 هرتز",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Italy",
+    "color": "Stainless Steel"
+  },
+  {
+    "model": "SL191LPIX",
+    "brand": "Ariston",
+    "category": "Hoods",
+    "sub_family": "built in",
+    "type": "Hoods",
+    "long_arabic_description": "أريستون شفاط مدمج ٩٠ سم، شفاط مع فلتر الالمنيوم ، قوة سحب 420 متر مكعب / ساعة,لون ستانلس ستيل  220 - 240 فولت، 50 - 60 هرتز",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Italy",
+    "color": "Stainless Steel"
+  },
+  {
+    "model": "MF25GIXA60HZ",
+    "brand": "Ariston",
+    "category": "microwave",
+    "sub_family": "built in",
+    "type": "microwave",
+    "long_arabic_description": " أريستون ميكرويف مدمج 5 ليتر ،طاقة الميكرويف 900وات،الشواية 1100 وات لون ستانلس ستيل، 220 فولت/ 60 هرت",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Italy",
+    "color": "Stainless Steel"
+  },
+  {
+    "model": "FA3540HIXA",
+    "brand": "Ariston",
+    "category": "Oven",
+    "sub_family": "built in",
+    "type": "Oven",
+    "long_arabic_description": "أريستون فرن كهرباء مدمج متعدد الوظائف  مدمج ٦٠ سم ، 5 برامج ، نظام تبريد، شاشة عرض رقمي، زجاج ثلاثي ، إشارة تنبيه",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Italy",
+    "color": "Stainless Steel"
+  },
+  {
+    "model": "FHY5GGX",
+    "brand": "Ariston",
+    "category": "Oven",
+    "sub_family": "built in",
+    "type": "Oven",
+    "long_arabic_description": "220 volts / 50 - 60 Hz أريستون فرن مدمج ٦٠ سم غاز شواية غاز، نظام تبريد ،زجاج مزدوج مع شاشة",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Italy",
+    "color": "Stainless Steel"
+  },
+  {
+    "model": "MHG521IX",
+    "brand": "Ariston",
+    "category": "Oven",
+    "sub_family": "built in",
+    "type": "Oven",
+    "long_arabic_description": "أريستون فرن مدمج ٩٠ سم فرن غاز  ، إشعال ذاتي ، شواية، زجاج باب مزدوج, لون ستانلس ستيل 220 volts / 50 - 60 Hz",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Italy",
+    "color": "Stainless Steel"
+  },
+  {
+    "model": "MKG523IX",
+    "brand": "Ariston",
+    "category": "Oven",
+    "sub_family": "built in",
+    "type": "Oven",
+    "long_arabic_description": "أريستون فرن غاز مع مروحة ، شواية كهرباء ، إشعال ذاتي ، شاشة رقمية ، زجاج باب مزدوج 220 volts / 50 - 60 Hz",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Italy",
+    "color": "Stainless Steel"
+  },
+  {
+    "model": "MS644IX",
+    "brand": "Ariston",
+    "category": "Oven",
+    "sub_family": "built in",
+    "type": "Oven",
+    "long_arabic_description": "أريستون فرن كهرباء 8 وظائف متعددة 90 سم ، سعة 101 ليتر ، شاشة عرض رقمية ، نظام تبريد مروحة مزدوجة ، زجاج مزدوج ، إشارة تنبيه  220 volts / 50 - 60 Hz",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Italy",
+    "color": "Stainless Steel"
+  },
+  {
+    "model": "BCB7030F60HZ",
+    "brand": "Ariston",
+    "category": "Refrigerator",
+    "sub_family": "built in",
+    "type": "Refrigerator",
+    "long_arabic_description": "أريستون ثلاجة 9.1 قدم بلت إن مع فريزر سفلي ،نوفروست ، شاشة رقمية ، الجهد المستخدم 220 / 230 فولت ، التردد 60 هرتز",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Italy",
+    "color": "White"
+  }
+],
+
+"maytag":[
+  {
+    "model": "4KMVWC410JW",
+    "brand": "Maytag",
+    "category": "washer",
+    "type": "top load",
+    "sub_family": "HA",
+    "long_arabic_description": "غسالة ميتاج، تحميل علوي ، 12 كجم ، 9 دورات غسيل ، 700 دورة في الدقيقة، مؤشرات LED للشاشة ، تحكم بالرغوة ، لوحة تحكم من الألومنيوم ، مادة الأسطوانة مطلية بورسلين ، محرض PowerWash ، لون أبيض ، 220/240 فولت ، 60 هرتز",
+    "warranty": "10 years",
+    "manufacturing_country": "USA",
+    "color": "White"
+  },
+  {
+    "model": "4KMVWC420JW",
+    "brand": "Maytag",
+    "category": "washer",
+    "type": "top load",
+    "sub_family": "HA",
+    "long_arabic_description": "غسالة ميتاج، تحميل علوي ، 12 كجم ، 9 دورات غسيل ، 700 دورة في الدقيقة، مؤشرات LED للشاشة ، تحكم بالرغوة ، لوحة تحكم من الألومنيوم ، مادة الأسطوانة مطلية بورسلين ، محرض PowerWash ، لون أبيض ، 220/240 فولت ، 60 هرتز",
+    "warranty": "10 years",
+    "manufacturing_country": "USA",
+    "color": "White"
+  },
+  {
+    "model": "4KMVWC430JW",
+    "brand": "Maytag",
+    "category": "washer",
+    "type": "top load",
+    "sub_family": "HA",
+    "long_arabic_description": "غسالة ميتاج، تحميل علوي ، 12 كجم ، 10 دورات غسيل ، 770 دورة في الدقيقة، مؤشرات LED للشاشة ، تحكم بالرغوة ، لوحة تحكم من الألومنيوم ، مادة أسطوانة مطلية بورسلين ، محرض PowerWash ، لون أبيض ، 220/240 فولت ، 60 هرتز",
+    "warranty": "10 years",
+    "manufacturing_country": "USA",
+    "color": "White"
+  },
+  {
+    "model": "4KMVWC440JW",
+    "brand": "Maytag",
+    "category": "washer",
+    "type": "top load",
+    "sub_family": "HA",
+    "long_arabic_description": "غسالة ميتاج، تحميل علوي ، 12 كجم ، 12 دورة غسيل ،770 دورة في الدقيقة، مؤشرات LED للشاشة ، تحكم بالرغوة ، لوحة تحكم من الألومنيوم ، مادة الأسطوانة مطلية بورسلين ، محرض PowerWash ، لون أبيض ، 220/240 فولت ، 60 هرتز",
+    "warranty": "10 years",
+    "manufacturing_country": "USA",
+    "color": "White"
+  },
+  {
+    "model": "4KMEDC410JW",
+    "brand": "Maytag",
+    "category": "Dryer",
+    "type": "top load",
+    "sub_family": "HA",
+    "long_arabic_description": "مجفف مايتاج 7 كيلو ، 12 برنامج، الحلة مصنوعة من مادة البورسلين ، 2 مقبض ، تجفيف بالتهوية، لوحة بيضاء لون أبيض 220 فولت / 60 هرتز",
+    "warranty": "2 years",
+    "manufacturing_country": "USA",
+    "color": "White"
+  },
+  {
+    "model": "4KMEDC420JW",
+    "brand": "Maytag",
+    "category": "Dryer",
+    "type": "top load",
+    "sub_family": "HA",
+    "long_arabic_description": "مجفف مايتاج 7 كيلو ، 15 برنامج ، الحلة مصنوعة من مادة البورسلين، 3 مقابض، تجفيف بالتهوية ، لوح ألومنيوم ، لون أبيض 220 فولت / 60 هرتز",
+    "warranty": "2 years",
+    "manufacturing_country": "USA",
+    "color": "White"
+  },
+  {
+    "model": "4KMEDC430JW",
+    "brand": "Maytag",
+    "category": "Dryer",
+    "type": "top load",
+    "sub_family": "HA",
+    "long_arabic_description": "مجفف مايتاج 7 كيلو ، 12 برنامج، الحلة مصنوعة من مادة البورسلين، 4 مقابض ، تجفيف بالتهوية، لوحة بيضاء لون أبيض 220 فولت / 60 هرتز",
+    "warranty": "2 years",
+    "manufacturing_country": "USA",
+    "color": "White"
+  },
+  {
+    "model": "4KMEDC440JW",
+    "brand": "Maytag",
+    "category": "Dryer",
+    "type": "top load",
+    "sub_family": "HA",
+    "long_arabic_description": "مجفف مايتاج 7 كيلو ، 15 برنامج، الحلة مصنوعة من مادة البورسلين، 4 مقابض ، تجفيف بالتهوية، لوح ألومنيوم، لون أبيض 220 فولت / 60 هرتز",
+    "warranty": "2 years",
+    "manufacturing_country": "USA",
+    "color": "White"
+  },
+  {
+    "model": "4KMER7600AW",
+    "brand": "Maytag",
+    "category": "Oven",
+    "type": "Electric Oven",
+    "sub_family": "HA",
+    "long_arabic_description": "فرن كهربائي ميتاج 4 عيون كهرباء ، مؤقت الكتروني, فرن بسعة ٤.٨ قدم مكعب",
+    "warranty": "2 years",
+    "manufacturing_country": "USA",
+    "color": "White"
+  }
+],
+
+"bompani":[
+  {
+    "model": "DIVA90GG5TCIX",
+    "opposite_model": "BO693MNL",
+    "brand": "Bompani",
+    "category": "Oven",
+    "type": "Gas Cooker",
+    "sub_family": "HA",
+    "short_arabic_description": "فرن غاز بومباني, 90*60 سم, 5 شعلات غاز، إشعال ذاتي، شبك ثقيل ، ستانلس ستيل، أمان كامل، باب زجاجي مزدوج، غطاء زجاجي لسطح الفرن، صناعة إيطالية",
+    "warranty_set": "Italy",
+    "manufacturing_country": "Italy",
+    "color": "Silver"
+  },
+  {
+    "model": "ESSENTIAL90GG42IX",
+    "opposite_model": "BO693NAL",
+    "brand": "Bompani",
+    "category": "Oven",
+    "type": "بومباني",
+    "sub_family": "Gas & Electric Cooker",
+    "short_arabic_description": "فرن غاز بومباني , 90*60 سم, 4 شعلات غاز, 2 صحون كهرباء,  ستانلس ستيل ، أمان كامل، صناعة إيطالية",
+    "warranty_set": "2 years",
+    "manufacturing_country": "Italy",
+    "color": "Silver"
+  },
+  {
+    "model": "ESSENTIAL90GG5TCIX",
+    "opposite_model": "BO693NAL",
+    "brand": "Bompani",
+    "category": "Oven",
+    "type": "بومباني",
+    "sub_family": "Gas Cooker",
+    "short_arabic_description": "فرن غاز بومباني, 90*60 سم, 5 شعلات غاز,  ستانلس ستيل ، فرن بشبكة المينا، أمان كامل، صناعة إيطالية",
+    "warranty_set": "2 years",
+    "manufacturing_country": "Italy",
+    "color": "Silver"
+  },
+  {
+    "model": "ESSE80GG5TCIX",
+    "opposite_model": "BO853GVL",
+    "brand": "Bompani",
+    "category": "Cooker",
+    "type": "بومباني",
+    "sub_family": "Gas Cooker",
+    "short_arabic_description": "فرن غاز بومباني, 80*50 سم, 5 شعلات غاز، فرن وشواية، ستانلس ستيل، أمان كامل، باب زجاجي مزدوج، صناعة إيطالية",
+    "warranty_set": "2 years",
+    "manufacturing_country": "Italy",
+    "color": "Silver"
+  },
+  {
+    "model": "TECH9008VTCTPIX",
+    "opposite_model": "TECH9008VTCTPIX-A bit old model",
+    "brand": "Bompani",
+    "category": "Cooker",
+    "type": "بومباني",
+    "sub_family": "Electric Cooker",
+    "short_arabic_description": "فرن كهرباء سيراميك بومباني، 90*60 سم، 5 شعلات غاز،  ستانلس ستيل, أمان كامل، صناعة إيطالية",
+    "warranty_set": "2 years",
+    "manufacturing_country": "Italy",
+    "color": "Silver"
+  },
+  {
+    "model": "TECH100.GG5TCIX",
+    "opposite_model": "BO693SNL",
+    "brand": "Bompani",
+    "category": "Cooker",
+    "type": "بومباني",
+    "sub_family": "Gas Cooker",
+    "short_arabic_description": "فرن غاز بومباني , 100*60 سم, 5 شعلات غاز,  ستانلس ستيل, أمان كامل، باب زجاجي مزدوج، صناعة إيطالية",
+    "warranty_set": "2 years",
+    "manufacturing_country": "Italy",
+    "color": "Silver"
+  }
+],
+
+"indesit":[
+  {
+    "model": "BIM951EGSS",
+    "opposite_model": "BIM951EGSS",
+    "brand": "Indesit",
+    "category": "Cooker",
+    "type": "gas cooker",
+    "sub_family": "HA",
+    "short_arabic_description": "فرن غاز إنديست 5عيون غاز 1 مع شعلة ثلاثي، فرن غاز وشواية غاز، اشعالذاتي ،امان تام ، 220 فولت ، 60هرتز، ستانلس ستيل",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Italy",
+    "color": "Stainless Steel"
+  },
+  {
+    "model": "DFO3C23ACUK60HZ",
+    "opposite_model": "DFO3C23ACUK60HZ",
+    "brand": "Indesit",
+    "category": "Dishwasher",
+    "type": "Dishwasher",
+    "sub_family": "HA",
+    "short_arabic_description": "غسالة اطباق انديست ، 8 برامج ، 13 أماكن تخزين ، ديجيتال ، 220 فولت / 60 هرتز ، A + ، لون ابيض",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Poland",
+    "color": "white"
+  },
+  {
+    "model": "DFO3C23ACXUK60HZ",
+    "opposite_model": "DFO3C23ACXUK60HZ",
+    "brand": "Indesit",
+    "category": "Dishwasher",
+    "type": "Dishwasher",
+    "sub_family": "HA",
+    "short_arabic_description": "غسالة اطباق انديست ، 8 برامج ، 13 أماكن تخزين ، ديجيتال ، 220 فولت / 60 هرتز ، A + ، لون فضي",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Poland",
+    "color": "Silver"
+  },
+  {
+    "model": "I1D70W60HZ",
+    "opposite_model": "I1D70W60HZ",
+    "brand": "Indesit",
+    "category": "Dryer",
+    "type": "Front Load",
+    "sub_family": "HA",
+    "short_arabic_description": "مجفف انديست سعة 7 كيلو ، 15 + 1 برنامج ، تجفيف كامل ، 220 فولت / 60 هرتز ، لون فضي",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "Poland",
+    "color": "Silver"
+  },
+  {
+    "model": "MTWA61051W60HZ",
+    "opposite_model": "MTWA61051W60HZ",
+    "brand": "Indesit",
+    "category": "Washer",
+    "type": "Front Load",
+    "sub_family": "HA",
+    "short_arabic_description": "غسالة انديست 6 كيلو ، 16 برنامج ، ديجيتال ، شاشة عرض ، سرعة دوران 1000 لفة في الدقيقة ، برنامج رياضي ، 220 فولت ، 60 هرتز",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "United Kingdom",
+    "color": "white"
+  },
+  {
+    "model": "XWE91283XS 60HZ",
+    "opposite_model": "XWE91283XS 60HZ",
+    "brand": "Indesit",
+    "category": "Washer",
+    "type": "Front Load",
+    "sub_family": "HA",
+    "short_arabic_description": "غسالة انديست 9 كيلو ، 16 برنامج ، سرعة دوران 1200 دورة في الدقيقة ، ادفع واغسل، علامة صوف ، 220 فولت ، 60 هرتز ، لون فضي",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "United Kingdom",
+    "color": "Silver"
+  },
+  {
+    "model": "XWE91283XWSSS 60HZ",
+    "opposite_model": "XWE91283XWSSS 60HZ",
+    "brand": "Indesit",
+    "category": "Washer",
+    "type": "Front Load",
+    "sub_family": "HA",
+    "short_arabic_description": "غسالة انديست 9 كيلو ، 16 برنامج ، سرعة دوران 1200 دورة في الدقيقة ، ادفع واغسل، علامة صوف ، 220 فولت ، 60 هرتز ، لون أبيض",
+    "warranty_set": "2 yers",
+    "manufacturing_country": "United Kingdom",
+    "color": "white"
+  }
+],
+
+"daewoo":[
+  {
+    "model": "DR-O1541WH",
+    "brand": "Daewoo",
+    "material_description": "DW Single Door Ref, 121 Ltr"
+  },
+  {
+    "model": "DR-S6441IS",
+    "brand": "Daewoo",
+    "material_description": "DW SBS 532 Ltr, Inverter, Digital displa"
+  },
+  {
+    "model": "DR-T5041IS",
+    "brand": "Daewoo",
+    "material_description": "DW TMF 415 Ltr, No Frost, Digital displa"
+  },
+  {
+    "model": "DR-T6441IS",
+    "brand": "Daewoo",
+    "material_description": "DW TMF 528 Ltr, Inverter, Digital displa"
+  },
+  {
+    "model": "DR-U3341IS",
+    "brand": "Daewoo",
+    "material_description": "DW Upright Freezer, 247 Ltr, Digital dis"
+  },
+  {
+    "model": "DW-C3871WH",
+    "brand": "Daewoo",
+    "material_description": "DW Combo 13/8kg, BLDC Inv., 1400 RPM"
+  },
+  {
+    "model": "DW-C5071WH",
+    "brand": "Daewoo",
+    "material_description": "DW Combo 10.5/7kg, BLDC Inv., 1400 RPM"
+  },
+  {
+    "model": "DW-F0871WH",
+    "brand": "Daewoo",
+    "material_description": "DW Front Load 8kg, BLDC Inv., 1400 RPM"
+  },
+  {
+    "model": "DW-F5071WH",
+    "brand": "Daewoo",
+    "material_description": "DW Front Load 10.5kg, BLDC Inv., 1400 RPM"
+  },
+  {
+    "model": "DW-T1022WH",
+    "brand": "Daewoo",
+    "material_description": "DW Top Load 10kg, 600 RPM"
+  },
+  {
+    "model": "DW-T1223WH",
+    "brand": "Daewoo",
+    "material_description": "DW Top Load 12kg, 660 RPM"
+  },
+  {
+    "model": "DW-W0871WH",
+    "brand": "Daewoo",
+    "material_description": "DW Twin Tub 8kg, 5kg Spin, 1250 RPM"
+  },
+  {
+    "model": "DW-W1272WH",
+    "brand": "Daewoo",
+    "material_description": "DW Twin Tub 12kg, 8kg Spin 1250 RPM"
+  },
+  {
+    "model": "SD181C-DUMMY",
+    "brand": "Daewoo",
+    "material_description": "Daewoo Split AC Dummy,18K, Cool"
+  },
+  {
+    "model": "SD181C-I",
+    "brand": "Daewoo",
+    "material_description": "Daewoo Split AC Ellite 18K, Cool-indoor"
+  },
+  {
+    "model": "SD181C-O",
+    "brand": "Daewoo",
+    "material_description": "Daewoo Split AC Ellite 18K, Cool-Outdoor"
+  },
+  {
+    "model": "SD181H-I",
+    "brand": "Daewoo",
+    "material_description": "Daewoo Split AC Ellite 18K, H/C-Indoor"
+  },
+  {
+    "model": "SD181H-O",
+    "brand": "Daewoo",
+    "material_description": "Daewoo Split AC Ellite 18K, H/C-Outdoor"
+  },
+  {
+    "model": "SD241C-I",
+    "brand": "Daewoo",
+    "material_description": "Daewoo Split AC Ellite 22K, Cool-indoor"
+  },
+  {
+    "model": "SD241C-O",
+    "brand": "Daewoo",
+    "material_description": "Daewoo Split AC Ellite 22K, Cool-Outdoor"
+  },
+  {
+    "model": "SD241H-I",
+    "brand": "Daewoo",
+    "material_description": "Daewoo Split AC Ellite 21.6K, H/C-indoor"
+  },
+  {
+    "model": "SD241H-O",
+    "brand": "Daewoo",
+    "material_description": "Daewoo Split AC Ellite 21.6K, H/C-Outdoor"
+  }
+],
+
+"maintenance_fees":[
+  {
+    "new_service_price": 50,
+    "products_included_en": "Carry in items (Vacuum Cleaner, Microwave… etc.)",
+    "products_included_ar": "الأجهزة/ (المكنسة الكهربائية، الميكروويف… إلخ.)",
+    "product_category_en": "Home Appliances",
+    "product_category_ar": "الأجهزة المنزلية"
+  },
+  {
+    "new_service_price": 200,
+    "products_included_en": "Washing machine 7KG, Dryer, Hood …",
+    "products_included_ar": "غسالة ملابس 7 كجم، مجفف، شفاط",
+    "product_category_en": "Home Appliances",
+    "product_category_ar": "الأجهزة المنزلية"
+  },
+  {
+    "new_service_price": 210,
+    "products_included_en": "Washing machine 10KG, Oven, Refrigerator up to 18 Ft, Dish Washer, Ceramic Cooker, Built in …",
+    "products_included_ar": "غسالة ملابس 10 كجم، فرن، ثلاجة حتى 18 قدم، غسالة أطباق، بوتاجاز سيراميك، مدمج…",
+    "product_category_en": "Home Appliances",
+    "product_category_ar": "الأجهزة المنزلية"
+  },
+  {
+    "new_service_price": 350,
+    "products_included_en": "Washing machine 12 KG and above, Refrigerator 18 Ft and above",
+    "products_included_ar": "غسالة ملابس 12 كجم فأكثر، ثلاجة 18 قدم فأكثر",
+    "product_category_en": "Home Appliances",
+    "product_category_ar": "الأجهزة المنزلية"
+  },
+  {
+    "new_service_price": 200,
+    "products_included_en": "Window AC",
+    "products_included_ar": "مكيف شباك",
+    "product_category_en": "Air Conditions",
+    "product_category_ar": "المكيفات"
+  },
+  {
+    "new_service_price": 230,
+    "products_included_en": "Air Purifier",
+    "products_included_ar": "منقّي الهواء",
+    "product_category_en": "Air Conditions",
+    "product_category_ar": "المكيفات"
+  },
+  {
+    "new_service_price": 300,
+    "products_included_en": "Split AC 12 to 24 BTU",
+    "products_included_ar": "مكيف سبليت من 12 إلى 24 وحدة حرارية بريطانية",
+    "product_category_en": "Air Conditions",
+    "product_category_ar": "المكيفات"
+  },
+  {
+    "new_service_price": 350,
+    "products_included_en": "Split AC 30 to 38 BTU and above, Concealed up to 36 BTU, Ceiling up to 36\"",
+    "products_included_ar": "مكيف سبليت 30 إلى 38 وحدة حرارية بريطانية وما فوق، مخفي حتى 36 وحدة حرارية بريطانية ، سقف حتى 36",
+    "product_category_en": "Air Conditions",
+    "product_category_ar": "المكيفات"
+  },
+  {
+    "new_service_price": 400,
+    "products_included_en": "Concealed 42 to 60 BTU, ceiling AC 42 to 48 BTU, Free stand, central AC up to 60 BTU",
+    "products_included_ar": "مكيف مخفي من 42 إلى 60 وحدة حرارية بريطانية، مكيف سقف من 42 إلى 48 وحدة حرارية بريطانية، مكيف دولابي ، مكيف مركزي حتى 60 وحدة حرارية بريطانية",
+    "product_category_en": "Air Conditions",
+    "product_category_ar": "المكيفات"
+  },
+  {
+    "new_service_price": 500,
+    "products_included_en": "VRF - MULTIV - Untry package - concealed",
+    "products_included_ar": "مكيف مخفي أعلى من 60 وحدة حرارية بريطانية",
+    "product_category_en": "Air Conditions",
+    "product_category_ar": "المكيفات"
+  }
+],
+
+"ton_conversion":[
+  {
+    "capacity_ton": "0.5 Ton",
+    "equivalent_btu_h": "6,000 BTU/h"
+  },
+  {
+    "capacity_ton": "1 Ton",
+    "equivalent_btu_h": "12,000 BTU/h"
+  },
+  {
+    "capacity_ton": "1.5 Ton",
+    "equivalent_btu_h": "18,000 BTU/h"
+  },
+  {
+    "capacity_ton": "2 Ton",
+    "equivalent_btu_h": "24,000 BTU/h"
+  },
+  {
+    "capacity_ton": "2.5 Ton",
+    "equivalent_btu_h": "30,000 BTU/h"
+  },
+  {
+    "capacity_ton": "3 Ton",
+    "equivalent_btu_h": "36,000 BTU/h"
+  },
+  {
+    "capacity_ton": "4 Ton",
+    "equivalent_btu_h": "48,000 BTU/h"
+  }
+],
+
+"escalation_hashtags":[
+  {
+    "hashtag": "#MR",
+    "usage_ar": "فترة صباحية (8AM - 11AM)",
+    "notes_ar": "يستخدم عند حجز مواعيد الصيانة فقط"
+  },
+  {
+    "hashtag": "#EV",
+    "usage_ar": "فترة ما بعد الظهر (12PM - 5PM)",
+    "notes_ar": "يستخدم عند حجز مواعيد الصيانة فقط"
+  },
+  {
+    "hashtag": "#NT",
+    "usage_ar": "فترة مسائية (6PM - 10PM)",
+    "notes_ar": "يستخدم عند حجز مواعيد الصيانة فقط"
+  },
+  {
+    "hashtag": "#24\\7",
+    "usage_ar": "فترة 24 ساعة (11PM - 7AM)",
+    "notes_ar": "يستخدم عند حجز مواعيد الصيانة فقط"
+  },
+  {
+    "hashtag": "#Anytime",
+    "usage_ar": "عند حجز موعد في منطقة نائية",
+    "notes_ar": "يستخدم عند حجز مواعيد الصيانة فقط"
+  },
+  {
+    "hashtag": "#Inspok",
+    "usage_ar": "عند الموافقة على رسوم خارج الضمان",
+    "notes_ar": "يستخدم عند حجز مواعيد الصيانة فقط"
+  },
+  {
+    "hashtag": "#B2B",
+    "usage_ar": "عند تصعيد طلبات الشركات",
+    "notes_ar": "ملاحظة: يدرج هذا الهاشتاق في جميع أنواع الطلبات (استفسار - شكوى - طلب صيانة - طلب مبيعات)"
+  },
+  {
+    "hashtag": "#Daewoo",
+    "usage_ar": "عند رفع طلبات ماركة دايو",
+    "notes_ar": "ملاحظة: يدرج هذا الهاشتاق في جميع أنواع الطلبات (استفسار - شكوى - طلب صيانة - طلب مبيعات)"
+  },
+  {
+    "hashtag": "#ShakerAC",
+    "usage_ar": "عند رفع طلبات ماركة شاكر للتكييف",
+    "notes_ar": "ملاحظة: يدرج هذا الهاشتاق في جميع أنواع الطلبات (استفسار - شكوى - طلب صيانة - طلب مبيعات)"
+  },
+  {
+    "hashtag": "#EB",
+    "usage_ar": "حجز موعد مسبق (بعد 3 أيام)",
+    "notes_ar": "يدرج هذا الهاشتاق في الاستفسارات فقط"
+  },
+  {
+    "hashtag": "#SUN",
+    "usage_ar": "الأحد",
+    "notes_ar": "يستخدم عند حجز مواعيد الصيانة فقط"
+  },
+  {
+    "hashtag": "#MON",
+    "usage_ar": "الاثنين",
+    "notes_ar": "يستخدم عند حجز مواعيد الصيانة فقط"
+  },
+  {
+    "hashtag": "#TUE",
+    "usage_ar": "الثلاثاء",
+    "notes_ar": "يستخدم عند حجز مواعيد الصيانة فقط"
+  },
+  {
+    "hashtag": "#WED",
+    "usage_ar": "الأربعاء",
+    "notes_ar": "يستخدم عند حجز مواعيد الصيانة فقط"
+  },
+  {
+    "hashtag": "#THU",
+    "usage_ar": "الخميس",
+    "notes_ar": "يستخدم عند حجز مواعيد الصيانة فقط"
+  },
+  {
+    "hashtag": "#FRI",
+    "usage_ar": "الجمعة",
+    "notes_ar": "يستخدم عند حجز مواعيد الصيانة فقط"
+  },
+  {
+    "hashtag": "#SAT",
+    "usage_ar": "السبت",
+    "notes_ar": "يستخدم عند حجز مواعيد الصيانة فقط"
+  },
+  {
+    "hashtag": "#RECALL",
+    "usage_ar": "عند استمرار المشكلة نفسها لدى العميل",
+    "notes_ar": "يستخدم عند حجز مواعيد الصيانة فقط"
+  },
+  {
+    "hashtag": "#Today SVC Tech",
+    "usage_ar": "توضيح أن الموعد تم الاتفاق عليه مسبقًا مع الفني ليكون في نفس اليوم",
+    "notes_ar": "يستخدم لتوضيح الاتفاق المسبق مع الفني"
+  }
+],
+
+"maintenance_centres_locations":[
+  {
+    "city_ar": "الرياض",
+    "location_description_ar": "طريق الجنادرية ، القادسية ، بجوار صراف البنك الاول."
+  },
+  {
+    "city_ar": "جدة",
+    "location_description_ar": "حي النخيل بجوار مسلخ جدة الرئيسي بالقرب من شركة بيبسي. الوصف: (شارع فلسطين قبل مسلخ الغنم يمين أول يسار في أول يمين ) المبنى في الركن ."
+  },
+  {
+    "city_ar": "مكه - الطائف",
+    "location_description_ar": "مكة - حي الزايدي خلف محطة البوابة بجوار كبري القطار."
+  },
+  {
+    "city_ar": "المدينه المنوره",
+    "location_description_ar": "طريق خالد بن الوليد، بئر عثمان، شارع السلطانة ، مبنى الغوث مقابل مسجد القبلتين."
+  },
+  {
+    "city_ar": "تبوك + ينبع",
+    "location_description_ar": "تبوك - حي الحمراء، الهضيبة، شارع العشرين"
+  },
+  {
+    "city_ar": "الخبر + الجبيل",
+    "location_description_ar": "طريق الملك فهد بن عبد العزيز، الراكة الجنوبية، (طريق الخبر الدمام السريع) قبل مركز حائل ، طريق الملك عبدالعزيز المعاكس لنادي النهضة الرياضي."
+  },
+  {
+    "city_ar": "الاحساء",
+    "location_description_ar": "شارع الامير محمد بن عبدالعزيز ، المزروعية، الهفوف ، بالقرب من مسجد مكة."
+  },
+  {
+    "city_ar": "القصيم - حائل - عرعر - القريات - سكاكا",
+    "location_description_ar": "طريق الملك عبد العزيز، سلطانة، بريدة ،مخرج الدائري الشمالي مبنى مجموعة شاكر بجانب مؤسسة قصر المحمدية لبرك السباحة."
+  },
+  {
+    "city_ar": "خميس مشيط - بيشه - ابها",
+    "location_description_ar": "طريق خميس مشيط ابها ، التحلية- مقابل مستشفى غسان فرعون."
+  },
+  {
+    "city_ar": "جازان - نجران",
+    "location_description_ar": "طريق الملك عبدالعزيز مقابل مؤسسة ذهبية الرواد للتجارة"
+  }
+],
+
+"visit_times":[
+  {
+    "region_ar": "الخرّج",
+    "branch_en": "Riyadh",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "ضرمه",
+    "branch_en": "Riyadh",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "الرين",
+    "branch_en": "Riyadh",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "المزاحمية",
+    "branch_en": "Riyadh",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "جله",
+    "branch_en": "Riyadh",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "القويعية",
+    "branch_en": "Riyadh",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "الرويضة",
+    "branch_en": "Riyadh",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "العيينه",
+    "branch_en": "Riyadh",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "الجبيلة",
+    "branch_en": "Riyadh",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "صلبوخ",
+    "branch_en": "Riyadh",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "تمير",
+    "branch_en": "Riyadh",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "ثادق",
+    "branch_en": "Riyadh",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "حوطة سدير",
+    "branch_en": "Riyadh",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "ملهم",
+    "branch_en": "Riyadh",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "حريملاء",
+    "branch_en": "Riyadh",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "الأفلاج",
+    "branch_en": "Riyadh",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "حوطة بني تميم",
+    "branch_en": "Riyadh",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "رماح",
+    "branch_en": "Riyadh",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "حائل",
+    "branch_en": "HAIL",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "السفانية - تكييف",
+    "branch_en": "Khobar",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "السفانية - أجهزة منزلية",
+    "branch_en": "Khobar",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "راس الغار - تكييف",
+    "branch_en": "Khobar",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "راس الغار - أجهزة منزلية",
+    "branch_en": "Khobar",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "راس تنورة - تكييف",
+    "branch_en": "Khobar",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "القطيف",
+    "branch_en": "Khobar",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "سيهات",
+    "branch_en": "Khobar",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "حفر الباطن",
+    "branch_en": "Khobar",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "الجبيل",
+    "branch_en": "Khobar",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "الخفجي",
+    "branch_en": "Khobar",
+    "visit_date_ar": "الأحد و الثلاثاء و الخميس"
+  },
+  {
+    "region_ar": "النعيرية",
+    "branch_en": "Khobar",
+    "visit_date_ar": "الأحد و الثلاثاء و الخميس"
+  },
+  {
+    "region_ar": "بقيق",
+    "branch_en": "Al Hassa",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "فوده",
+    "branch_en": "Al Hassa",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "الثمامة",
+    "branch_en": "Al Hassa",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "عين دار",
+    "branch_en": "Al Hassa",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "حرض",
+    "branch_en": "Al Hassa",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "خريص",
+    "branch_en": "Al Hassa",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "سلوى",
+    "branch_en": "Al Hassa",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "البطحاء",
+    "branch_en": "Al Hassa",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "قبة",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "عيون الجوا",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "الفويلق",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "شيري",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "القوارة",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "ساجر",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "العمار",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "الحرمة الشمالية",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "دخنة",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "الخشيبي",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "سميرة",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "ضلع رشيد",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "السيح",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "الحجازية",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "بتراء",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "الفوارة",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "النبهانية",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "دليمية",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "الذيبية",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "الصمعورية",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "عقلة الصقور",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "الزلفي",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "الارطاوية",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "شقراء",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "مرات",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "القصب",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "المجمعة",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "جلاجل",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "روضة سدير",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "الدوادمي",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "ارجا",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "سارا",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "قرنة",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "الحزيمية",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "نفي",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "خصان",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "عفيف",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "ضرية",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "البجادية",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "رفايع الجمش",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "بطين",
+    "branch_en": "Qassim",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "الباحة",
+    "branch_en": "Khamis",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "بلجرشي",
+    "branch_en": "Khamis",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "شمران",
+    "branch_en": "Khamis",
+    "visit_date_ar": "الأحد و الأربعاء"
+  },
+  {
+    "region_ar": "المخواة",
+    "branch_en": "Khamis",
+    "visit_date_ar": "الأحد و الأربعاء"
+  },
+  {
+    "region_ar": "صمخ",
+    "branch_en": "Khamis",
+    "visit_date_ar": "السبت"
+  },
+  {
+    "region_ar": "بيشة",
+    "branch_en": "Khamis",
+    "visit_date_ar": "الأحد والثلاثاء"
+  },
+  {
+    "region_ar": "تنومة",
+    "branch_en": "Khamis",
+    "visit_date_ar": "السبت"
+  },
+  {
+    "region_ar": "سراة عبيدة",
+    "branch_en": "Khamis",
+    "visit_date_ar": "الاثنين والخميس"
+  },
+  {
+    "region_ar": "محايل عسير",
+    "branch_en": "Khamis",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "وادي بن هشبل",
+    "branch_en": "Khamis",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "المجاردة",
+    "branch_en": "Khamis",
+    "visit_date_ar": "السبت والثلاثاء"
+  },
+  {
+    "region_ar": "رجال المع",
+    "branch_en": "Khamis",
+    "visit_date_ar": "الأحد والأربعاء"
+  },
+  {
+    "region_ar": "قلوة",
+    "branch_en": "Khamis",
+    "visit_date_ar": "الأحد والأربعاء"
+  },
+  {
+    "region_ar": "نمرة",
+    "branch_en": "Khamis",
+    "visit_date_ar": "الأحد والأربعاء"
+  },
+  {
+    "region_ar": "القنفذة",
+    "branch_en": "Khamis",
+    "visit_date_ar": "الاثنين والثلاثاء"
+  },
+  {
+    "region_ar": "مظيلف",
+    "branch_en": "Khamis",
+    "visit_date_ar": "الاثنين والثلاثاء"
+  },
+  {
+    "region_ar": "المندق",
+    "branch_en": "Khamis",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "العقيق",
+    "branch_en": "Khamis",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "أحد رفيدة",
+    "branch_en": "Khamis",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "بارق",
+    "branch_en": "Khamis",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "النماص",
+    "branch_en": "Khamis",
+    "visit_date_ar": "السبت"
+  },
+  {
+    "region_ar": "طريب",
+    "branch_en": "Khamis",
+    "visit_date_ar": "الاثنين والخميس"
+  },
+  {
+    "region_ar": "سبت العلايا",
+    "branch_en": "Khamis",
+    "visit_date_ar": "الأحد"
+  },
+  {
+    "region_ar": "رانية",
+    "branch_en": "Khamis",
+    "visit_date_ar": "يوم الثلاثاء"
+  },
+  {
+    "region_ar": "تثليث",
+    "branch_en": "Khamis",
+    "visit_date_ar": "الاثنين والخميس"
+  },
+  {
+    "region_ar": "نجران",
+    "branch_en": "Khamis",
+    "visit_date_ar": "الأحد و الاثنين و الأربعاء"
+  },
+  {
+    "region_ar": "شرورة",
+    "branch_en": "Khamis",
+    "visit_date_ar": "الخميس"
+  },
+  {
+    "region_ar": "وادي الدواسر",
+    "branch_en": "Khamis",
+    "visit_date_ar": "الأحد"
+  },
+  {
+    "region_ar": "حبونا",
+    "branch_en": "Khamis",
+    "visit_date_ar": "الأحد و الاثنين و الأربعاء"
+  },
+  {
+    "region_ar": "ظهران الجنوب",
+    "branch_en": "Khamis",
+    "visit_date_ar": "الاثنين"
+  },
+  {
+    "region_ar": "السليل",
+    "branch_en": "Khamis",
+    "visit_date_ar": "الأحد"
+  },
+  {
+    "region_ar": "الدرب",
+    "branch_en": "Jazan",
+    "visit_date_ar": "الاثنين والخميس"
+  },
+  {
+    "region_ar": "الكدرة",
+    "branch_en": "Jazan",
+    "visit_date_ar": "الاثنين والخميس"
+  },
+  {
+    "region_ar": "بيش",
+    "branch_en": "Jazan",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "الشقيق",
+    "branch_en": "Jazan",
+    "visit_date_ar": "الاثنين والخميس"
+  },
+  {
+    "region_ar": "الحريضه",
+    "branch_en": "Jazan",
+    "visit_date_ar": "الاثنين والخميس"
+  },
+  {
+    "region_ar": "بطحان",
+    "branch_en": "Jazan",
+    "visit_date_ar": "الاثنين والخميس"
+  },
+  {
+    "region_ar": "العارضة",
+    "branch_en": "Jazan",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "ابو سبيلة",
+    "branch_en": "Jazan",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "ام العشر",
+    "branch_en": "Jazan",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "المضايا",
+    "branch_en": "Jazan",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "الخمس",
+    "branch_en": "Jazan",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "الدغارير",
+    "branch_en": "Jazan",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "صامطة",
+    "branch_en": "Jazan",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "الطرشية",
+    "branch_en": "Jazan",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "النجامية",
+    "branch_en": "Jazan",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "الطوال",
+    "branch_en": "Jazan",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "الشمهانية",
+    "branch_en": "Jazan",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "الحضرور",
+    "branch_en": "Jazan",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "دحمة",
+    "branch_en": "Jazan",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "الموسم",
+    "branch_en": "Jazan",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "أحد المسارحة",
+    "branch_en": "Jazan",
+    "visit_date_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "هروب",
+    "branch_en": "Jazan",
+    "visit_date_ar": "الخميس"
+  },
+  {
+    "region_ar": "بني مالك",
+    "branch_en": "Jazan",
+    "visit_date_ar": "الخميس"
+  },
+  {
+    "region_ar": "فيفا",
+    "branch_en": "Jazan",
+    "visit_date_ar": "الخميس"
+  },
+  {
+    "region_ar": "الداير",
+    "branch_en": "Jazan",
+    "visit_date_ar": "الخميس"
+  },
+  {
+    "region_ar": "صبيا",
+    "branch_en": "Jazan",
+    "visit_date_ar": "الخميس"
+  }
+],
+
+"visit_times_west":[
+  {
+    "region_ar": "Jeddah",
+    "mr": true,
+    "ev": true,
+    "nt": true,
+    "fri": true,
+    "remarks_ar": "متاح خدمه 7/24"
+  },
+  {
+    "region_ar": "Makkah",
+    "mr": true,
+    "ev": true,
+    "nt": true,
+    "fri": true,
+    "remarks_ar": "متاح خدمه 7/24"
+  },
+  {
+    "region_ar": "Taif",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "Madinah",
+    "mr": true,
+    "ev": true,
+    "nt": true,
+    "fri": true,
+    "remarks_ar": "متاح خدمه 7/24"
+  },
+  {
+    "region_ar": "Yanbu",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "Tabuk",
+    "mr": true,
+    "ev": true,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "يمكن حجز المواعيد على فترة الصباح وما بعد الظهر فقط"
+  },
+  {
+    "region_ar": "SAKAKA",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "GURAIYAT",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل لتحديد موعد خلال 48 ساعة"
+  },
+  {
+    "region_ar": "رابغ",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل عن طريق الفرع خلال 48 ساعة لتحديد موعد"
+  },
+  {
+    "region_ar": "مدينة الملك عبدا لله",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل عن طريق الفرع خلال 48 ساعة لتحديد موعد"
+  },
+  {
+    "region_ar": "ثول",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل عن طريق الفرع خلال 48 ساعة لتحديد موعد"
+  },
+  {
+    "region_ar": "ذهبان",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل عن طريق الفرع خلال 48 ساعة لتحديد موعد"
+  },
+  {
+    "region_ar": "خليص",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل عن طريق الفرع خلال 48 ساعة لتحديد موعد"
+  },
+  {
+    "region_ar": "عسفان",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل عن طريق الفرع خلال 48 ساعة لتحديد موعد"
+  },
+  {
+    "region_ar": "درة العروس",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل عن طريق الفرع خلال 48 ساعة لتحديد موعد"
+  },
+  {
+    "region_ar": "العلا - Madinah",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل عن طريق الفرع خلال 48 ساعة لتحديد موعد"
+  },
+  {
+    "region_ar": "وادي الفرع - Madinah",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل عن طريق الفرع خلال 48 ساعة لتحديد موعد"
+  },
+  {
+    "region_ar": "خيبر - Madinah",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل عن طريق الفرع خلال 48 ساعة لتحديد موعد"
+  },
+  {
+    "region_ar": "الثمد - Madinah",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل عن طريق الفرع خلال 48 ساعة لتحديد موعد"
+  },
+  {
+    "region_ar": "الصلصلة - Madinah",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل عن طريق الفرع خلال 48 ساعة لتحديد موعد"
+  },
+  {
+    "region_ar": "مهد الذهب - Madinah",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل عن طريق الفرع خلال 48 ساعة لتحديد موعد"
+  },
+  {
+    "region_ar": "وادي ريم - Madinah",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل عن طريق الفرع خلال 48 ساعة لتحديد موعد"
+  },
+  {
+    "region_ar": "الحناكية - Madinah",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل عن طريق الفرع خلال 48 ساعة لتحديد موعد"
+  },
+  {
+    "region_ar": "الحائط - Madinah",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل عن طريق الفرع خلال 48 ساعة لتحديد موعد"
+  },
+  {
+    "region_ar": "ينبع - Madinah",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل عن طريق الفرع خلال 48 ساعة لتحديد موعد"
+  },
+  {
+    "region_ar": "املج - Yanbu",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل عن طريق الفرع خلال 48 ساعة لتحديد موعد"
+  },
+  {
+    "region_ar": "بدر - Yanbu",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل عن طريق الفرع خلال 48 ساعة لتحديد موعد"
+  },
+  {
+    "region_ar": "الليث - Makkah",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل عن طريق الفرع خلال 48 ساعة لتحديد موعد"
+  },
+  {
+    "region_ar": "تربة - Taif",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل عن طريق الفرع خلال 48 ساعة لتحديد موعد"
+  },
+  {
+    "region_ar": "الخرمة - Taif",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل عن طريق الفرع خلال 48 ساعة لتحديد موعد"
+  },
+  {
+    "region_ar": "المحاني - Taif",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل عن طريق الفرع خلال 48 ساعة لتحديد موعد"
+  },
+  {
+    "region_ar": "حقل - Tabuk",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل عن طريق الفرع خلال 48 ساعة لتحديد موعد"
+  },
+  {
+    "region_ar": "البدع - Tabuk",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل عن طريق الفرع خلال 48 ساعة لتحديد موعد"
+  },
+  {
+    "region_ar": "شرما - Tabuk",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل عن طريق الفرع خلال 48 ساعة لتحديد موعد"
+  },
+  {
+    "region_ar": "تيماء - Tabuk",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل عن طريق الفرع خلال 48 ساعة لتحديد موعد"
+  },
+  {
+    "region_ar": "الوجه - Tabuk",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل عن طريق الفرع خلال 48 ساعة لتحديد موعد"
+  },
+  {
+    "region_ar": "نيوم - Tabuk",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل عن طريق الفرع خلال 48 ساعة لتحديد موعد"
+  },
+  {
+    "region_ar": "ضبا - Tabuk",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل عن طريق الفرع خلال 48 ساعة لتحديد موعد"
+  },
+  {
+    "region_ar": "عرعر - Tabuk",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل عن طريق الفرع خلال 48 ساعة لتحديد موعد"
+  },
+  {
+    "region_ar": "رفحاء - Tabuk",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل عن طريق الفرع خلال 48 ساعة لتحديد موعد"
+  },
+  {
+    "region_ar": "سكاكا - Tabuk",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل عن طريق الفرع خلال 48 ساعة لتحديد موعد"
+  },
+  {
+    "region_ar": "دومة الجندل - Tabuk",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل عن طريق الفرع خلال 48 ساعة لتحديد موعد"
+  },
+  {
+    "region_ar": "طبرجل - Tabuk",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل عن طريق الفرع خلال 48 ساعة لتحديد موعد"
+  },
+  {
+    "region_ar": "القريات - Tabuk",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل عن طريق الفرع خلال 48 ساعة لتحديد موعد"
+  },
+  {
+    "region_ar": "طريف - Tabuk",
+    "mr": false,
+    "ev": false,
+    "nt": false,
+    "fri": false,
+    "remarks_ar": "سيتم التواصل عن طريق الفرع خلال 48 ساعة لتحديد موعد"
+  }
+],
+
+"discount_codes":[
+  {
+    "id": 1,
+    "customer_name": "Eastern province Municipality",
+    "company_name_ar": "أمانة المنطقة الشرقية",
+    "code": "SGEPM"
+  },
+  {
+    "id": 2,
+    "customer_name": "Samasco co",
+    "company_name_ar": "الشركة السعودية لحلول القوى البشرية \"سماسكو\" وشركاتها الشقيقة ( شركة مرافق ، شركة عضيد الطبية )",
+    "code": "SGSMCO"
+  },
+  {
+    "id": 3,
+    "customer_name": "Shadeed  co",
+    "company_name_ar": "شركة شديد وشركاه السعودية لوساطة التأمين",
+    "code": "SGSC"
+  },
+  {
+    "id": 4,
+    "customer_name": "Mohamad Saleh Halawani Est for Car Trading",
+    "company_name_ar": "مؤسسة محمد صالح حلواني لتجارة السيارات",
+    "code": "SGCMSH"
+  },
+  {
+    "id": 5,
+    "customer_name": "Saudi Airlines",
+    "company_name_ar": "ادارة المزايا وشؤون المتقاعدين بالخطوط الجوية السعودية ( واسرهم )",
+    "code": "SGCSV"
+  },
+  {
+    "id": 6,
+    "customer_name": "Health affairs of the armed forces",
+    "company_name_ar": "الشؤون الصحية بالقوات المسلحة ( مجمع الملك فهد الطبي العسكري بالظهران )",
+    "code": "SGHAF"
+  },
+  {
+    "id": 7,
+    "customer_name": "Employees -  Ba Tayeb Est .",
+    "company_name_ar": "مؤسسة سالم با طيب",
+    "code": "SGCSBT"
+  },
+  {
+    "id": 8,
+    "customer_name": "Saudi Air Navigation services  ( SANS )",
+    "company_name_ar": "خدمات الملاحة الجوية السعودية",
+    "code": "SGPSANS"
+  },
+  {
+    "id": 9,
+    "customer_name": "Ground Service",
+    "company_name_ar": "الخدمات الارضية بالخطوط السعودية",
+    "code": "SGS123"
+  },
+  {
+    "id": 10,
+    "customer_name": "Saudi Medical Care Group",
+    "company_name_ar": "المجموعة السعودية للرعاية الطبية والجهات التابعة لها ( شركة صحة السلام الطبية , شركة مستوصف اشبيليا الطبي الأهلي ، شركة مستشفى تخصصي نجران الطبي، شركة مستشفى الرعاية التخصصية المزمنة الطبية ، شركة مستشفى الأنوار الطبية ، شركة مستشفى دار السلامة الطبية )",
+    "code": "SGSMCG"
+  },
+  {
+    "id": 11,
+    "customer_name": "SASREF",
+    "company_name_ar": "شركة ساسرف",
+    "code": "SGSAS"
+  },
+  {
+    "id": 12,
+    "customer_name": "General Authority of Civil Aviation ( GACA )",
+    "company_name_ar": "الرئاسة العامة للطيران المدني السعودي ( واسرهم )",
+    "code": "SGACA"
+  },
+  {
+    "id": 13,
+    "customer_name": "ARAMCO",
+    "company_name_ar": "شركة ارامكو",
+    "code": "ARMC23"
+  },
+  {
+    "id": 14,
+    "customer_name": "NAYA Group",
+    "company_name_ar": "مجموعة نايا العقارية ( وعملائهم )",
+    "code": "SGNYG"
+  },
+  {
+    "id": 15,
+    "customer_name": "Almajdouie Group",
+    "company_name_ar": "مجموعة المجدوعي",
+    "code": "SGMAJG"
+  },
+  {
+    "id": 16,
+    "customer_name": "KSU",
+    "company_name_ar": "جامعة الملك سعود",
+    "code": "SGKSU"
+  },
+  {
+    "id": 17,
+    "customer_name": "Council Of Saudi Chambers",
+    "company_name_ar": "مجلس الغرف السعودية",
+    "code": "SGCSC"
+  },
+  {
+    "id": 18,
+    "customer_name": "General Auditing Bureau",
+    "company_name_ar": "الديوان العام للمحاسبة",
+    "code": "SGGAB"
+  },
+  {
+    "id": 19,
+    "customer_name": "Walaplus",
+    "company_name_ar": "ولاء بلس",
+    "code": "SGWALA"
+  },
+  {
+    "id": 20,
+    "customer_name": "Maharah",
+    "company_name_ar": "مهارة",
+    "code": "maharah"
+  },
+  {
+    "id": 21,
+    "customer_name": "STC",
+    "company_name_ar": "شركة الاتصالات السعودية ( STC) والجهات التابعة لها ( شركة قنوات ، شركة حلول ، شركة المتخصصة ، شركة عقالات ، شركة مراكز الإتصال ، انتيجرال ، توال ، STC الكويت ، STC البحرين ،صندوق الاستثمارت العامة ، المدفوعات الاكترونية ، صندوق الشهداء والمصابين والأسرى والمفقودين )",
+    "code": "SGSTC"
+  },
+  {
+    "id": 22,
+    "customer_name": "Sabic",
+    "company_name_ar": "سابك",
+    "code": "SGSBC"
+  },
+  {
+    "id": 23,
+    "customer_name": "Al Marai",
+    "company_name_ar": "شركة المراعي",
+    "code": "Almarai"
+  },
+  {
+    "id": 24,
+    "customer_name": "Tasnee",
+    "company_name_ar": "شركة التصنيع",
+    "code": "SGTSNE"
+  },
+  {
+    "id": 25,
+    "customer_name": "Jeddah  province Municipality",
+    "company_name_ar": "امانة منطقة جدة و ذوي الاعاقة من منسوبي أمانة محافظة جدة واسرهم",
+    "code": "SGJPM"
+  },
+  {
+    "id": 26,
+    "customer_name": "Ministry of Human Resource and Social Development",
+    "company_name_ar": "وزارة الموارد البشرية والتنمية الاجتماعية",
+    "code": "SGHRSD"
+  },
+  {
+    "id": 27,
+    "customer_name": "NWC",
+    "company_name_ar": "الشركة الوطنية للمياه",
+    "code": "SGNWC"
+  },
+  {
+    "id": 28,
+    "customer_name": "KAAU",
+    "company_name_ar": "جامعة الملك عبدالعزيز",
+    "code": "SGKAAU"
+  },
+  {
+    "id": 29,
+    "customer_name": "Public Pension Agency",
+    "company_name_ar": "المؤسسة العامة للتقاعد ( برنامج تقدير)",
+    "code": "SGPPA"
+  },
+  {
+    "id": 30,
+    "customer_name": "The Shure Council",
+    "company_name_ar": "مجلس الشورى",
+    "code": "SGTSC"
+  },
+  {
+    "id": 31,
+    "customer_name": "The National Agricultural Development Company (NADEC)",
+    "company_name_ar": "الشركة الوطنية للتنمية الزراعية ( نادك )",
+    "code": "SGNADEC"
+  },
+  {
+    "id": 32,
+    "customer_name": "KFU",
+    "company_name_ar": "جامعة الملك فيصل",
+    "code": "SGKFU"
+  },
+  {
+    "id": 33,
+    "customer_name": "IAU",
+    "company_name_ar": "جامعة الإمام عبدالرحمن بن فيصل ( جامعة الدمام)",
+    "code": "SGIAU"
+  },
+  {
+    "id": 34,
+    "customer_name": "Ministry of Environment, Water and Agriculture",
+    "company_name_ar": "وزارة البيئة والمياه والزراعة",
+    "code": "MEWA"
+  },
+  {
+    "id": 35,
+    "customer_name": "Saudi Bar Association",
+    "company_name_ar": "الهيئة السعودية للمحامين",
+    "code": "SGSBA"
+  },
+  {
+    "id": 36,
+    "customer_name": "SDC",
+    "company_name_ar": "شركة الإبتكارت اللامعة للدعاية والاعلان المحدودة  (SDC)",
+    "code": "SGSDC"
+  },
+  {
+    "id": 37,
+    "customer_name": "Haka group",
+    "company_name_ar": "الشركة شركة أبناء حسن عبدالكريم القحطاني ( مجموعة هاكا القابضة )",
+    "code": "SGHAKA"
+  },
+  {
+    "id": 38,
+    "customer_name": "Kacst",
+    "company_name_ar": "مدينة الملك عبدالعزيز للعلوم والتقنية",
+    "code": "SGAC"
+  },
+  {
+    "id": 39,
+    "customer_name": "UJ",
+    "company_name_ar": "جامعة جدة",
+    "code": "SGUJ"
+  },
+  {
+    "id": 40,
+    "customer_name": "Ministry of National Guard",
+    "company_name_ar": "وزارة الحرس الوطني والجهات التابعة لها  ( كلية الملك عبدالله للقيادة والاركان – كلية الملك خالد العسكرية – الشؤون الصحية بالحرس الوطني – جامعة الملك سعود للعوم الصحية  - مركز الملك عبدالله للأبحاث - المتقاعدين ذوي شهداء الواجب) ( برنامج واجب )",
+    "code": "SANG"
+  },
+  {
+    "id": 41,
+    "customer_name": "Naqel Express",
+    "company_name_ar": "البريد السعودي سبل والجهات التابعة لها ( ناقل – انفنتي )",
+    "code": "SGNQL"
+  },
+  {
+    "id": 42,
+    "customer_name": "General Authority Zakat & Tax",
+    "company_name_ar": "برنامج مزية للمنظومة المالية والجهات التابعة لها ( هيئة الزكاة والضريبة والجمارك ، وزارة المالية ، وزارة الاقتصاد والتخطصط ، البنك السعودي المركزي ، هيئة السوق المالية ، الهيئة العامة لعقارات الدولة ، الأكاديمية المالية ، المدفوعات السعودية ، هيئة كفاءة الإنفاق والمشاريع الحكومية ، المركز الوطني لنظم الموارد الحكومية،المركز الوطني لإدارة الدين، صندوق التنمية الصناعية السعودي، صندوق التنمية السايحي )",
+    "code": "MAZIAH"
+  },
+  {
+    "id": 43,
+    "customer_name": "Ayama  Charity",
+    "company_name_ar": "الجمعية السعودية للارامل والمطلقات",
+    "code": "SGAC"
+  },
+  {
+    "id": 44,
+    "customer_name": "Seera Holding Group",
+    "company_name_ar": "مجموعة سيرا القابضة",
+    "code": "SGSHG"
+  },
+  {
+    "id": 45,
+    "customer_name": "Ehtfal",
+    "company_name_ar": "مؤسسة تطبيق إحتفال التجارية",
+    "code": "SGEHFL"
+  },
+  {
+    "id": 46,
+    "customer_name": "Al Bassam Group of Companies",
+    "company_name_ar": "مجموعة شركات البسام",
+    "code": "SGBSMG"
+  },
+  {
+    "id": 47,
+    "customer_name": "Board Of Grievances",
+    "company_name_ar": "ديوان المظالم",
+    "code": "SGBG"
+  },
+  {
+    "id": 48,
+    "customer_name": "Communication & Information Tech. Commission",
+    "company_name_ar": "هيئة الاتصالات وتقنية المعلومات",
+    "code": "SGCITC"
+  },
+  {
+    "id": 49,
+    "customer_name": "Al Wefaq Saudi Holding com.",
+    "company_name_ar": "شركة الوفاق السعودية القابضة والشركات التابعة لها",
+    "code": "SGWSH"
+  },
+  {
+    "id": 50,
+    "customer_name": "Napco National",
+    "company_name_ar": "شركة نابكو الوطنية",
+    "code": "SGNPCO"
+  },
+  {
+    "id": 51,
+    "customer_name": "Royal Commission for Riyah City",
+    "company_name_ar": "الهيئة الملكية لمدينة الرياض",
+    "code": "SGRCR"
+  },
+  {
+    "id": 52,
+    "customer_name": "Riyadh Region Retirees Association",
+    "company_name_ar": "جمعية المتقاعدبن الاهلية بالرياض",
+    "code": "SGRRRA"
+  },
+  {
+    "id": 53,
+    "customer_name": "Imam Muhammad Ibn Saud Islamic University",
+    "company_name_ar": "جامعة الامام محمد بن سعود الاسلامية",
+    "code": "SGIMSIU"
+  },
+  {
+    "id": 54,
+    "customer_name": "General Organization Social Insurance",
+    "company_name_ar": "المؤسسة العامة للتامينات الاجتماعية ( والشركات التابعة شركة رائدة الرقمية وشركة رزا العقارية وشركة حصانة )",
+    "code": "SGGOSI"
+  },
+  {
+    "id": 55,
+    "customer_name": "Exclusave Card",
+    "company_name_ar": "اكسلكوسيف",
+    "code": "XSAVE"
+  },
+  {
+    "id": 56,
+    "customer_name": "Ministry of Foreign Affairs",
+    "company_name_ar": "وزارة الخارجية",
+    "code": "SGMFA"
+  },
+  {
+    "id": 57,
+    "customer_name": "Saudi Royal Guard Command",
+    "company_name_ar": "رئاسة الحرس الملكي السعودي",
+    "code": "SRGM"
+  },
+  {
+    "id": 58,
+    "customer_name": "King Fahd University of Petroleum & Minerals",
+    "company_name_ar": "جامعة الملك فهد للبترول والمعادن",
+    "code": "SGKFUPM"
+  },
+  {
+    "id": 59,
+    "customer_name": "Ministry of Municipal and Rural Affairs and Housing",
+    "company_name_ar": "وزارة الشؤون البلدية و القروية والاسكان ( برنامج حاضرين ) وجميع الأمانات والبلديات في المملكة",
+    "code": "SGMRH"
+  },
+  {
+    "id": 60,
+    "customer_name": "Takween Advanced Industries Co.",
+    "company_name_ar": "شركة تكوين المتطورة للصناعات",
+    "code": "SGTAK"
+  },
+  {
+    "id": 61,
+    "customer_name": "Dr. Sulaiman Al-Habib Medical Group (hmg )",
+    "company_name_ar": "مجموعة الدكتور سليمان الحبيب الطبية والشركات التابعة التابعة لها",
+    "code": "SGHMG"
+  },
+  {
+    "id": 62,
+    "customer_name": "General Authority for statistics",
+    "company_name_ar": "الهيئة العامة للإحصاء",
+    "code": "SGGAS"
+  },
+  {
+    "id": 63,
+    "customer_name": "Prince sultan university",
+    "company_name_ar": "جامعة الامير sultan",
+    "code": "SGPSU"
+  },
+  {
+    "id": 64,
+    "customer_name": "The Saudi Investment Bank",
+    "company_name_ar": "البنك السعودي للإستثمار",
+    "code": "SAIB"
+  },
+  {
+    "id": 65,
+    "customer_name": "Ministry of Defense",
+    "company_name_ar": "وزارة الدفاع ( برنامج اعتزاز )",
+    "code": "SGMOD"
+  },
+  {
+    "id": 66,
+    "customer_name": "AlinmaPay ",
+    "company_name_ar": "الانماء بي",
+    "code": "AlinmaPay"
+  },
+  {
+    "id": 67,
+    "customer_name": "Aldawaa Medical Services Co",
+    "company_name_ar": "شركة الدواء للخدمات الطبية و صيدليات الدواء",
+    "code": "SGADMS"
+  },
+  {
+    "id": 68,
+    "customer_name": "arabian centres",
+    "company_name_ar": "شركة المراكز العربية",
+    "code": "SGAAC"
+  },
+  {
+    "id": 69,
+    "customer_name": "Al Rajhi Bank",
+    "company_name_ar": "مصرف الراجحي والجهات التابعة للمصرف ( شركة الراجحي المالية - شركة الراجحي للتطوير العقاري \"تدير\" - شركة الراجحي للخدمات الإدارية - شركة توثيق - شركة إمكان - شركة نيوليب )",
+    "code": "rajbank"
+  },
+  {
+    "id": 70,
+    "customer_name": "Ministry of Environment, Water and Agriculture in Makkah Region",
+    "company_name_ar": "وزارة البيئة والمياه والزراعة بمنطقة مكة المكرمة",
+    "code": "MEWA"
+  },
+  {
+    "id": 71,
+    "customer_name": "Al Khalil Design Company",
+    "company_name_ar": "شركة الخليل للتصاميم",
+    "code": "khalilgr"
+  },
+  {
+    "id": 72,
+    "customer_name": "maaden",
+    "company_name_ar": "معادن",
+    "code": "maaden"
+  },
+  {
+    "id": 73,
+    "customer_name": "bupa",
+    "company_name_ar": "بوبا العربية",
+    "code": "Bupa"
+  },
+  {
+    "id": 74,
+    "customer_name": "Qassim University",
+    "company_name_ar": "جامعة القصيم",
+    "code": "qaun"
+  },
+  {
+    "id": 75,
+    "customer_name": "SATORP",
+    "company_name_ar": "شركة ساتورب",
+    "code": "SATORP"
+  },
+  {
+    "id": 76,
+    "customer_name": "Saudi Ports Authority",
+    "company_name_ar": "الهيئة العامة للموانئ",
+    "code": "MAWANI"
+  },
+  {
+    "id": 77,
+    "customer_name": "Power Cogeneration Plant Company ( PCPC )",
+    "company_name_ar": "شركة مصنع توليد الطاقة المزدوج  ( PCPC )",
+    "code": "PCPC"
+  },
+  {
+    "id": 78,
+    "customer_name": "Marafiq",
+    "company_name_ar": "شركة مرافق الكهرباء والمياه بالجبيل وينبع",
+    "code": "Marafiq"
+  },
+  {
+    "id": 79,
+    "customer_name": "Saudi Aramco Affiliates Offers",
+    "company_name_ar": "شركة ارامكو للتجارة",
+    "code": "ATCO"
+  },
+  {
+    "id": 80,
+    "customer_name": "Nuclear and Radiological Regulatory Commission",
+    "company_name_ar": "هيئة الرقابة النووية والإشعاعية",
+    "code": "NRRC"
+  },
+  {
+    "id": 81,
+    "customer_name": "flynas",
+    "company_name_ar": "طيران ناس",
+    "code": "flynas"
+  },
+  {
+    "id": 82,
+    "customer_name": "SASO",
+    "company_name_ar": "الهيئة السعودية للمواصفات والمقاييس والجودة (SASO)",
+    "code": "SASO"
+  },
+  {
+    "id": 83,
+    "customer_name": "hasib",
+    "company_name_ar": "الشركة التطبيقية لخدمات الحاسب الآلي",
+    "code": "hasib"
+  },
+  {
+    "id": 84,
+    "customer_name": "Saudi Arabia Railways",
+    "company_name_ar": "الشركة السعودية للخطوط الحديدية ( سار)",
+    "code": "sar"
+  },
+  {
+    "id": 85,
+    "customer_name": "Saudi Commission for Health Specialties",
+    "company_name_ar": "الهيئة السعودية للتخصصات الصحية ( جودة الحياه )",
+    "code": "scfhs"
+  },
+  {
+    "id": 86,
+    "customer_name": "hospital kingdom",
+    "company_name_ar": "مستشفى المملكة",
+    "code": "KHCC"
+  },
+  {
+    "id": 87,
+    "customer_name": "riyadh second Health Cluster",
+    "company_name_ar": "تجمع الرياض الصحي الثاني ( مدينة الملك فهد الطبية - مستشفى الأمير محمد بن عبدالعزيز - مستشفى اليمامة  - مستشفى الملك خالد المجمعة - مستشفى الزلفي العام - مستشفى حوطة سدير - مستشفى تمير العام - مستشفى مستشفى الامير ناصر بن سعد السديري بالغاط - مستشفى الأرطاوية العام - مستشفى رماح العام - مركز الملك سلمان لأمراض الكلى - مركز الأسنان شرق الرياض - مركز الأسنان شمال الرياض - مركز الأسنان التخصصي - 107مركز رعاية صحية أولية – منطقة الرياض )",
+    "code": "R2"
+  },
+  {
+    "id": 88,
+    "customer_name": "Bouvardia City",
+    "company_name_ar": "ملاك بوفارديا سيتي",
+    "code": "Bcity"
+  },
+  {
+    "id": 89,
+    "customer_name": "Sadara",
+    "company_name_ar": "شركة صدارة للكيميائيات",
+    "code": "Sadara"
+  },
+  {
+    "id": 90,
+    "customer_name": "King Khaled Eye Specialist Hospital",
+    "company_name_ar": "مستشفى الملك خالد التخصصي للعيون",
+    "code": "kkesh"
+  },
+  {
+    "id": 91,
+    "customer_name": "Al Yamamah University",
+    "company_name_ar": "جامعة اليمامة",
+    "code": "YU"
+  },
+  {
+    "id": 92,
+    "customer_name": "Saudi Red Crescent Authority",
+    "company_name_ar": "هيئة الهلال الأحمر السعودي والمتطوعين وشركة سحاب",
+    "code": "srca"
+  },
+  {
+    "id": 93,
+    "customer_name": "Saudi Press Agency",
+    "company_name_ar": "وكالة الأنباء السعودية ( واس )",
+    "code": "spa"
+  },
+  {
+    "id": 94,
+    "customer_name": "alaseel",
+    "company_name_ar": "شركة ثوق الاصيل والجديعي للأقمشة",
+    "code": "alaseel"
+  },
+  {
+    "id": 95,
+    "customer_name": "medgulf",
+    "company_name_ar": "شركة المتوسط والخليج للتأمين وإعادة التأمين التعاوني (ميدغلف)",
+    "code": "medgulf"
+  },
+  {
+    "id": 96,
+    "customer_name": "Agricultural Development Fund",
+    "company_name_ar": "صندوق التنمية الزراعية",
+    "code": "adf"
+  },
+  {
+    "id": 97,
+    "customer_name": "Walaa Insurance",
+    "company_name_ar": "شركة ولاء للتأمين",
+    "code": "walaa"
+  },
+  {
+    "id": 98,
+    "customer_name": "National Housing Company",
+    "company_name_ar": "الشركة الوطنية للإسكان",
+    "code": "nhc"
+  },
+  {
+    "id": 99,
+    "customer_name": "Al Futtaim Engineering & Technologies Ltd",
+    "company_name_ar": "شركة الفطيم الهندسية للتقنية",
+    "code": "alfuttaim"
+  },
+  {
+    "id": 100,
+    "customer_name": "Aldrees Petroleum and Transport Services Company",
+    "company_name_ar": "شركة الدريس للخدمات البترولية والنقليات",
+    "code": "Aldrees"
+  },
+  {
+    "id": 101,
+    "customer_name": "DAR",
+    "company_name_ar": "شركة دار العقارية ( تطبيق دار )",
+    "code": "DAR"
+  },
+  {
+    "id": 102,
+    "customer_name": "Rawabi Holding",
+    "company_name_ar": "روابي القابضة",
+    "code": "Rawabi"
+  },
+  {
+    "id": 103,
+    "customer_name": "ROWABY REAL ESTATE DEVELOPMENT",
+    "company_name_ar": "روابي العقارية",
+    "code": "rowaby"
+  },
+  {
+    "id": 104,
+    "customer_name": "Magrabi Hospitals and Centers",
+    "company_name_ar": "مستشفيات ومراكز مغربي",
+    "code": "Magrabi"
+  },
+  {
+    "id": 105,
+    "customer_name": "health plus",
+    "company_name_ar": "هيلث بلاس ومركز بنون",
+    "code": "healthplus"
+  },
+  {
+    "id": 106,
+    "customer_name": "Riyadh najed schools",
+    "company_name_ar": "مدارس رياض نجد",
+    "code": "riyadhnajed"
+  },
+  {
+    "id": 107,
+    "customer_name": "Advanced Electronics",
+    "company_name_ar": "شركة الإلكترونيات المتقدمة ( سامي )",
+    "code": "aecl"
+  },
+  {
+    "id": 108,
+    "customer_name": "Saudi Authority for Intellectual Property",
+    "company_name_ar": "الهيئة السعودية للملكية الفكرية",
+    "code": "saip"
+  },
+  {
+    "id": 109,
+    "customer_name": "drive7",
+    "company_name_ar": "درايف 7",
+    "code": "drive7"
+  },
+  {
+    "id": 110,
+    "customer_name": "Dakhoon Emirati",
+    "company_name_ar": "دخون الاماراتية",
+    "code": "Dk8"
+  },
+  {
+    "id": 111,
+    "customer_name": "Roaya Smart Company",
+    "company_name_ar": "شركة رؤيا الذكية \" اميال اليت \" سابقاً والجهات التابعة لها ( تطبيق ايليت – النيابة العامة – مجلس المخاطر الوطنية – سامي للصناعات العسكرية – مركز وقاء التابع لوزارة الزراعة )",
+    "code": "ELITE"
+  },
+  {
+    "id": 112,
+    "customer_name": "Public Prosecution",
+    "company_name_ar": "النيابة العامة ( برنامج امتياز )",
+    "code": "PPKSA"
+  },
+  {
+    "id": 113,
+    "customer_name": "MAKEEN",
+    "company_name_ar": "الشركة السعودية لصناعة المحركات ( مكين )",
+    "code": "MAKEEN"
+  },
+  {
+    "id": 114,
+    "customer_name": "sdaia",
+    "company_name_ar": "الهيئة السعودية للبيانات والذكاء الاصطناعي ( سدايا )",
+    "code": "sdaia"
+  },
+  {
+    "id": 115,
+    "customer_name": "Al-Soliman Real Estate Co‏",
+    "company_name_ar": "شركة السليمان العقارية",
+    "code": "alsoliman"
+  },
+  {
+    "id": 116,
+    "customer_name": "airportsC2",
+    "company_name_ar": "شركة تجمع مطارات الثاني",
+    "code": "airportsC2"
+  },
+  {
+    "id": 117,
+    "customer_name": "Industrial Base Commercial Company",
+    "company_name_ar": "شركة قواعد الصناعة التجارية",
+    "code": "indbis"
+  },
+  {
+    "id": 118,
+    "customer_name": "Qassim Municipality",
+    "company_name_ar": "أمانة منطقة القصيم",
+    "code": "Qassim"
+  },
+  {
+    "id": 119,
+    "customer_name": "Aljasser Group",
+    "company_name_ar": "مجموعة الجاسر ( الخزائن المبتكرة – عالم الخزائن )",
+    "code": "aljasser"
+  },
+  {
+    "id": 120,
+    "customer_name": "OulaApp",
+    "company_name_ar": "تطبيق اولى اب",
+    "code": "OulaApp"
+  },
+  {
+    "id": 121,
+    "customer_name": "Soliman Fakeeh Hospital",
+    "company_name_ar": "مستشفى الدكتور سليمان فقيه",
+    "code": "Fakeeh"
+  },
+  {
+    "id": 122,
+    "customer_name": "General Commission for the Guardianship",
+    "company_name_ar": "الهيئة العامة للولاية على أموال القاصرين ومن في حكمهم",
+    "code": "wilayah"
+  },
+  {
+    "id": 123,
+    "customer_name": "Saudi Food and Drug Authority",
+    "company_name_ar": "الهيئة العامة للغذاء والدواء",
+    "code": "SFDA"
+  },
+  {
+    "id": 124,
+    "customer_name": "jazeera paints",
+    "company_name_ar": "شركة دهانات الجزيرة",
+    "code": "Jpaints"
+  },
+  {
+    "id": 125,
+    "customer_name": "Saudi Awwal bank",
+    "company_name_ar": "البنك السعودي الأول ( ساب )",
+    "code": "SAB"
+  },
+  {
+    "id": 126,
+    "customer_name": "back comfort",
+    "company_name_ar": "شركة باك كمفورت وشركة أسس العقارية وأسرهم",
+    "code": "bcf"
+  },
+  {
+    "id": 127,
+    "customer_name": "hungerstation",
+    "company_name_ar": "شركة هنقرستيشن المحدودة",
+    "code": "SH2024"
+  },
+  {
+    "id": 128,
+    "customer_name": "mutakamela",
+    "company_name_ar": "شركة متكاملة للتأمين ( شركة اليانز السعودي الفرنسي للتأمين التعاوني سابقا )",
+    "code": "Allianz"
+  },
+  {
+    "id": 129,
+    "customer_name": "Tiraz",
+    "company_name_ar": "شركة طراز العربية",
+    "code": "Tiraz"
+  },
+  {
+    "id": 130,
+    "customer_name": "PIF",
+    "company_name_ar": "صندوق الاستثمارات العامة والجهات التابعة لها ( شركة تأجير الطائرات افيليس - شركة تراث المدينة - شركة تطوير البلد - شركة العلا للتطوير - شركة أردارا للتطوير - شركة أرسيلور ميتال تيوبيلر برودكتس الجبيل - شركة عسير للاستثمار - شركة خدمات الطيران طيران الرياض - شركة بدائل - شركة مجموعة بوتيك - شركة سير الوطنية للسيارات - شركة مركز الحوكمة - شركة دان )",
+    "code": "PIF"
+  }
+],
+
+"showrooms_locations":[
+  {
+    "id": 1,
+    "city": "الرياض",
+    "showroom_name": "معرض الياسمين",
+    "location_description": "الياسمين شارع انس بن مالك قبل محل القط المدلل",
+    "phone": "+96611 238 5687",
+    "extension": null,
+    "working_hours_morning": "من 9:30 صباحاً",
+    "working_hours_evening": "إلى 11:00 مساءً",
+    "working_days": "من السبت إلى الخميس (الجمعة من الساعة 4:00 إلى 11:00)"
+  },
+  {
+    "id": 2,
+    "city": "الرياض",
+    "showroom_name": "مقر بضائع مخفضة (الجنادرية)",
+    "location_description": "طريق الجنادرية ، القادسية ، بجوار شركة GET للمعدات الثقيلة",
+    "phone": "+96611263 8900",
+    "extension": "11731",
+    "working_hours_morning": "من 9:00 صباحاً",
+    "working_hours_evening": "إلى 6:00 مساءً",
+    "working_days": "من السبت إلى الخميس، الجمعة إجازة رسمية"
+  },
+  {
+    "id": 3,
+    "city": "الرياض",
+    "showroom_name": "معرض الثمامة",
+    "location_description": "(معرض الثمامة) شارع الثمامه حى قرطبة نفس مبنى STC أمام مسجد عبد العزيز علي العبد الكريم",
+    "phone": "0533730895",
+    "extension": null,
+    "working_hours_morning": "من 9:30 صباحاً",
+    "working_hours_evening": "إلى 11:00 مساءً",
+    "working_days": "من السبت إلى الخميس (الجمعة من الساعة 4:00 إلى 11:00)"
+  },
+  {
+    "id": 4,
+    "city": "الرياض",
+    "showroom_name": "معرض مخرج 5",
+    "location_description": "مخرج 5 ، حي الغدير",
+    "phone": "0508416256",
+    "extension": null,
+    "working_hours_morning": "من 9:30 صباحاً",
+    "working_hours_evening": "إلى 11:00 مساءً",
+    "working_days": "من السبت إلى الخميس (الجمعة من الساعة 4:00 إلى 11:00)"
+  },
+  {
+    "id": 5,
+    "city": "الرياض",
+    "showroom_name": "معرض لبن",
+    "location_description": "لبن",
+    "phone": null,
+    "extension": null,
+    "working_hours_morning": "من 9:30 صباحاً",
+    "working_hours_evening": "إلى 11:00 مساءً",
+    "working_days": "من السبت إلى الخميس (الجمعة من الساعة 4:00 إلى 11:00)"
+  },
+  {
+    "id": 6,
+    "city": "جدة",
+    "showroom_name": "معرض الزهرة",
+    "location_description": "الزهرة ، شارع البترجي - مركز لاتيرا بجوار واحة الحيوان",
+    "phone": "+96611263 8900",
+    "extension": "12400",
+    "working_hours_morning": "من 9:30 صباحاً",
+    "working_hours_evening": "إلى 11:00 مساءً",
+    "working_days": "من السبت إلى الخميس (الجمعة من الساعة 4:00 إلى 11:00)"
+  },
+  {
+    "id": 7,
+    "city": "جدة",
+    "showroom_name": "مقر بضائع مخفضة (سوق 7)",
+    "location_description": "سوق 7 - حي الجامعة",
+    "phone": "+966568164098",
+    "extension": null,
+    "working_hours_morning": "من 09:30 صباحاً إلى 12:00 مساءً",
+    "working_hours_evening": "من 04:30 مساءً إلى 10:00 مساءَ",
+    "working_days": "من السبت إلى الخميس (الجمعة من الساعة 4:00 إلى 11:00)"
+  },
+  {
+    "id": 8,
+    "city": "جدة",
+    "showroom_name": "معرض الحمدانية",
+    "location_description": "الحمدانية",
+    "phone": "0508574905",
+    "extension": null,
+    "working_hours_morning": "من 9:30 صباحاً",
+    "working_hours_evening": "إلى 11:00 مساءً",
+    "working_days": "من السبت إلى الخميس (الجمعة من الساعة 4:00 إلى 11:00)"
+  },
+  {
+    "id": 9,
+    "city": "الخبر",
+    "showroom_name": "معرض الخبر (الراكة)",
+    "location_description": "طريق الملك فهد ، الراكة الجنوبية ، (طريق الخبر الدمام السريع) قبل حايل سنتر مقابل نادي النهضه الرياضي",
+    "phone": "+96611263 8900",
+    "extension": "13339",
+    "working_hours_morning": "من 09:00 صباحاً إلى 12:00 مساءً",
+    "working_hours_evening": "من 04:00 مساءً إلى 09:00 مساءً",
+    "working_days": "من السبت إلى الخميس (الجمعة من الساعة 4:00 الى 11:00 )"
+  },
+  {
+    "id": 10,
+    "city": "الدمام",
+    "showroom_name": "معرض الدمام",
+    "location_description": "الشرقية – الدمام شارع الخليج",
+    "phone": null,
+    "extension": null,
+    "working_hours_morning": "من 9:30 صباحاً",
+    "working_hours_evening": "إلى 11:00 مساءً",
+    "working_days": "من السبت إلى الخميس (الجمعة من الساعة 4:00 إلى 11:00)"
+  },
+  {
+    "id": 11,
+    "city": "القصيم/ بريدة",
+    "showroom_name": "معرض بريدة (الريان)",
+    "location_description": "الريان ، شارع الملك عبد العزيز حي السبيعية ، مخرج الدائري الشمالي ، بجانب CITY W للمفروشات , مقابل اوتوستار",
+    "phone": "+96611263 8900",
+    "extension": "16444",
+    "working_hours_morning": "من 09:00 صباحاً إلى 12:00 مساءً",
+    "working_hours_evening": "من 04:00 مساءً إلى 09:00 مساءً",
+    "working_days": "من السبت إلى الخميس (الجمعة من الساعة 4:00 إلى 10:00)"
+  },
+  {
+    "id": 12,
+    "city": "جيزان",
+    "showroom_name": "معرض جيزان (الشاطئ)",
+    "location_description": "طريق الأمير سلطان، الشاطئ، بجوار الصديق للأثاث (يتم البحث في قوقل ماب ب Shaker group)",
+    "phone": null,
+    "extension": null,
+    "working_hours_morning": "من 09:30 صباحاً",
+    "working_hours_evening": "من 11:00 مساءً",
+    "working_days": "من السبت إلى الخميس (الجمعة من الساعة 4:00 إلى 11:00)"
+  }
+]
+
+installation_delivery=[
+  {
+    "city": "ابها",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "ابو عريش",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "احد المسارحة",
+    "delivery_status": "متاح",
+    "ac_installation_status": "غير متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "احد رفيده",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "الباحة",
+    "delivery_status": "متاح",
+    "ac_installation_status": "غير متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "البدائع",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "سيتم فرض رسوم قدرها 100 ريال سعودي إذا كان عدد وحدات المكيفات أقل من 2"
+  },
+  {
+    "city": "البكيرية",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "سيتم فرض رسوم قدرها 100 ريال سعودي إذا كان عدد وحدات المكيفات أقل من 2"
+  },
+  {
+    "city": "الجبيل",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "سيتم فرض رسوم قدرها 100 ريال سعودي إذا كان عدد وحدات المكيفات أقل من 2"
+  },
+  {
+    "city": "الجموم",
+    "delivery_status": "متاح",
+    "ac_installation_status": "غير متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "الخبر",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "1-3 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "الخرج",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "سيتم فرض رسوم قدرها 100 ريال سعودي إذا كان عدد وحدات المكيفات أقل من 2"
+  },
+  {
+    "city": "الدرعية",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "1-3 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "الدلم",
+    "delivery_status": "متاح",
+    "ac_installation_status": "غير متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "الدمام",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "1-3 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "الرس",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "سيتم فرض رسوم قدرها 150 ريال سعودي إذا كان عدد وحدات المكيفات أقل من 2"
+  },
+  {
+    "city": "الرميلة",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "الرياض",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "1-3 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "الزلفي",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "سيتم فرض رسوم قدرها 150 ريال سعودي إذا كان عدد وحدات المكيفات أقل من 2"
+  },
+  {
+    "city": "الشماسية",
+    "delivery_status": "متاح",
+    "ac_installation_status": "غير متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "الطائف",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "الظهران",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "1-3 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "العماريه",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "سيتم فرض رسوم قدرها 100 ريال سعودي إذا كان عدد وحدات المكيفات أقل من 2"
+  },
+  {
+    "city": "العيون",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "الغاط",
+    "delivery_status": "متاح",
+    "ac_installation_status": "غير متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "القطيف",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "سيتم فرض رسوم قدرها 150 ريال سعودي إذا كان عدد وحدات المكيفات أقل من 2"
+  },
+  {
+    "city": "المجمعة",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "المخواة",
+    "delivery_status": "متاح",
+    "ac_installation_status": "غير متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "المدينة المنورة",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "المذنب",
+    "delivery_status": "متاح",
+    "ac_installation_status": "غير متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "المزاحمية",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "سيتم فرض رسوم قدرها 100 ريال سعودي إذا كان عدد وحدات المكيفات أقل من 2"
+  },
+  {
+    "city": "الهفوف",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "سيتم فرض رسوم قدرها 150 ريال سعودي إذا كان عدد وحدات المكيفات أقل من 2"
+  },
+  {
+    "city": "بدر",
+    "delivery_status": "متاح",
+    "ac_installation_status": "غير متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "بدر حنين",
+    "delivery_status": "متاح",
+    "ac_installation_status": "غير متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "بريدة",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "بقيق",
+    "delivery_status": "متاح",
+    "ac_installation_status": "غير متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "بلجرشي",
+    "delivery_status": "متاح",
+    "ac_installation_status": "غير متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "بيشة",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "تاروت",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "سيتم فرض رسوم قدرها 100 ريال سعودي إذا كان عدد وحدات المكيفات أقل من 2"
+  },
+  {
+    "city": "تبوك",
+    "delivery_status": "متاح",
+    "ac_installation_status": "غير متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "تندحة",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "ثول",
+    "delivery_status": "متاح",
+    "ac_installation_status": "غير متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "جازان",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "جامعة الملك عبدالله الاقتصادية",
+    "delivery_status": "متاح",
+    "ac_installation_status": "غير متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "جدة",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "1-3 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "حائل",
+    "delivery_status": "متاح",
+    "ac_installation_status": "غير متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "خليص",
+    "delivery_status": "متاح",
+    "ac_installation_status": "غير متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "خميس مشيط",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "دارين",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "رابغ",
+    "delivery_status": "متاح",
+    "ac_installation_status": "غير متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "راس تنورة",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "سيتم فرض رسوم قدرها 100 ريال سعودي إذا كان عدد وحدات المكيفات أقل من 2"
+  },
+  {
+    "city": "رياض الخبراء",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "سيتم فرض رسوم قدرها 150 ريال سعودي إذا كان عدد وحدات المكيفات أقل من 2"
+  },
+  {
+    "city": "سراة عبيدة",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "سكاكا",
+    "delivery_status": "متاح",
+    "ac_installation_status": "غير متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "sيهات",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "سيتم فرض رسوم قدرها 100 ريال سعودي إذا كان عدد وحدات المكيفات أقل من 2"
+  },
+  {
+    "city": "شقراء",
+    "delivery_status": "متاح",
+    "ac_installation_status": "غير متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "شنان",
+    "delivery_status": "متاح",
+    "ac_installation_status": "غير متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "صامطة",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "سيتم فرض رسوم قدرها 100 ريال سعودي إذا كان عدد وحدات المكيفات أقل من 2"
+  },
+  {
+    "city": "صبيا",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "سيتم فرض رسوم قدرها 100 ريال سعودي إذا كان عدد وحدات المكيفات أقل من 2"
+  },
+  {
+    "city": "صفوى",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "سيتم فرض رسوم قدرها 100 ريال سعودي إذا كان عدد وحدات المكيفات أقل من 2"
+  },
+  {
+    "city": "عرعر",
+    "delivery_status": "متاح",
+    "ac_installation_status": "غير متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "عنك",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "عنيزة",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "سيتم فرض رسوم قدرها 100 ريال سعودي إذا كان عدد وحدات المكيفات أقل من 2"
+  },
+  {
+    "city": "عيون الجواء",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "سيتم فرض رسوم قدرها 100 ريال سعودي إذا كان عدد وحدات المكيفات أقل من 2"
+  },
+  {
+    "city": "قلوة",
+    "delivery_status": "متاح",
+    "ac_installation_status": "غير متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "مبرز",
+    "delivery_status": "متاح",
+    "ac_installation_status": "غير متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "مدينة الملك عبدالله الاقتصادية",
+    "delivery_status": "متاح",
+    "ac_installation_status": "غير متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "مكة",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "نجران",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  },
+  {
+    "city": "ينبع",
+    "delivery_status": "متاح",
+    "ac_installation_status": "متاح",
+    "delivery_duration": "7-10 أيام عمل",
+    "additional_fees": "لايوجد"
+  }
+]
+}
+
+
