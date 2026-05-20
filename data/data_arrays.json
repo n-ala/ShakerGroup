@@ -3417,9 +3417,9 @@
     "working_hours_evening": "من 11:00 مساءً",
     "working_days": "من السبت إلى الخميس (الجمعة من الساعة 4:00 إلى 11:00)"
   }
-]
+],
 
-installation_delivery=[
+"installation_delivery":[
   {
     "city": "ابها",
     "delivery_status": "متاح",
