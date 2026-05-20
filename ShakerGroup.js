@@ -3,37 +3,64 @@ const url = require('url');
 const fs = require('fs');
 const path = require('path');
 
-// Global database storage context
+// Global database memory context
 const db = {};
 
+/**
+ * Loads valid JSON configurations from the data directory and maps them to memory arrays
+ */
 function bootstrapDatabase() {
     try {
         const dataDir = path.join(__dirname, 'data');
-        
-        // 1. Load standard regions array
+
+        if (!fs.existsSync(dataDir)) {
+            console.error(`❌ Critical Error: The data folder path does not exist: ${dataDir}`);
+            process.exit(1);
+        }
+
+        // 1. Process regions array file
         const regionsPath = path.join(dataDir, 'regions_and_neighbourhoods.json');
         if (fs.existsSync(regionsPath)) {
             const regionsData = JSON.parse(fs.readFileSync(regionsPath, 'utf8'));
             db['regions'] = Array.isArray(regionsData) ? regionsData : [];
+        } else {
+            console.warn("⚠️ Warning: regions_and_neighbourhoods.json was not found.");
         }
 
-        // 2. Load the structural map
+        // 2. Process multi-array format file
         const dataArraysPath = path.join(dataDir, 'data_arrays.json');
         if (fs.existsSync(dataArraysPath)) {
             const structuralMap = JSON.parse(fs.readFileSync(dataArraysPath, 'utf8'));
+            
+            let arrayCount = 0;
             for (const key in structuralMap) {
                 if (Array.isArray(structuralMap[key])) {
-                    db[key] = structuralMap[key];
+                    // Enforce lowercase route names for URL consistency
+                    db[key.toLowerCase()] = structuralMap[key];
+                    arrayCount++;
                 }
             }
+            console.log(`\n✅ Database Bootstrap Success: Loaded 1 array from regions and ${arrayCount} arrays from data_arrays.json`);
+        } else {
+            console.error("❌ Critical Error: data_arrays.json was not found.");
         }
-        console.log('Successfully registered entities:', Object.keys(db));
+
+        // Log exactly which API paths are live for validation testing
+        console.log('\n🚀 Automated API Routes Mounted:');
+        Object.keys(db).forEach(collection => {
+            console.log(`  -> [GET/POST/PUT] http://localhost:3000/api/${collection}`);
+        });
+        console.log('--------------------------------------------------\n');
+
     } catch (error) {
-        console.error('Critical failure mapping files:', error.message);
+        console.error('\n❌ Critical JSON Parsing Error during startup validation checklist:');
+        console.error(error.message);
+        console.error('Make sure all comma dividers and bracket pairs are structured cleanly.\n');
         process.exit(1);
     }
 }
 
+// Run database loader
 bootstrapDatabase();
 
 function collectRequestBody(req) {
@@ -45,12 +72,14 @@ function collectRequestBody(req) {
     });
 }
 
+// Instantiate server logic core
 const server = http.createServer(async (req, res) => {
     const parsedUrl = url.parse(req.url, true);
     const pathname = parsedUrl.pathname.replace(/\/$/, '').toLowerCase();
     const method = req.method;
-    const query = parsedUrl.query; // Capture query params (e.g., ?model=NG182C4 SK1 or ?city=Riyadh)
+    const query = parsedUrl.query;
 
+    // Enforce global UTF-8 encoding configuration for accurate Arabic processing
     res.setHeader('Content-Type', 'application/json; charset=utf-8');
 
     try {
@@ -59,57 +88,56 @@ const server = http.createServer(async (req, res) => {
 
             if (db.hasOwnProperty(targetCollection)) {
                 
-                // --- GET METHOD ---
+                // --- GET METHOD ENDPOINT ---
                 if (method === 'GET') {
                     res.statusCode = 200;
                     return res.end(JSON.stringify(db[targetCollection]));
                 }
 
-                // --- POST METHOD ---
+                // --- POST METHOD ENDPOINT ---
                 if (method === 'POST') {
                     const rawBody = await collectRequestBody(req);
                     if (!rawBody) {
                         res.statusCode = 400;
-                        return res.end(JSON.stringify({ error: "Payload body missing." }));
+                        return res.end(JSON.stringify({ error: "Payload data string cannot be null." }));
                     }
                     const payload = JSON.parse(rawBody);
                     db[targetCollection].push(payload);
                     res.statusCode = 201;
-                    return res.end(JSON.stringify({ message: "Record added successfully", storedData: payload }));
+                    return res.end(JSON.stringify({ message: "Record successfully appended.", storedData: payload }));
                 }
 
-                // --- NEW: PUT METHOD (DYNAMIC UPDATE) ---
+                // --- PUT METHOD ENDPOINT ---
                 if (method === 'PUT') {
-                    // 1. Identify what unique key the user is querying against
                     const queryKeys = Object.keys(query);
                     if (queryKeys.length === 0) {
                         res.statusCode = 400;
-                        return res.end(JSON.stringify({ error: "Missing query identifier parameter. Example: ?model=XYZ or ?city=ABC" }));
+                        return res.end(JSON.stringify({ error: "Missing identifier filter string query parameter. (e.g. ?model=XYZ)" }));
                     }
 
-                    const identifierKey = queryKeys[0]; // e.g., 'model' or 'city'
-                    const identifierValue = query[identifierKey].toLowerCase();
+                    const identifierKey = queryKeys[0];
+                    const identifierValue = String(query[identifierKey]).toLowerCase();
 
-                    // 2. Locate the index of the item inside our array
+                    // Search index mapping configuration layer
                     const itemIndex = db[targetCollection].findIndex(item => {
-                        // Check if the property exists on the item and matches the query value
-                        return item[identifierKey] && String(item[identifierKey]).toLowerCase() === identifierValue;
+                        // Dynamically find a matching key inside the target row record
+                        const itemValue = Object.keys(item).find(k => k.toLowerCase() === identifierKey.toLowerCase());
+                        return itemValue && String(item[itemValue]).toLowerCase() === identifierValue;
                     });
 
                     if (itemIndex === -1) {
                         res.statusCode = 404;
-                        return res.end(JSON.stringify({ error: `Record not found where ${identifierKey} equals '${query[identifierKey]}'.` }));
+                        return res.end(JSON.stringify({ error: `Record matching search descriptor ${identifierKey}='${query[identifierKey]}' could not be found.` }));
                     }
 
-                    // 3. Collect new payload updates
                     const rawBody = await collectRequestBody(req);
                     if (!rawBody) {
                         res.statusCode = 400;
-                        return res.end(JSON.stringify({ error: "Payload update body missing." }));
+                        return res.end(JSON.stringify({ error: "Body content updates required." }));
                     }
                     const updatePayload = JSON.parse(rawBody);
 
-                    // 4. Perform a shallow merge of properties into the existing object
+                    // Perform shallow dictionary merge mapping over target item index configuration
                     db[targetCollection][itemIndex] = {
                         ...db[targetCollection][itemIndex],
                         ...updatePayload
@@ -117,26 +145,27 @@ const server = http.createServer(async (req, res) => {
 
                     res.statusCode = 200;
                     return res.end(JSON.stringify({
-                        message: "Record updated successfully",
+                        message: "Item record updated successfully",
                         updatedData: db[targetCollection][itemIndex]
                     }));
                 }
 
                 res.statusCode = 405;
-                return res.end(JSON.stringify({ error: `Method action ${method} explicitly unsupported.` }));
+                return res.end(JSON.stringify({ error: `Method ${method} is not supported for this dataset.` }));
             }
         }
 
+        // Catch-all route mismatch error response 
         res.statusCode = 404;
         res.end(JSON.stringify({ error: "Endpoint route not found." }));
 
     } catch (err) {
         res.statusCode = 500;
-        res.end(JSON.stringify({ error: "Internal parse exception.", details: err.message }));
+        res.end(JSON.stringify({ error: "Internal microservice core evaluation fault.", details: err.message }));
     }
 });
 
 const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {
-    console.log(`\n🚀 Dynamic REST Engine with PUT support live at: http://localhost:${PORT}`);
+    console.log(`🚀 API Microservice environment live executing at: http://localhost:${PORT}`);
 });
