@@ -1,5 +1,4 @@
 const http = require('http');
-const url = require('url');
 const fs = require('fs');
 const path = require('path');
 
@@ -35,8 +34,8 @@ function bootstrapDatabase() {
             let arrayCount = 0;
             for (const key in structuralMap) {
                 if (Array.isArray(structuralMap[key])) {
-                    // Enforce lowercase route names for URL consistency
-                    db[key.toLowerCase()] = structuralMap[key];
+                    // Force registry collection keys to be lowercase
+                    db[key.trim().toLowerCase()] = structuralMap[key];
                     arrayCount++;
                 }
             }
@@ -45,17 +44,16 @@ function bootstrapDatabase() {
             console.error("❌ Critical Error: data_arrays.json was not found.");
         }
 
-        // Log exactly which API paths are live for validation testing
-        console.log('\n🚀 Automated API Routes Mounted:');
+        // Visual validation checking block
+        console.log('\n🚀 Automated API Routes Mounted & Live:');
         Object.keys(db).forEach(collection => {
-            console.log(`  -> [GET/POST/PUT] http://localhost:3000/api/${collection}`);
+            console.log(`  -> [GET/POST/PUT] http://localhost:10000/api/${collection}`);
         });
         console.log('--------------------------------------------------\n');
 
     } catch (error) {
         console.error('\n❌ Critical JSON Parsing Error during startup validation checklist:');
         console.error(error.message);
-        console.error('Make sure all comma dividers and bracket pairs are structured cleanly.\n');
         process.exit(1);
     }
 }
@@ -72,12 +70,20 @@ function collectRequestBody(req) {
     });
 }
 
-// Instantiate server logic core
+// Instantiate modern server layout logic core
 const server = http.createServer(async (req, res) => {
-    const parsedUrl = url.parse(req.url, true);
-    const pathname = parsedUrl.pathname.replace(/\/$/, '').toLowerCase();
+    // --- MODERN WHATWG URL PARSING ENGINE ---
+    // Using a fallback dummy base string handles internal local routing arrays reliably
+    const reqUrl = new URL(req.url, `http://${req.headers.host || 'localhost'}`);
+    
+    // Normalize pathname: lowercase it and strip trailing slashes safely
+    let pathname = reqUrl.pathname.toLowerCase();
+    if (pathname.endsWith('/') && pathname !== '/') {
+        pathname = pathname.slice(0, -1);
+    }
+    
     const method = req.method;
-    const query = parsedUrl.query;
+    const searchParams = reqUrl.searchParams; // Modern iterable URLSearchParams map
 
     // Enforce global UTF-8 encoding configuration for accurate Arabic processing
     res.setHeader('Content-Type', 'application/json; charset=utf-8');
@@ -109,25 +115,25 @@ const server = http.createServer(async (req, res) => {
 
                 // --- PUT METHOD ENDPOINT ---
                 if (method === 'PUT') {
-                    const queryKeys = Object.keys(query);
+                    // Extract keys using modern search parameter iterator maps
+                    const queryKeys = Array.from(searchParams.keys());
                     if (queryKeys.length === 0) {
                         res.statusCode = 400;
                         return res.end(JSON.stringify({ error: "Missing identifier filter string query parameter. (e.g. ?model=XYZ)" }));
                     }
 
                     const identifierKey = queryKeys[0];
-                    const identifierValue = String(query[identifierKey]).toLowerCase();
+                    const identifierValue = searchParams.get(identifierKey).toLowerCase();
 
-                    // Search index mapping configuration layer
+                    // Search index mapping layer
                     const itemIndex = db[targetCollection].findIndex(item => {
-                        // Dynamically find a matching key inside the target row record
-                        const itemValue = Object.keys(item).find(k => k.toLowerCase() === identifierKey.toLowerCase());
-                        return itemValue && String(item[itemValue]).toLowerCase() === identifierValue;
+                        const matchedKey = Object.keys(item).find(k => k.toLowerCase() === identifierKey.toLowerCase());
+                        return matchedKey && String(item[matchedKey]).toLowerCase() === identifierValue;
                     });
 
                     if (itemIndex === -1) {
                         res.statusCode = 404;
-                        return res.end(JSON.stringify({ error: `Record matching search descriptor ${identifierKey}='${query[identifierKey]}' could not be found.` }));
+                        return res.end(JSON.stringify({ error: `Record matching search descriptor ${identifierKey}='${searchParams.get(identifierKey)}' could not be found.` }));
                     }
 
                     const rawBody = await collectRequestBody(req);
@@ -137,7 +143,7 @@ const server = http.createServer(async (req, res) => {
                     }
                     const updatePayload = JSON.parse(rawBody);
 
-                    // Perform shallow dictionary merge mapping over target item index configuration
+                    // Perform shallow object property merge
                     db[targetCollection][itemIndex] = {
                         ...db[targetCollection][itemIndex],
                         ...updatePayload
@@ -165,7 +171,7 @@ const server = http.createServer(async (req, res) => {
     }
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 server.listen(PORT, () => {
     console.log(`🚀 API Microservice environment live executing at: http://localhost:${PORT}`);
 });
