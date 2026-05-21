@@ -1,4 +1,178 @@
 {
+    "user_profiles": [
+    {
+      "profile_id": "USR-9981",
+      "full_name": "نور العفيشات",
+      "email": "noor@gmail.com",
+      "phone": "+966500000000",
+      "preferred_language": "ar"
+    },
+          {
+      "profile_id": "USR-9982",
+      "full_name": "معاذ درويش",
+      "email": "moath@gmail.com",
+      "phone": "+966500000000",
+      "preferred_language": "ar"
+    }
+  ],
+  "service_types": [
+    {"service_id": "ST-01", "name_en": "General Service", "name_ar": "صيانة عامة"},
+    {"service_id": "ST-02", "name_en": "B2B Repair", "name_ar": "إصلاح الشركات B2B"},
+    {"service_id": "ST-03", "name_en": "Installation", "name_ar": "تركيب جديد"},
+    {"service_id": "ST-04", "name_en": "Cleaning Service", "name_ar": "خدمة تنظيف غسيل كلي"}
+  ],
+  "categories": [
+    {"category_id": "CAT-01", "name_en": "Split AC", "name_ar": "مكيف سبليت"},
+    {"category_id": "CAT-02", "name_en": "Window AC", "name_ar": "مكيف شباك"},
+    {"category_id": "CAT-03", "name_en": "Floor Standing", "name_ar": "مكيف دولابي"}
+  ],
+  "issue_types": [
+    {"issue_id": "ISS-01", "name_en": "Not working / Power Failure", "name_ar": "الجهاز لا يعمل تماماً"},
+    {"issue_id": "ISS-02", "name_en": "Not cooling enough", "name_ar": "التبريد ضعيف"},
+    {"issue_id": "ISS-03", "name_en": "Water leakage", "name_ar": "تسريب مياه من الوحدة"},
+    {"issue_id": "ISS-04", "name_en": "Loud noise issue", "name_ar": "صوت ضجيج مرتفع"}
+  ],
+  "technician_slots": [
+    {
+      "slot_id": "SLOT-552",
+      "date": "2026-05-25",
+      "time_window": "10:00 AM - 01:00 PM",
+      "technician_name": "احمد منصور",
+      "region": "Central (Riyadh)",
+      "is_available": true
+    },
+    {
+      "slot_id": "SLOT-553",
+      "date": "2026-05-25",
+      "time_window": "01:30 PM - 04:30 PM",
+      "technician_name": "احمد منصور",
+      "region": "Central (Riyadh)",
+      "is_available": false
+    },
+    {
+      "slot_id": "SLOT-554",
+      "date": "2026-05-25",
+      "time_window": "05:00 PM - 08:00 PM",
+      "technician_name": "ياسر القحطاني",
+      "region": "Central (Riyadh)",
+      "is_available": true
+    },
+    {
+      "slot_id": "SLOT-555",
+      "date": "2026-05-26",
+      "time_window": "09:00 AM - 12:00 PM",
+      "technician_name": "محمد علي",
+      "region": "Western (Jeddah)",
+      "is_available": true
+    },
+    {
+      "slot_id": "SLOT-556",
+      "date": "2026-05-26",
+      "time_window": "01:00 PM - 04:00 PM",
+      "technician_name": "محمد علي",
+      "region": "Western (Jeddah)",
+      "is_available": true
+    },
+    {
+      "slot_id": "SLOT-557",
+      "date": "2026-05-26",
+      "time_window": "10:00 AM - 01:00 PM",
+      "technician_name": "عبدالله الشمري",
+      "region": "Eastern (Dammam)",
+      "is_available": true
+    },
+    {
+      "slot_id": "SLOT-558",
+      "date": "2026-05-27",
+      "time_window": "09:00 AM - 12:00 PM",
+      "technician_name": "طارق عمر",
+      "region": "Southern (Khamis Mushait)",
+      "is_available": false
+    },
+    {
+      "slot_id": "SLOT-559",
+      "date": "2026-05-27",
+      "time_window": "02:00 PM - 05:00 PM",
+      "technician_name": "طارق عمر",
+      "region": "Southern (Khamis Mushait)",
+      "is_available": true
+    }
+  ],
+  "service_requests": [
+    {
+      "request_id": "SR-2026-0001",
+      "profile_id": "USR-9981",
+      "service_id": "ST-03",
+      "category_id": "CAT-01",
+      "issue_id": "ISS-03",
+      "selected_slot_id": "SLOT-552",
+      "status": "Pending Allocation"
+    }
+  ],
+  "inquiry_types": [
+    {"type_id": "INQ-T-01", "name_en": "Service", "name_ar": "استفسار خدمات صيانة"},
+    {"type_id": "INQ-T-02", "name_en": "Non Service", "name_ar": "استفسار إداري عام"},
+    {"type_id": "INQ-T-03", "name_en": "Sales", "name_ar": "استفسارات المبيعات"},
+    {"type_id": "INQ-T-04", "name_en": "Supply Chain", "name_ar": "سلاسل الإمداد والتوصيل"}
+  ],
+  "inquiry_sub_types": [
+    {"sub_type_id": "INQ-S-01", "parent_type_id": "INQ-T-01", "name_en": "Repair Status", "name_ar": "حالة أمر الإصلاح"},
+    {"sub_type_id": "INQ-S-02", "parent_type_id": "INQ-T-01", "name_en": "Spare Parts availability", "name_ar": "توفر قطع الغيار"},
+    {"sub_type_id": "INQ-S-03", "parent_type_id": "INQ-T-03", "name_en": "Product Issue / Specs", "name_ar": "تفاصيل ومواصفات المنتج"}
+  ],
+  "inquiry_requests": [
+    {
+      "inquiry_id": "INQ-2026-881",
+      "profile_id": "USR-9981",
+      "type_id": "INQ-T-01",
+      "sub_type_id": "INQ-S-02",
+      "user_message": "هل يتوفر كمبروسر مكيف سبليت ال جي انفرتر 18 بارد؟",
+      "status": "Open"
+    }
+  ],
+  "complaint_types": [
+    {"type_id": "CMP-T-01", "name_en": "Service", "name_ar": "شكاوى الصيانة والخدمات"},
+    {"type_id": "CMP-T-02", "name_en": "Non Service", "name_ar": "شكاوى عامة"},
+    {"type_id": "CMP-T-03", "name_en": "Sales", "name_ar": "شكاوى المبيعات والمعارض"},
+    {"type_id": "CMP-T-04", "name_en": "Supply Chain", "name_ar": "شكاوى الشحن والتوصيل المتأخر"}
+  ],
+  "complaint_sub_types": [
+    {"sub_type_id": "CMP-S-01", "parent_type_id": "CMP-T-01", "name_en": "Warranty Discrepancy", "name_ar": "مشكلة في احتساب الضمان"},
+    {"sub_type_id": "CMP-S-02", "parent_type_id": "CMP-T-01", "name_en": "Visit Delay / Issue", "name_ar": "تأخر وصول الفني عن الموعد"},
+    {"sub_type_id": "CMP-S-03", "parent_type_id": "CMP-T-01", "name_en": "Repair Quality complaint", "name_ar": "جودة الإصلاح سيئة أو تكرر العطل"}
+  ],
+  "complaint_requests": [
+    {
+      "complaint_id": "COM-2026-441",
+      "profile_id": "USR-9981",
+      "type_id": "CMP-T-01",
+      "sub_type_id": "CMP-S-02",
+      "details": "الفني لم يحضر في نافذة الوقت المتفق عليها اليوم",
+      "status": "Under Investigation"
+    }
+  ],
+  "submitted_tickets": [
+    {
+      "ticket_id": "TCK-55412",
+      "profile_id": "USR-9981",
+      "brand": "LG",
+      "category": "Split AC",
+      "reference_order_number": "SR-2026-0001",
+      "technician_name": "احمد منصور",
+      "current_progress": "In Progress"
+    }
+  ],
+  "sales_orders": [
+    {
+      "order_id": "SO-77412",
+      "profile_id": "USR-9981",
+      "model_requested": "NG182C4 SK1",
+      "quantity": 2,
+      "total_price_sar": 5400,
+      "delivery_city": "الرياض",
+      "payment_method": "Mada"
+    }
+  ],
 "lg_brand":[
   {
     "model": "NG182C4 SK1",
