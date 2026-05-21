@@ -140,37 +140,58 @@ const server = http.createServer(async (req, res) => {
                 // --- POST METHOD ENDPOINT ---
                 if (method === 'POST') {
                     const rawBody = await collectRequestBody(req);
-                    if (!rawBody) {
+                    if (!rawBody || !rawBody.trim()) {
                         res.statusCode = 400;
-                        return res.end(JSON.stringify({ error: "Payload data string cannot be null." }));
+                        return res.end(JSON.stringify({ error: "Payload data string cannot be null or empty." }));
                     }
                     
                     const payload = JSON.parse(rawBody);
 
-                    // --- AUTOMATIC ID GENERATION FOR USER PROFILES ---
-                    if (targetCollection === 'user_profiles') {
-                        // Find the highest numeric ID current in the database array
-                        let maxIdNum = 9981; // Starting baseline fallback
-                        
-                        db[targetCollection].forEach(user => {
-                            if (user.profile_id && user.profile_id.startsWith('USR-')) {
-                                const currentNum = parseInt(user.profile_id.replace('USR-', ''), 10);
+                    // --- FULLY DYNAMIC AUTOMATIC ID GENERATOR ---
+                    const prefixConfig = {
+                        'user_profiles':      { prefix: 'USR-',      key: 'profile_id',       pad: 0, defaultMax: 9981 },
+                        'service_types':      { prefix: 'ST-',       key: 'service_id',       pad: 2, defaultMax: 4 },
+                        'categories':         { prefix: 'CAT-',      key: 'category_id',      pad: 2, defaultMax: 3 },
+                        'issue_types':        { prefix: 'ISS-',      key: 'issue_id',         pad: 2, defaultMax: 4 },
+                        'technician_slots':   { prefix: 'SLOT-',     key: 'slot_id',          pad: 0, defaultMax: 559 },
+                        'service_requests':   { prefix: 'SR-2026-',  key: 'request_id',       pad: 4, defaultMax: 1 },
+                        'inquiry_requests':   { prefix: 'INQ-2026-', key: 'inquiry_id',       pad: 0, defaultMax: 881 },
+                        'complaint_requests': { prefix: 'COM-2026-', key: 'complaint_id',     pad: 0, defaultMax: 441 },
+                        'submitted_tickets':  { prefix: 'TCK-',      key: 'ticket_id',        pad: 0, defaultMax: 55412 },
+                        'sales_orders':       { prefix: 'SO-',       key: 'order_id',         pad: 0, defaultMax: 77412 }
+                    };
+
+                    // If the current collection matches our auto-id roadmap configuration
+                    if (prefixConfig.hasOwnProperty(targetCollection)) {
+                        const config = prefixConfig[targetCollection];
+                        let maxIdNum = config.defaultMax;
+
+                        // Scan through the collection array to calculate the true mathematical max number
+                        db[targetCollection].forEach(item => {
+                            // Discover key field name regardless of casing differences
+                            const actualKey = Object.keys(item).find(k => k.toLowerCase() === config.key.toLowerCase());
+                            if (actualKey && String(item[actualKey]).toUpperCase().startsWith(config.prefix)) {
+                                const currentNum = parseInt(String(item[actualKey]).toUpperCase().replace(config.prefix, ''), 10);
                                 if (!isNaN(currentNum) && currentNum > maxIdNum) {
                                     maxIdNum = currentNum;
                                 }
                             }
                         });
 
-                        // Automatically inject a newly incremented profile ID
-                        payload.profile_id = `USR-${maxIdNum + 1}`;
+                        // Increment tracking sequence and apply string padding layout adjustments
+                        const nextNum = maxIdNum + 1;
+                        const formattedNum = config.pad > 0 ? String(nextNum).padStart(config.pad, '0') : String(nextNum);
+                        
+                        // Dynamically attach the completed token string directly into the payload object
+                        payload[config.key] = `${config.prefix}${formattedNum}`;
                     }
 
-                    // Append the payload record into the in-memory array database
+                    // Append the payload record to the array database
                     db[targetCollection].push(payload);
                     
                     res.statusCode = 201;
                     return res.end(JSON.stringify({ 
-                        message: "Record successfully appended with auto-generated ID.", 
+                        message: `Record successfully appended to ${targetCollection}.`, 
                         storedData: payload 
                     }));
                 }
