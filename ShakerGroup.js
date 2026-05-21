@@ -144,10 +144,35 @@ const server = http.createServer(async (req, res) => {
                         res.statusCode = 400;
                         return res.end(JSON.stringify({ error: "Payload data string cannot be null." }));
                     }
+                    
                     const payload = JSON.parse(rawBody);
+
+                    // --- AUTOMATIC ID GENERATION FOR USER PROFILES ---
+                    if (targetCollection === 'user_profiles') {
+                        // Find the highest numeric ID current in the database array
+                        let maxIdNum = 9981; // Starting baseline fallback
+                        
+                        db[targetCollection].forEach(user => {
+                            if (user.profile_id && user.profile_id.startsWith('USR-')) {
+                                const currentNum = parseInt(user.profile_id.replace('USR-', ''), 10);
+                                if (!isNaN(currentNum) && currentNum > maxIdNum) {
+                                    maxIdNum = currentNum;
+                                }
+                            }
+                        });
+
+                        // Automatically inject a newly incremented profile ID
+                        payload.profile_id = `USR-${maxIdNum + 1}`;
+                    }
+
+                    // Append the payload record into the in-memory array database
                     db[targetCollection].push(payload);
+                    
                     res.statusCode = 201;
-                    return res.end(JSON.stringify({ message: "Record successfully appended.", storedData: payload }));
+                    return res.end(JSON.stringify({ 
+                        message: "Record successfully appended with auto-generated ID.", 
+                        storedData: payload 
+                    }));
                 }
 
                 // --- PUT METHOD ENDPOINT ---
