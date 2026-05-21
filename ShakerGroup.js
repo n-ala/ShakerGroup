@@ -184,6 +184,15 @@ const server = http.createServer(async (req, res) => {
                         
                         // Dynamically attach the completed token string directly into the payload object
                         payload[config.key] = `${config.prefix}${formattedNum}`;
+
+                        if (targetCollection === 'service_requests') {
+                            payload.status = "Pending Allocation";
+                        } else if (targetCollection === 'inquiry_requests') {
+                            payload.status = "Open";
+                        } else if (targetCollection === 'complaint_requests') {
+                            payload.status = "Under Investigation";
+                        }
+                    }
                     }
 
                     // Append the payload record to the array database
