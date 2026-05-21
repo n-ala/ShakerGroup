@@ -177,35 +177,47 @@ const server = http.createServer(async (req, res) => {
 
                 // --- PUT METHOD ENDPOINT ---
                 if (method === 'PUT') {
-                    // Extract keys using modern search parameter iterator maps
                     const queryKeys = Array.from(searchParams.keys());
                     if (queryKeys.length === 0) {
                         res.statusCode = 400;
-                        return res.end(JSON.stringify({ error: "Missing identifier filter string query parameter. (e.g. ?model=XYZ)" }));
+                        return res.end(JSON.stringify({ error: "Missing lookup parameters (e.g. ?phone=0511111111)" }));
                     }
 
-                    const identifierKey = queryKeys[0];
-                    const identifierValue = searchParams.get(identifierKey).toLowerCase();
+                    const identifierKey = queryKeys[0].toLowerCase().trim();
+                    let identifierValue = searchParams.get(queryKeys[0]).toLowerCase().trim();
 
-                    // Search index mapping layer
+                    if (identifierKey === 'phone') {
+                        identifierValue = identifierValue.replace(/[\s+]/g, '');
+                    }
+
+                    // Log debug details to the terminal console window
+                    console.log(`[PUT DEBUG] Looking for matching row in '${targetCollection}' where key '${identifierKey}' = '${identifierValue}'`);
+
                     const itemIndex = db[targetCollection].findIndex(item => {
-                        const matchedKey = Object.keys(item).find(k => k.toLowerCase() === identifierKey.toLowerCase());
-                        return matchedKey && String(item[matchedKey]).toLowerCase() === identifierValue;
+                        const dbKey = Object.keys(item).find(k => k.toLowerCase() === identifierKey);
+                        if (!dbKey) return false;
+
+                        let dbValue = String(item[dbKey]).toLowerCase().trim();
+                        if (identifierKey === 'phone') {
+                            dbValue = dbValue.replace(/[\s+]/g, '');
+                        }
+                        return dbValue === identifierValue;
                     });
 
                     if (itemIndex === -1) {
                         res.statusCode = 404;
-                        return res.end(JSON.stringify({ error: `Record matching search descriptor ${identifierKey}='${searchParams.get(identifierKey)}' could not be found.` }));
+                        return res.end(JSON.stringify({ error: `No match found for query parameters provided.` }));
                     }
 
                     const rawBody = await collectRequestBody(req);
-                    if (!rawBody) {
+                    if (!rawBody || !rawBody.trim()) {
                         res.statusCode = 400;
-                        return res.end(JSON.stringify({ error: "Body content updates required." }));
+                        return res.end(JSON.stringify({ error: "Body updates payload required." }));
                     }
+                    
                     const updatePayload = JSON.parse(rawBody);
 
-                    // Perform shallow object property merge
+                    // Perform clean object merge mapping update
                     db[targetCollection][itemIndex] = {
                         ...db[targetCollection][itemIndex],
                         ...updatePayload
@@ -213,17 +225,16 @@ const server = http.createServer(async (req, res) => {
 
                     res.statusCode = 200;
                     return res.end(JSON.stringify({
-                        message: "Item record updated successfully",
+                        message: "Profile updated successfully.",
                         updatedData: db[targetCollection][itemIndex]
                     }));
                 }
 
                 res.statusCode = 405;
-                return res.end(JSON.stringify({ error: `Method ${method} is not supported for this dataset.` }));
+                return res.end(JSON.stringify({ error: `Method ${method} not handled.` }));
             }
         }
 
-        // Catch-all route mismatch error response 
         res.statusCode = 404;
         res.end(JSON.stringify({ error: "Endpoint route not found." }));
 
