@@ -96,6 +96,43 @@ const server = http.createServer(async (req, res) => {
                 
                 // --- GET METHOD ENDPOINT ---
                 if (method === 'GET') {
+                    const queryKeys = Array.from(searchParams.keys());
+                    
+                    // If a query parameter exists (like ?phone=0511111111)
+                    if (queryKeys.length > 0) {
+                        const identifierKey = queryKeys[0];
+                        let identifierValue = searchParams.get(identifierKey).toLowerCase().trim();
+
+                        // Normalize phone numbers for the search query if applicable
+                        if (identifierKey === 'phone') {
+                            identifierValue = identifierValue.replace(/[\s+]/g, '');
+                            if (identifierValue.startsWith('00')) identifierValue = identifierValue.substring(2);
+                        }
+
+                        // Find the specific item matching the query criteria
+                        const matchedItem = db[targetCollection].find(item => {
+                            const dbKey = Object.keys(item).find(k => k.toLowerCase() === identifierKey.toLowerCase());
+                            if (!dbKey) return false;
+
+                            let dbValue = String(item[dbKey]).toLowerCase().trim();
+                            if (identifierKey === 'phone') {
+                                dbValue = dbValue.replace(/[\s+]/g, '');
+                                if (dbValue.startsWith('00')) dbValue = dbValue.substring(2);
+                            }
+                            return dbValue === identifierValue;
+                        });
+
+                        // Return the single object if found, or a 404 error if it doesn't exist
+                        if (matchedItem) {
+                            res.statusCode = 200;
+                            return res.end(JSON.stringify(matchedItem));
+                        } else {
+                            res.statusCode = 404;
+                            return res.end(JSON.stringify({ error: `Record not found where ${identifierKey} equals '${searchParams.get(identifierKey)}'.` }));
+                        }
+                    }
+
+                    // Fallback: If NO query parameters are passed, return the whole array as normal
                     res.statusCode = 200;
                     return res.end(JSON.stringify(db[targetCollection]));
                 }
