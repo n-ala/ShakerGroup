@@ -17,21 +17,41 @@ function bootstrapDatabase() {
             process.exit(1);
         }
 
-        // 1. Process regions array file
-        const regionsPath = path.join(dataDir, 'regions_and_neighbourhoods.json');
+        let arrayCount = 0;
+
+        // 1. Process regions file (Extract array wrapped inside "sub_regions")
+        const regionsPath = path.join(dataDir, 'regions.json');
         if (fs.existsSync(regionsPath)) {
             const regionsData = JSON.parse(fs.readFileSync(regionsPath, 'utf8'));
-            db['regions'] = Array.isArray(regionsData) ? regionsData : [];
+            if (regionsData && Array.isArray(regionsData.sub_regions)) {
+                db['sub_regions'] = regionsData.sub_regions;
+                arrayCount++;
+            } else {
+                db['sub_regions'] = [];
+            }
         } else {
-            console.warn("⚠️ Warning: regions_and_neighbourhoods.json was not found.");
+            console.warn("⚠️ Warning: regions.json was not found.");
         }
 
-        // 2. Process multi-array format file
+        // 2. Process locations file (Extract array wrapped inside "locations")
+        const locationsPath = path.join(dataDir, 'locations.json');
+        if (fs.existsSync(locationsPath)) {
+            const locationsData = JSON.parse(fs.readFileSync(locationsPath, 'utf8'));
+            if (locationsData && Array.isArray(locationsData.locations)) {
+                db['locations'] = locationsData.locations;
+                arrayCount++;
+            } else {
+                db['locations'] = [];
+            }
+        } else {
+            console.warn("⚠️ Warning: locations.json was not found.");
+        }
+
+        // 3. Keep fallback processing for data_arrays.json multi-array format file if needed
         const dataArraysPath = path.join(dataDir, 'data_arrays.json');
         if (fs.existsSync(dataArraysPath)) {
             const structuralMap = JSON.parse(fs.readFileSync(dataArraysPath, 'utf8'));
             
-            let arrayCount = 0;
             for (const key in structuralMap) {
                 if (Array.isArray(structuralMap[key])) {
                     // Force registry collection keys to be lowercase
@@ -39,10 +59,9 @@ function bootstrapDatabase() {
                     arrayCount++;
                 }
             }
-            console.log(`\n✅ Database Bootstrap Success: Loaded 1 array from regions and ${arrayCount} arrays from data_arrays.json`);
-        } else {
-            console.error("❌ Critical Error: data_arrays.json was not found.");
         }
+
+        console.log(`\n✅ Database Bootstrap Success: Tracked and mounted ${arrayCount} collection endpoint datasets successfully.`);
 
         // Visual validation checking block
         console.log('\n🚀 Automated API Routes Mounted & Live:');
@@ -73,7 +92,6 @@ function collectRequestBody(req) {
 // Instantiate modern server layout logic core
 const server = http.createServer(async (req, res) => {
     // --- MODERN WHATWG URL PARSING ENGINE ---
-    // Using a fallback dummy base string handles internal local routing arrays reliably
     const reqUrl = new URL(req.url, `http://${req.headers.host || 'localhost'}`);
     
     // Normalize pathname: lowercase it and strip trailing slashes safely
@@ -98,7 +116,7 @@ const server = http.createServer(async (req, res) => {
                 if (method === 'GET') {
                     const queryKeys = Array.from(searchParams.keys());
                     
-                    // If a query parameter exists (like ?phone=0511111111)
+                    // If a query parameter exists (like ?subRegionId=17 or ?city=RIYADH)
                     if (queryKeys.length > 0) {
                         const identifierKey = queryKeys[0];
                         let identifierValue = searchParams.get(identifierKey).toLowerCase().trim();
@@ -168,7 +186,6 @@ const server = http.createServer(async (req, res) => {
 
                         // Scan through the collection array to calculate the true mathematical max number
                         db[targetCollection].forEach(item => {
-                            // Discover key field name regardless of casing differences
                             const actualKey = Object.keys(item).find(k => k.toLowerCase() === config.key.toLowerCase());
                             if (actualKey && String(item[actualKey]).toUpperCase().startsWith(config.prefix)) {
                                 const currentNum = parseInt(String(item[actualKey]).toUpperCase().replace(config.prefix, ''), 10);
@@ -193,7 +210,6 @@ const server = http.createServer(async (req, res) => {
                             payload.status = "Under Investigation";
                         }
                     }
-                    }
 
                     // Append the payload record to the array database
                     db[targetCollection].push(payload);
@@ -210,7 +226,7 @@ const server = http.createServer(async (req, res) => {
                     const queryKeys = Array.from(searchParams.keys());
                     if (queryKeys.length === 0) {
                         res.statusCode = 400;
-                        return res.end(JSON.stringify({ error: "Missing lookup parameters (e.g. ?phone=0511111111)" }));
+                        return res.end(JSON.stringify({ error: "Missing lookup parameters (e.g. ?locationId=1002)" }));
                     }
 
                     const identifierKey = queryKeys[0].toLowerCase().trim();
@@ -220,7 +236,6 @@ const server = http.createServer(async (req, res) => {
                         identifierValue = identifierValue.replace(/[\s+]/g, '');
                     }
 
-                    // Log debug details to the terminal console window
                     console.log(`[PUT DEBUG] Looking for matching row in '${targetCollection}' where key '${identifierKey}' = '${identifierValue}'`);
 
                     const itemIndex = db[targetCollection].findIndex(item => {
