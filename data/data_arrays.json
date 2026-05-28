@@ -1,19 +1,29 @@
 {
     "user_profiles": [
-    {
-      "profile_id": "USR-9981",
-      "full_name": "نور العفيشات",
-      "email": "noor@gmail.com",
-      "phone": "0500000111",
-      "preferred_language": "ar"
-    },
-          {
-      "profile_id": "USR-9982",
-      "full_name": "معاذ درويش",
-      "email": "moath@gmail.com",
-      "phone": "0500000222",
-      "preferred_language": "ar"
-    }
+        {
+          "Title": "Miss.",
+          "BusinessUnit": "1000",
+          "Location": "1086", 
+          "Name": "نور العفيشات", 
+          "Email": "noor@gmail.com",
+          "HouseNo": "14", 
+          "Strtno": "2", 
+          "Flrno": "5",
+          "PhoneNumber": "0500000111", 
+          "PreferredLanguage": "E"  
+        },
+        {
+          "Title": "Mr.",
+          "BusinessUnit": "1000",
+          "Location": "1039", 
+          "Name": "معاذ درويش", 
+          "Email": "moath@gmail.com",
+          "HouseNo": "22", 
+          "Strtno": "1", 
+          "Flrno": "4",
+          "PhoneNumber": "0500000222", 
+          "PreferredLanguage": "A"  
+        }
   ],
   "service_types": [
     {"service_id": "ST-01", "name_en": "General Service", "name_ar": "صيانة عامة"},
