@@ -1,0 +1,29 @@
+{
+  "sub_regions": [
+    {
+      "subRegionId": 17,
+      "nameEn": "Central Region",
+      "nameAr": "المنطقة الوسطى"
+    },
+    {
+      "subRegionId": 18,
+      "nameEn": "Western Region",
+      "nameAr": "المنطقة الغربية"
+    },
+    {
+      "subRegionId": 19,
+      "nameEn": "Eastern Region",
+      "nameAr": "المنطقة الشرقية"
+    },
+    {
+      "subRegionId": 20,
+      "nameEn": "Southern Region",
+      "nameAr": "المنطقة الجنوبية"
+    },
+    {
+      "subRegionId": 21,
+      "nameEn": "Northern Region",
+      "nameAr": "المنطقة الشمالية"
+    }
+  ]
+}
