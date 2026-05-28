@@ -166,6 +166,7 @@ const server = http.createServer(async (req, res) => {
 
                     // --- FULLY DYNAMIC AUTOMATIC ID GENERATOR ---
                     const prefixConfig = {
+                        'locations':          { prefix: '',          key: 'locationId',       pad: 0, defaultMax: 1005 },
                         'user_profiles':      { prefix: 'USR-',      key: 'profile_id',       pad: 0, defaultMax: 9981 },
                         'service_types':      { prefix: 'ST-',       key: 'service_id',       pad: 2, defaultMax: 4 },
                         'categories':         { prefix: 'CAT-',      key: 'category_id',      pad: 2, defaultMax: 3 },
