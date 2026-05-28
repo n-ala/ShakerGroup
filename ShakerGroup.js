@@ -116,44 +116,43 @@ const server = http.createServer(async (req, res) => {
                 if (method === 'GET') {
                     const queryKeys = Array.from(searchParams.keys());
                     
-                    // If a query parameter exists (like ?subRegionId=17 or ?city=RIYADH)
                     if (queryKeys.length > 0) {
-                        const identifierKey = queryKeys[0];
-                        let identifierValue = searchParams.get(identifierKey).toLowerCase().trim();
-
-                        // Normalize phone numbers for the search query if applicable
-                        if (identifierKey === 'phone') {
+                        const identifierKey = queryKeys[0].toLowerCase().trim(); // lowercase for easier comparison
+                        let identifierValue = searchParams.get(queryKeys[0]).toLowerCase().trim();
+                
+                        // Normalize phone numbers for the search query (Handles both 'phone' and 'phonenumber')
+                        if (identifierKey === 'phone' || identifierKey === 'phonenumber') {
                             identifierValue = identifierValue.replace(/[\s+]/g, '');
                             if (identifierValue.startsWith('00')) identifierValue = identifierValue.substring(2);
+                            if (identifierValue.startsWith('966')) identifierValue = identifierValue.substring(3); // Optional: handles Saudi country code
                         }
-
+                
                         // Find the specific item matching the query criteria
                         const matchedItem = db[targetCollection].find(item => {
-                            const dbKey = Object.keys(item).find(k => k.toLowerCase() === identifierKey.toLowerCase());
+                            const dbKey = Object.keys(item).find(k => k.toLowerCase() === identifierKey);
                             if (!dbKey) return false;
-
+                
                             let dbValue = String(item[dbKey]).toLowerCase().trim();
-                            if (identifierKey === 'phone') {
+                            if (identifierKey === 'phone' || identifierKey === 'phonenumber') {
                                 dbValue = dbValue.replace(/[\s+]/g, '');
                                 if (dbValue.startsWith('00')) dbValue = dbValue.substring(2);
+                                if (dbValue.startsWith('966')) dbValue = dbValue.substring(3);
                             }
                             return dbValue === identifierValue;
                         });
-
-                        // Return the single object if found, or a 404 error if it doesn't exist
+                
                         if (matchedItem) {
                             res.statusCode = 200;
                             return res.end(JSON.stringify(matchedItem));
                         } else {
                             res.statusCode = 404;
-                            return res.end(JSON.stringify({ error: `Record not found where ${identifierKey} equals '${searchParams.get(identifierKey)}'.` }));
+                            return res.end(JSON.stringify({ error: `Record not found where ${queryKeys[0]} equals '${searchParams.get(queryKeys[0])}'.` }));
                         }
                     }
-
-                    // Fallback: If NO query parameters are passed, return the whole array as normal
+                
                     res.statusCode = 200;
                     return res.end(JSON.stringify(db[targetCollection]));
-                }
+                }    
 
                 // --- POST METHOD ENDPOINT ---
                 if (method === 'POST') {
