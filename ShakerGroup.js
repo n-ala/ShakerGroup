@@ -135,7 +135,7 @@ const server = http.createServer(async (req, res) => {
                         }
 
                         // Filter internal array fields to match against parent_type_id 
-                        const matchedSubTypes = db['getinquirysubtypes'].filter(sub => 
+                        const matchedSubTypes = db['inquiry_sub_types'].filter(sub => 
                             String(sub.parent_type_id).trim().toUpperCase() === typeIdParam.trim().toUpperCase()
                         );
 
