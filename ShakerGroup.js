@@ -47,7 +47,21 @@ function bootstrapDatabase() {
             console.warn("⚠️ Warning: locations.json was not found.");
         }
 
-        // 3. Keep fallback processing for data_arrays.json multi-array format file if needed
+        // 3. Process brands file (Extract array wrapped inside "brands")
+        const brandsPath = path.join(dataDir, 'brands.json');
+        if (fs.existsSync(brandsPath)) {
+            const brandsData = JSON.parse(fs.readFileSync(brandsPath, 'utf8'));
+            if (brandsData && Array.isArray(brandsData.brands)) {
+                db['brands'] = brandsData.brands;
+                arrayCount++;
+            } else {
+                db['brands'] = [];
+            }
+        } else {
+            console.warn("⚠️ Warning: brands.json was not found.");
+        }
+
+        // 4. Keep fallback processing for data_arrays.json multi-array format file if needed
         const dataArraysPath = path.join(dataDir, 'data_arrays.json');
         if (fs.existsSync(dataArraysPath)) {
             const structuralMap = JSON.parse(fs.readFileSync(dataArraysPath, 'utf8'));
@@ -166,6 +180,7 @@ const server = http.createServer(async (req, res) => {
 
                     // --- FULLY DYNAMIC AUTOMATIC ID GENERATOR ---
                     const prefixConfig = {
+                        'brands':             { prefix: '',          key: 'brandId',          pad: 0, defaultMax: 106 },
                         'locations':          { prefix: '',          key: 'locationId',       pad: 0, defaultMax: 1005 },
                         'user_profiles':      { prefix: 'USR-',      key: 'profile_id',       pad: 0, defaultMax: 9981 },
                         'service_types':      { prefix: 'ST-',       key: 'service_id',       pad: 2, defaultMax: 4 },
