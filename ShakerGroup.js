@@ -121,42 +121,36 @@ const server = http.createServer(async (req, res) => {
         if (pathname.startsWith('/api/')) {
             const targetCollection = pathname.substring(5);
 
-            // --- CUSTOM OVERRIDE ROUTE: POST FOR TECHNICIAN SLOTS FILTERING ---
-            if (targetCollection === 'available_dates' && method === 'POST') {
-                const rawBody = await collectRequestBody(req);
-                if (!rawBody || !rawBody.trim()) {
-                    res.statusCode = 400;
-                    return res.end(JSON.stringify({ error: "Payload data criteria string cannot be null or empty." }));
-                }
-
-                const criteria = JSON.parse(rawBody);
-
-                // Filter down memory storage rows based on matching input criteria
-                const filteredSlots = db['technician_slots'].filter(slot => {
-                    let isMatch = true;
-
-                    if (criteria.BrandId) {
-                        isMatch = isMatch && (String(slot.BrandId || slot.brandId).toUpperCase() === String(criteria.BrandId).toUpperCase());
-                    }
-                    if (criteria.Category) {
-                        isMatch = isMatch && (String(slot.Category || slot.category_id || slot.category).toUpperCase() === String(criteria.Category).toUpperCase());
-                    }
-                    if (criteria.Location) {
-                        isMatch = isMatch && (String(slot.Location || slot.locationId || slot.location).trim() === String(criteria.Location).trim());
-                    }
-
-                    return isMatch;
-                });
-
-                res.statusCode = 200;
-                return res.end(JSON.stringify(filteredSlots));
-            }
-
             // --- STANDARD DYNAMIC ROUTER PIPELINE ---
             if (db.hasOwnProperty(targetCollection)) {
                 
                 // --- GET METHOD ENDPOINT ---
                 if (method === 'GET') {
+                    // SPECIAL HOOK: Filter and return full matching slot objects if parameters are present
+                    if (targetCollection === 'technician_slots' && (searchParams.has('BrandId') || searchParams.has('Category') || searchParams.has('Location'))) {
+                        const filterBrand = searchParams.get('BrandId');
+                        const filterCategory = searchParams.get('Category');
+                        const filterLocation = searchParams.get('Location');
+
+                        const matchedSlots = db['technician_slots'].filter(slot => {
+                            let isMatch = true;
+                            if (filterBrand) {
+                                isMatch = isMatch && (String(slot.BrandId || slot.brandId).toUpperCase() === filterBrand.toUpperCase());
+                            }
+                            if (filterCategory) {
+                                isMatch = isMatch && (String(slot.Category || slot.category_id || slot.category).toUpperCase() === filterCategory.toUpperCase());
+                            }
+                            if (filterLocation) {
+                                isMatch = isMatch && (String(slot.Location || slot.locationId || slot.location).trim() === filterLocation.trim());
+                            }
+                            return isMatch;
+                        });
+
+                        res.statusCode = 200;
+                        return res.end(JSON.stringify(matchedSlots));
+                    }
+
+                    // STANDARD SINGLE PARAMETER LOOKUP (e.g. ?locationId=1001 or ?slot_id=SLOT-560)
                     const queryKeys = Array.from(searchParams.keys());
                     if (queryKeys.length > 0) {
                         const identifierKey = queryKeys[0].toLowerCase().trim();
@@ -188,6 +182,7 @@ const server = http.createServer(async (req, res) => {
                         }
                     }
 
+                    // Fallback to dumping full matching dataset
                     res.statusCode = 200;
                     return res.end(JSON.stringify(db[targetCollection]));
                 }
@@ -212,7 +207,7 @@ const server = http.createServer(async (req, res) => {
                         'inquiry_requests':   { prefix: 'INQ-2026-', key: 'inquiry_id',       pad: 0, defaultMax: 881 },
                         'complaint_requests': { prefix: 'COM-2026-', key: 'complaint_id',     pad: 0, defaultMax: 441 },
                         'submitted_tickets':  { prefix: 'TCK-',      key: 'ticket_id',        pad: 0, defaultMax: 55412 },
-                        'technician_slots':   { prefix: 'SLOT-',     key: 'slot_id',          pad: 0, defaultMax: 5572 },
+                        'technician_slots':   { prefix: 'SLOT-',     key: 'slot_id',          pad: 0, defaultMax: 572 },
                         'sales_orders':       { prefix: 'SO-',       key: 'order_id',         pad: 0, defaultMax: 77412 }
                     };
 
@@ -289,7 +284,7 @@ const server = http.createServer(async (req, res) => {
                     db[targetCollection][itemIndex] = { ...db[targetCollection][itemIndex], ...updatePayload };
 
                     res.statusCode = 200;
-                    return res.end(JSON.stringify({ message: "Profile updated successfully.", updatedData: db[targetCollection][itemIndex] }));
+                    return res.end(JSON.stringify({ message: "Record updated successfully.", updatedData: db[targetCollection][itemIndex] }));
                 }
 
                 res.statusCode = 405;
@@ -305,6 +300,7 @@ const server = http.createServer(async (req, res) => {
         res.end(JSON.stringify({ error: "Internal microservice core evaluation fault.", details: err.message }));
     }
 });
+
 const PORT = process.env.PORT || 10000;
 server.listen(PORT, () => {
     console.log(`🚀 API Microservice environment live executing at: http://localhost:${PORT}`);
