@@ -1,4 +1,5 @@
-[
+{
+  "brands":[
 {
     "brandId": "LG",
     "brandName": "LG",
@@ -35,3 +36,4 @@
     "brandArabic": "دايو"
   }
 ]
+}
