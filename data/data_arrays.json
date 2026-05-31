@@ -43,70 +43,111 @@
     {"issue_id": "ISS-04", "name_en": "Loud noise issue", "name_ar": "صوت ضجيج مرتفع"}
   ],
   "technician_slots": [
-    {
-      "slot_id": "SLOT-552",
-      "date": "2026-05-25",
-      "time_window": "10:00 AM - 01:00 PM",
-      "technician_name": "احمد منصور",
-      "region": "Central (Riyadh)",
-      "is_available": true
+      {
+      "slot_id": "SLOT-560",
+      "BrandId": "LG",
+      "Category": "ARLDYDRY",
+      "Location": "12279",
+      "AvailableDate": "2026-06-20",
+      "TimeSlot": "09:00 AM - 12:00 PM"
     },
     {
-      "slot_id": "SLOT-553",
-      "date": "2026-05-25",
-      "time_window": "01:30 PM - 04:30 PM",
-      "technician_name": "احمد منصور",
-      "region": "Central (Riyadh)",
-      "is_available": false
+      "slot_id": "SLOT-561",
+      "BrandId": "Midea",
+      "Category": "ARLDYDRY",
+      "Location": "12279",
+      "AvailableDate": "2026-06-15",
+      "TimeSlot": "01:00 PM - 04:00 PM"
     },
     {
-      "slot_id": "SLOT-554",
-      "date": "2026-05-25",
-      "time_window": "05:00 PM - 08:00 PM",
-      "technician_name": "ياسر القحطاني",
-      "region": "Central (Riyadh)",
-      "is_available": true
+      "slot_id": "SLOT-562",
+      "BrandId": "Ariston",
+      "Category": "REF",
+      "Location": "11006",
+      "AvailableDate": "2026-06-17",
+      "TimeSlot": "10:00 AM - 01:00 PM"
     },
     {
-      "slot_id": "SLOT-555",
-      "date": "2026-05-26",
-      "time_window": "09:00 AM - 12:00 PM",
-      "technician_name": "محمد علي",
-      "region": "Western (Jeddah)",
-      "is_available": true
+      "slot_id": "SLOT-563",
+      "BrandId": "Maytag",
+      "Category": "ARLDYDRY",
+      "Location": "12279",
+      "AvailableDate": "2026-06-21",
+      "TimeSlot": "09:00 AM - 12:00 PM"
     },
     {
-      "slot_id": "SLOT-556",
-      "date": "2026-05-26",
-      "time_window": "01:00 PM - 04:00 PM",
-      "technician_name": "محمد علي",
-      "region": "Western (Jeddah)",
-      "is_available": true
+      "slot_id": "SLOT-564",
+      "BrandId": "Maytag",
+      "Category": "CAT-01",
+      "Location": "11006",
+      "AvailableDate": "2026-06-22",
+      "TimeSlot": "04:00 PM - 07:00 PM"
     },
     {
-      "slot_id": "SLOT-557",
-      "date": "2026-05-26",
-      "time_window": "10:00 AM - 01:00 PM",
-      "technician_name": "عبدالله الشمري",
-      "region": "Eastern (Dammam)",
-      "is_available": true
+      "slot_id": "SLOT-565",
+      "BrandId": "Bompani",
+      "Category": "CAT-02",
+      "Location": "12279",
+      "AvailableDate": "2026-06-23",
+      "TimeSlot": "10:00 AM - 01:00 PM"
     },
     {
-      "slot_id": "SLOT-558",
-      "date": "2026-05-27",
-      "time_window": "09:00 AM - 12:00 PM",
-      "technician_name": "طارق عمر",
-      "region": "Southern (Khamis Mushait)",
-      "is_available": false
+      "slot_id": "SLOT-566",
+      "BrandId": "Bompani",
+      "Category": "REF",
+      "Location": "11006",
+      "AvailableDate": "2026-06-24",
+      "TimeSlot": "01:00 PM - 04:00 PM"
     },
     {
-      "slot_id": "SLOT-559",
-      "date": "2026-05-27",
-      "time_window": "02:00 PM - 05:00 PM",
-      "technician_name": "طارق عمر",
-      "region": "Southern (Khamis Mushait)",
-      "is_available": true
+      "slot_id": "SLOT-567",
+      "BrandId": "Indesit",
+      "Category": "ARLDYDRY",
+      "Location": "12279",
+      "AvailableDate": "2026-06-25",
+      "TimeSlot": "09:00 AM - 12:00 PM"
+    },
+    {
+      "slot_id": "SLOT-568",
+      "BrandId": "Indesit",
+      "Category": "CAT-01",
+      "Location": "11006",
+      "AvailableDate": "2026-06-25",
+      "TimeSlot": "04:00 PM - 07:00 PM"
+    },
+    {
+      "slot_id": "SLOT-569",
+      "BrandId": "Daewoo",
+      "Category": "CAT-03",
+      "Location": "12279",
+      "AvailableDate": "2026-06-26",
+      "TimeSlot": "01:00 PM - 04:00 PM"
+    },
+    {
+      "slot_id": "SLOT-570",
+      "BrandId": "Daewoo",
+      "Category": "REF",
+      "Location": "11006",
+      "AvailableDate": "2026-06-27",
+      "TimeSlot": "10:00 AM - 01:00 PM"
+    },
+    {
+      "slot_id": "SLOT-571",
+      "BrandId": "LG",
+      "Category": "CAT-02",
+      "Location": "11006",
+      "AvailableDate": "2026-06-28",
+      "TimeSlot": "04:00 PM - 07:00 PM"
+    },
+    {
+      "slot_id": "SLOT-572",
+      "BrandId": "Midea",
+      "Category": "CAT-03",
+      "Location": "11006",
+      "AvailableDate": "2026-06-29",
+      "TimeSlot": "09:00 AM - 12:00 PM"
     }
+    
   ],
   "service_requests": [
     {
