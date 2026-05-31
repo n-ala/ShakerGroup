@@ -212,6 +212,7 @@ const server = http.createServer(async (req, res) => {
                         'inquiry_requests':   { prefix: 'INQ-2026-', key: 'inquiry_id',       pad: 0, defaultMax: 881 },
                         'complaint_requests': { prefix: 'COM-2026-', key: 'complaint_id',     pad: 0, defaultMax: 441 },
                         'submitted_tickets':  { prefix: 'TCK-',      key: 'ticket_id',        pad: 0, defaultMax: 55412 },
+                        'technician_slots':   { prefix: 'SLOT-',     key: 'slot_id',          pad: 0, defaultMax: 5572 },
                         'sales_orders':       { prefix: 'SO-',       key: 'order_id',         pad: 0, defaultMax: 77412 }
                     };
 
