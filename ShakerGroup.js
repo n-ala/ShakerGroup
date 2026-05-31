@@ -126,7 +126,7 @@ const server = http.createServer(async (req, res) => {
                 
                 // --- GET METHOD ENDPOINT ---
                 if (method === 'GET') {
-                    if (targetCollection === 'getinquirysubtypes') {
+                    if (targetCollection === 'inquiry_sub_types') {
                         const typeIdParam = searchParams.get('type_id'); // URLSearchParams handles lowercase queries cleanly
 
                         if (!typeIdParam) {
