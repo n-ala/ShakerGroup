@@ -115,6 +115,16 @@ const server = http.createServer(async (req, res) => {
     const method = req.method;
     const searchParams = reqUrl.searchParams;
 
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+
+    // Handle browser pre-flight safety checks (OPTIONS method)
+    if (method === 'OPTIONS') {
+        res.statusCode = 204;
+        return res.end();
+    }
+
     res.setHeader('Content-Type', 'application/json; charset=utf-8');
 
     try {
@@ -231,7 +241,7 @@ const server = http.createServer(async (req, res) => {
                     const prefixConfig = {
                         'brands':             { prefix: '',          key: 'brand_id',          pad: 0, defaultMax: 106 },
                         'locations':          { prefix: '',          key: 'location_id',       pad: 0, defaultMax: 1005 },
-                        'user_profiles':      { prefix: 'USR-',      key: 'profile_id',       pad: 0, defaultMax: 9981 },
+                        'user_profiles':      { prefix: '',          key: 'phone_number',      pad: 0, defaultMax: 0 },
                         'service_types':      { prefix: 'ST-',       key: 'service_id',       pad: 2, defaultMax: 4 },
                         'categories':         { prefix: 'CAT-',      key: 'category_id',      pad: 2, defaultMax: 3 },
                         'issue_types':        { prefix: 'ISS-',      key: 'issue_id',         pad: 2, defaultMax: 4 },
