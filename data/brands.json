@@ -1,0 +1,37 @@
+[
+{
+    "brandId": "LG",
+    "brandName": "LG",
+    "brandArabic": "إل جي"
+  },
+  {
+    "brandId": "Midea",
+    "brandName": "Midea",
+    "brandArabic": "ميديا"
+  },
+  {
+    "brandId": "Ariston",
+    "brandName": "Ariston",
+    "brandArabic": "أريستون"
+  },
+  {
+    "brandId": "Maytag",
+    "brandName": "Maytag",
+    "brandArabic": "ميتاج"
+  },
+  {
+    "brandId": "Bompani",
+    "brandName": "Bompani",
+    "brandArabic": "بومباني"
+  },
+  {
+    "brandId": "Indesit",
+    "brandName": "Indesit",
+    "brandArabic": "إنديسيت"
+  },
+  {
+    "brandId": "Daewoo",
+    "brandName": "Daewoo",
+    "brandArabic": "دايو"
+  }
+]
