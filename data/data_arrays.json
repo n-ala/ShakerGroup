@@ -1,28 +1,28 @@
 {
     "user_profiles": [
         {
-          "Title": "Miss.",
-          "BusinessUnit": "1000",
-          "Location": "1086", 
-          "Name": "نور العفيشات", 
-          "Email": "noor@gmail.com",
-          "HouseNo": "14", 
-          "Strtno": "2", 
-          "Flrno": "5",
-          "PhoneNumber": "0500000111", 
-          "PreferredLanguage": "E"  
+          "title": "Miss.",
+          "business_unit": "1000",
+          "location": "1086", 
+          "name": "نور العفيشات", 
+          "email": "noor@gmail.com",
+          "house_no": "14", 
+          "strtno": "2", 
+          "flrno": "5",
+          "phone_number": "0500000111", 
+          "preferred_language": "E"  
         },
         {
-          "Title": "Mr.",
-          "BusinessUnit": "1000",
-          "Location": "1039", 
-          "Name": "معاذ درويش", 
-          "Email": "moath@gmail.com",
-          "HouseNo": "22", 
-          "Strtno": "1", 
-          "Flrno": "4",
-          "PhoneNumber": "0500000222", 
-          "PreferredLanguage": "A"  
+          "title": "Mr.",
+          "business_unit": "1000",
+          "location": "1039", 
+          "name": "معاذ درويش", 
+          "email": "moath@gmail.com",
+          "house_no": "22", 
+          "strtno": "1", 
+          "flrno": "4",
+          "phone_number": "0500000222", 
+          "preferred_language": "A"  
         }
   ],
   "service_types": [
@@ -43,109 +43,109 @@
     {"issue_id": "ISS-04", "name_en": "Loud noise issue", "name_ar": "صوت ضجيج مرتفع"}
   ],
   "technician_slots": [
-      {
+    {
       "slot_id": "SLOT-560",
-      "BrandId": "LG",
-      "Category": "ARLDYDRY",
-      "Location": "12279",
-      "AvailableDate": "2026-06-20",
-      "TimeSlot": "09:00 AM - 12:00 PM"
+      "brand_id": "LG",
+      "category": "ARLDYDRY",
+      "location": "12279",
+      "available_date": "2026-06-20",
+      "time_slot": "09:00 AM - 12:00 PM"
     },
     {
       "slot_id": "SLOT-561",
-      "BrandId": "Midea",
-      "Category": "ARLDYDRY",
-      "Location": "12279",
-      "AvailableDate": "2026-06-15",
-      "TimeSlot": "01:00 PM - 04:00 PM"
+      "brand_id": "Midea",
+      "category": "ARLDYDRY",
+      "location": "12279",
+      "available_date": "2026-06-15",
+      "time_slot": "01:00 PM - 04:00 PM"
     },
     {
       "slot_id": "SLOT-562",
-      "BrandId": "Ariston",
-      "Category": "REF",
-      "Location": "11006",
-      "AvailableDate": "2026-06-17",
-      "TimeSlot": "10:00 AM - 01:00 PM"
+      "brand_id": "Ariston",
+      "category": "REF",
+      "location": "11006",
+      "available_date": "2026-06-17",
+      "time_slot": "10:00 AM - 01:00 PM"
     },
     {
       "slot_id": "SLOT-563",
-      "BrandId": "Maytag",
-      "Category": "ARLDYDRY",
-      "Location": "12279",
-      "AvailableDate": "2026-06-21",
-      "TimeSlot": "09:00 AM - 12:00 PM"
+      "brand_id": "Maytag",
+      "category": "ARLDYDRY",
+      "location": "12279",
+      "available_date": "2026-06-21",
+      "time_slot": "09:00 AM - 12:00 PM"
     },
     {
       "slot_id": "SLOT-564",
-      "BrandId": "Maytag",
-      "Category": "CAT-01",
-      "Location": "11006",
-      "AvailableDate": "2026-06-22",
-      "TimeSlot": "04:00 PM - 07:00 PM"
+      "brand_id": "Maytag",
+      "category": "CAT-01",
+      "location": "11006",
+      "available_date": "2026-06-22",
+      "time_slot": "04:00 PM - 07:00 PM"
     },
     {
       "slot_id": "SLOT-565",
-      "BrandId": "Bompani",
-      "Category": "CAT-02",
-      "Location": "12279",
-      "AvailableDate": "2026-06-23",
-      "TimeSlot": "10:00 AM - 01:00 PM"
+      "brand_id": "Bompani",
+      "category": "CAT-02",
+      "location": "12279",
+      "available_date": "2026-06-23",
+      "time_slot": "10:00 AM - 01:00 PM"
     },
     {
       "slot_id": "SLOT-566",
-      "BrandId": "Bompani",
-      "Category": "REF",
-      "Location": "11006",
-      "AvailableDate": "2026-06-24",
-      "TimeSlot": "01:00 PM - 04:00 PM"
+      "brand_id": "Bompani",
+      "category": "REF",
+      "location": "11006",
+      "available_date": "2026-06-24",
+      "time_slot": "01:00 PM - 04:00 PM"
     },
     {
       "slot_id": "SLOT-567",
-      "BrandId": "Indesit",
-      "Category": "ARLDYDRY",
-      "Location": "12279",
-      "AvailableDate": "2026-06-25",
-      "TimeSlot": "09:00 AM - 12:00 PM"
+      "brand_id": "Indesit",
+      "category": "ARLDYDRY",
+      "location": "12279",
+      "available_date": "2026-06-25",
+      "time_slot": "09:00 AM - 12:00 PM"
     },
     {
       "slot_id": "SLOT-568",
-      "BrandId": "Indesit",
-      "Category": "CAT-01",
-      "Location": "11006",
-      "AvailableDate": "2026-06-25",
-      "TimeSlot": "04:00 PM - 07:00 PM"
+      "brand_id": "Indesit",
+      "category": "CAT-01",
+      "location": "11006",
+      "available_date": "2026-06-25",
+      "time_slot": "04:00 PM - 07:00 PM"
     },
     {
       "slot_id": "SLOT-569",
-      "BrandId": "Daewoo",
-      "Category": "CAT-03",
-      "Location": "12279",
-      "AvailableDate": "2026-06-26",
-      "TimeSlot": "01:00 PM - 04:00 PM"
+      "brand_id": "Daewoo",
+      "category": "CAT-03",
+      "location": "12279",
+      "available_date": "2026-06-26",
+      "time_slot": "01:00 PM - 04:00 PM"
     },
     {
       "slot_id": "SLOT-570",
-      "BrandId": "Daewoo",
-      "Category": "REF",
-      "Location": "11006",
-      "AvailableDate": "2026-06-27",
-      "TimeSlot": "10:00 AM - 01:00 PM"
+      "brand_id": "Daewoo",
+      "category": "REF",
+      "location": "11006",
+      "available_date": "2026-06-27",
+      "time_slot": "10:00 AM - 01:00 PM"
     },
     {
       "slot_id": "SLOT-571",
-      "BrandId": "LG",
-      "Category": "CAT-02",
-      "Location": "11006",
-      "AvailableDate": "2026-06-28",
-      "TimeSlot": "04:00 PM - 07:00 PM"
+      "brand_id": "LG",
+      "category": "CAT-02",
+      "location": "11006",
+      "available_date": "2026-06-28",
+      "time_slot": "04:00 PM - 07:00 PM"
     },
     {
       "slot_id": "SLOT-572",
-      "BrandId": "Midea",
-      "Category": "CAT-03",
-      "Location": "11006",
-      "AvailableDate": "2026-06-29",
-      "TimeSlot": "09:00 AM - 12:00 PM"
+      "brand_id": "Midea",
+      "category": "CAT-03",
+      "location": "11006",
+      "available_date": "2026-06-29",
+      "time_slot": "09:00 AM - 12:00 PM"
     }
     
   ],
