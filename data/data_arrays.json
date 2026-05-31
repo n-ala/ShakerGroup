@@ -158,8 +158,8 @@
         "notification_type": "Z1",
         "brand_id": "LG",
         "remarks": "bilal test service request",
-        "Cutomer_start_time": "10:00:00",
-        "Customer_expected_start_date": "10.05.2022",
+        "customer_start_time": "10:00:00",
+        "customer_expected_start_date": "10.05.2022",
         "request_id": "SR-2026-0001",
         "status": "Pending Allocation"
     }
