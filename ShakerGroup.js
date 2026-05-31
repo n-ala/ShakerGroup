@@ -105,56 +105,80 @@ function collectRequestBody(req) {
 
 // Instantiate modern server layout logic core
 const server = http.createServer(async (req, res) => {
-    // --- MODERN WHATWG URL PARSING ENGINE ---
     const reqUrl = new URL(req.url, `http://${req.headers.host || 'localhost'}`);
     
-    // Normalize pathname: lowercase it and strip trailing slashes safely
     let pathname = reqUrl.pathname.toLowerCase();
     if (pathname.endsWith('/') && pathname !== '/') {
         pathname = pathname.slice(0, -1);
     }
     
     const method = req.method;
-    const searchParams = reqUrl.searchParams; // Modern iterable URLSearchParams map
+    const searchParams = reqUrl.searchParams;
 
-    // Enforce global UTF-8 encoding configuration for accurate Arabic processing
     res.setHeader('Content-Type', 'application/json; charset=utf-8');
 
     try {
         if (pathname.startsWith('/api/')) {
             const targetCollection = pathname.substring(5);
 
+            // --- CUSTOM OVERRIDE ROUTE: POST FOR TECHNICIAN SLOTS FILTERING ---
+            if (targetCollection === 'available_dates' && method === 'POST') {
+                const rawBody = await collectRequestBody(req);
+                if (!rawBody || !rawBody.trim()) {
+                    res.statusCode = 400;
+                    return res.end(JSON.stringify({ error: "Payload data criteria string cannot be null or empty." }));
+                }
+
+                const criteria = JSON.parse(rawBody);
+
+                // Filter down memory storage rows based on matching input criteria
+                const filteredSlots = db['technician_slots'].filter(slot => {
+                    let isMatch = true;
+
+                    if (criteria.BrandId) {
+                        isMatch = isMatch && (String(slot.BrandId || slot.brandId).toUpperCase() === String(criteria.BrandId).toUpperCase());
+                    }
+                    if (criteria.Category) {
+                        isMatch = isMatch && (String(slot.Category || slot.category_id || slot.category).toUpperCase() === String(criteria.Category).toUpperCase());
+                    }
+                    if (criteria.Location) {
+                        isMatch = isMatch && (String(slot.Location || slot.locationId || slot.location).trim() === String(criteria.Location).trim());
+                    }
+
+                    return isMatch;
+                });
+
+                res.statusCode = 200;
+                return res.end(JSON.stringify(filteredSlots));
+            }
+
+            // --- STANDARD DYNAMIC ROUTER PIPELINE ---
             if (db.hasOwnProperty(targetCollection)) {
                 
                 // --- GET METHOD ENDPOINT ---
                 if (method === 'GET') {
                     const queryKeys = Array.from(searchParams.keys());
-                    
                     if (queryKeys.length > 0) {
-                        const identifierKey = queryKeys[0].toLowerCase().trim(); // lowercase for easier comparison
+                        const identifierKey = queryKeys[0].toLowerCase().trim();
                         let identifierValue = searchParams.get(queryKeys[0]).toLowerCase().trim();
-                
-                        // Normalize phone numbers for the search query (Handles both 'phone' and 'phonenumber')
+
                         if (identifierKey === 'phone' || identifierKey === 'phonenumber') {
                             identifierValue = identifierValue.replace(/[\s+]/g, '');
                             if (identifierValue.startsWith('00')) identifierValue = identifierValue.substring(2);
-                            if (identifierValue.startsWith('966')) identifierValue = identifierValue.substring(3); // Optional: handles Saudi country code
                         }
-                
-                        // Find the specific item matching the query criteria
+
                         const matchedItem = db[targetCollection].find(item => {
                             const dbKey = Object.keys(item).find(k => k.toLowerCase() === identifierKey);
                             if (!dbKey) return false;
-                
+
                             let dbValue = String(item[dbKey]).toLowerCase().trim();
                             if (identifierKey === 'phone' || identifierKey === 'phonenumber') {
                                 dbValue = dbValue.replace(/[\s+]/g, '');
                                 if (dbValue.startsWith('00')) dbValue = dbValue.substring(2);
-                                if (dbValue.startsWith('966')) dbValue = dbValue.substring(3);
                             }
                             return dbValue === identifierValue;
                         });
-                
+
                         if (matchedItem) {
                             res.statusCode = 200;
                             return res.end(JSON.stringify(matchedItem));
@@ -163,10 +187,10 @@ const server = http.createServer(async (req, res) => {
                             return res.end(JSON.stringify({ error: `Record not found where ${queryKeys[0]} equals '${searchParams.get(queryKeys[0])}'.` }));
                         }
                     }
-                
+
                     res.statusCode = 200;
                     return res.end(JSON.stringify(db[targetCollection]));
-                }    
+                }
 
                 // --- POST METHOD ENDPOINT ---
                 if (method === 'POST') {
@@ -177,8 +201,6 @@ const server = http.createServer(async (req, res) => {
                     }
                     
                     const payload = JSON.parse(rawBody);
-
-                    // --- FULLY DYNAMIC AUTOMATIC ID GENERATOR ---
                     const prefixConfig = {
                         'brands':             { prefix: '',          key: 'brandId',          pad: 0, defaultMax: 106 },
                         'locations':          { prefix: '',          key: 'locationId',       pad: 0, defaultMax: 1005 },
@@ -186,7 +208,6 @@ const server = http.createServer(async (req, res) => {
                         'service_types':      { prefix: 'ST-',       key: 'service_id',       pad: 2, defaultMax: 4 },
                         'categories':         { prefix: 'CAT-',      key: 'category_id',      pad: 2, defaultMax: 3 },
                         'issue_types':        { prefix: 'ISS-',      key: 'issue_id',         pad: 2, defaultMax: 4 },
-                        'technician_slots':   { prefix: 'SLOT-',     key: 'slot_id',          pad: 0, defaultMax: 559 },
                         'service_requests':   { prefix: 'SR-2026-',  key: 'request_id',       pad: 4, defaultMax: 1 },
                         'inquiry_requests':   { prefix: 'INQ-2026-', key: 'inquiry_id',       pad: 0, defaultMax: 881 },
                         'complaint_requests': { prefix: 'COM-2026-', key: 'complaint_id',     pad: 0, defaultMax: 441 },
@@ -194,12 +215,10 @@ const server = http.createServer(async (req, res) => {
                         'sales_orders':       { prefix: 'SO-',       key: 'order_id',         pad: 0, defaultMax: 77412 }
                     };
 
-                    // If the current collection matches our auto-id roadmap configuration
                     if (prefixConfig.hasOwnProperty(targetCollection)) {
                         const config = prefixConfig[targetCollection];
                         let maxIdNum = config.defaultMax;
 
-                        // Scan through the collection array to calculate the true mathematical max number
                         db[targetCollection].forEach(item => {
                             const actualKey = Object.keys(item).find(k => k.toLowerCase() === config.key.toLowerCase());
                             if (actualKey && String(item[actualKey]).toUpperCase().startsWith(config.prefix)) {
@@ -210,11 +229,8 @@ const server = http.createServer(async (req, res) => {
                             }
                         });
 
-                        // Increment tracking sequence and apply string padding layout adjustments
                         const nextNum = maxIdNum + 1;
                         const formattedNum = config.pad > 0 ? String(nextNum).padStart(config.pad, '0') : String(nextNum);
-                        
-                        // Dynamically attach the completed token string directly into the payload object
                         payload[config.key] = `${config.prefix}${formattedNum}`;
 
                         if (targetCollection === 'service_requests') {
@@ -226,14 +242,9 @@ const server = http.createServer(async (req, res) => {
                         }
                     }
 
-                    // Append the payload record to the array database
                     db[targetCollection].push(payload);
-                    
                     res.statusCode = 201;
-                    return res.end(JSON.stringify({ 
-                        message: `Record successfully appended to ${targetCollection}.`, 
-                        storedData: payload 
-                    }));
+                    return res.end(JSON.stringify({ message: `Record successfully appended to ${targetCollection}.`, storedData: payload }));
                 }
 
                 // --- PUT METHOD ENDPOINT ---
@@ -241,24 +252,22 @@ const server = http.createServer(async (req, res) => {
                     const queryKeys = Array.from(searchParams.keys());
                     if (queryKeys.length === 0) {
                         res.statusCode = 400;
-                        return res.end(JSON.stringify({ error: "Missing lookup parameters (e.g. ?locationId=1002)" }));
+                        return res.end(JSON.stringify({ error: "Missing lookup parameters." }));
                     }
 
                     const identifierKey = queryKeys[0].toLowerCase().trim();
                     let identifierValue = searchParams.get(queryKeys[0]).toLowerCase().trim();
 
-                    if (identifierKey === 'phone') {
+                    if (identifierKey === 'phone' || identifierKey === 'phonenumber') {
                         identifierValue = identifierValue.replace(/[\s+]/g, '');
                     }
-
-                    console.log(`[PUT DEBUG] Looking for matching row in '${targetCollection}' where key '${identifierKey}' = '${identifierValue}'`);
 
                     const itemIndex = db[targetCollection].findIndex(item => {
                         const dbKey = Object.keys(item).find(k => k.toLowerCase() === identifierKey);
                         if (!dbKey) return false;
 
                         let dbValue = String(item[dbKey]).toLowerCase().trim();
-                        if (identifierKey === 'phone') {
+                        if (identifierKey === 'phone' || identifierKey === 'phonenumber') {
                             dbValue = dbValue.replace(/[\s+]/g, '');
                         }
                         return dbValue === identifierValue;
@@ -266,7 +275,7 @@ const server = http.createServer(async (req, res) => {
 
                     if (itemIndex === -1) {
                         res.statusCode = 404;
-                        return res.end(JSON.stringify({ error: `No match found for query parameters provided.` }));
+                        return res.end(JSON.stringify({ error: `No match found for query parameters.` }));
                     }
 
                     const rawBody = await collectRequestBody(req);
@@ -276,18 +285,10 @@ const server = http.createServer(async (req, res) => {
                     }
                     
                     const updatePayload = JSON.parse(rawBody);
-
-                    // Perform clean object merge mapping update
-                    db[targetCollection][itemIndex] = {
-                        ...db[targetCollection][itemIndex],
-                        ...updatePayload
-                    };
+                    db[targetCollection][itemIndex] = { ...db[targetCollection][itemIndex], ...updatePayload };
 
                     res.statusCode = 200;
-                    return res.end(JSON.stringify({
-                        message: "Profile updated successfully.",
-                        updatedData: db[targetCollection][itemIndex]
-                    }));
+                    return res.end(JSON.stringify({ message: "Profile updated successfully.", updatedData: db[targetCollection][itemIndex] }));
                 }
 
                 res.statusCode = 405;
@@ -303,7 +304,6 @@ const server = http.createServer(async (req, res) => {
         res.end(JSON.stringify({ error: "Internal microservice core evaluation fault.", details: err.message }));
     }
 });
-
 const PORT = process.env.PORT || 10000;
 server.listen(PORT, () => {
     console.log(`🚀 API Microservice environment live executing at: http://localhost:${PORT}`);
