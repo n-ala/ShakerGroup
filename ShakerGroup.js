@@ -142,6 +142,22 @@ const server = http.createServer(async (req, res) => {
                         res.statusCode = 200;
                         return res.end(JSON.stringify(matchedSubTypes));
                     }
+                    if (targetCollection === 'complaint_sub_types') {
+                        const typeIdParam = searchParams.get('type_id'); // URLSearchParams handles lowercase queries cleanly
+
+                        if (!typeIdParam) {
+                            res.statusCode = 400;
+                            return res.end(JSON.stringify({ error: "Missing required query parameter: type_id" }));
+                        }
+
+                        // Filter internal array fields to match against parent_type_id 
+                        const matchedSubTypes = db['complaint_sub_types'].filter(sub => 
+                            String(sub.parent_type_id).trim().toUpperCase() === typeIdParam.trim().toUpperCase()
+                        );
+
+                        res.statusCode = 200;
+                        return res.end(JSON.stringify(matchedSubTypes));
+                    }
                     // SPECIAL HOOK: Filter and return full matching slot objects if parameters are present
                     if (targetCollection === 'technician_slots' && (searchParams.has('brand_id') || searchParams.has('category') || searchParams.has('location'))) {
                         const filterBrand = searchParams.get('brand_id');
