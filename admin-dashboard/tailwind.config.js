@@ -5,16 +5,15 @@ export default {
     extend: {
       colors: {
         brand: {
-          // Deep charcoal slate for a softer, premium dark background (instead of pure blue/black)
-          darkBg: '#0b0f17',       
-          cardBg: '#161d26',       
-          border: '#242f3d',       
-          // Exact Shaker Group Emerald Greens
-          accent: '#10b981',       // Vibrant Emerald
-          accentMuted: '#047857',  // Deep Emerald
-          accentHover: '#059669',  // Medium Hover Teal
-          textMain: '#f1f5f9',
-          textMuted: '#94a3b8'     
+          darkBg: '#080808',       // Pure dark onyx background
+          cardBg: '#121212',       // Rich charcoal container
+          panelBg: '#1a1a1a',      // Subtle ash panel surface
+          border: '#262626',       // Neutral dark gray borders (no blue tint)
+          
+          // Shaker Group True Corporate Green Palette
+          accent: '#117b5d',       // Deep corporate emerald green
+          accentHover: '#0e634b',  // Refined hover emerald
+          textMuted: '#737373'     // Neutral middle gray
         }
       }
     },
