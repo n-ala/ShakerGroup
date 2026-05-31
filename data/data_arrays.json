@@ -151,13 +151,17 @@
   ],
   "service_requests": [
     {
-      "request_id": "SR-2026-0001",
-      "profile_id": "USR-9981",
-      "service_id": "ST-03",
-      "category_id": "CAT-01",
-      "issue_id": "ISS-03",
-      "selected_slot_id": "SLOT-552",
-      "status": "Pending Allocation"
+        "location_id": "12005",
+        "sub_region_id": "13",
+        "category_id": "LGRACASS",
+        "issue_type_id": "0072",
+        "notification_type": "Z1",
+        "brand_id": "LG",
+        "remarks": "bilal test service request",
+        "Cutomer_start_time": "10:00:00",
+        "Customer_expected_start_date": "10.05.2022",
+        "request_id": "SR-2026-0001",
+        "status": "Pending Allocation"
     }
   ],
   "inquiry_types": [
