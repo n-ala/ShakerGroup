@@ -1,39 +1,39 @@
 {
   "brands":[
 {
-    "brandId": "LG",
-    "brandName": "LG",
-    "brandArabic": "إل جي"
+    "brand_id": "LG",
+    "brand_name": "LG",
+    "brand_arabic": "إل جي"
   },
   {
-    "brandId": "Midea",
-    "brandName": "Midea",
-    "brandArabic": "ميديا"
+    "brand_id": "Midea",
+    "brand_name": "Midea",
+    "brand_arabic": "ميديا"
   },
   {
-    "brandId": "Ariston",
-    "brandName": "Ariston",
-    "brandArabic": "أريستون"
+    "brand_id": "Ariston",
+    "brand_name": "Ariston",
+    "brand_arabic": "أريستون"
   },
   {
-    "brandId": "Maytag",
-    "brandName": "Maytag",
-    "brandArabic": "ميتاج"
+    "brand_id": "Maytag",
+    "brand_name": "Maytag",
+    "brand_arabic": "ميتاج"
   },
   {
-    "brandId": "Bompani",
-    "brandName": "Bompani",
-    "brandArabic": "بومباني"
+    "brand_id": "Bompani",
+    "brand_name": "Bompani",
+    "brand_arabic": "بومباني"
   },
   {
-    "brandId": "Indesit",
-    "brandName": "Indesit",
-    "brandArabic": "إنديسيت"
+    "brand_id": "Indesit",
+    "brand_name": "Indesit",
+    "brand_arabic": "إنديسيت"
   },
   {
-    "brandId": "Daewoo",
-    "brandName": "Daewoo",
-    "brandArabic": "دايو"
+    "brand_id": "Daewoo",
+    "brand_name": "Daewoo",
+    "brand_arabic": "دايو"
   }
 ]
 }
