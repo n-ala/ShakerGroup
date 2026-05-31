@@ -127,21 +127,21 @@ const server = http.createServer(async (req, res) => {
                 // --- GET METHOD ENDPOINT ---
                 if (method === 'GET') {
                     // SPECIAL HOOK: Filter and return full matching slot objects if parameters are present
-                    if (targetCollection === 'technician_slots' && (searchParams.has('BrandId') || searchParams.has('Category') || searchParams.has('Location'))) {
-                        const filterBrand = searchParams.get('BrandId');
-                        const filterCategory = searchParams.get('Category');
-                        const filterLocation = searchParams.get('Location');
+                    if (targetCollection === 'technician_slots' && (searchParams.has('brand_id') || searchParams.has('category') || searchParams.has('location'))) {
+                        const filterBrand = searchParams.get('brand_id');
+                        const filterCategory = searchParams.get('category');
+                        const filterLocation = searchParams.get('location');
 
                         const matchedSlots = db['technician_slots'].filter(slot => {
                             let isMatch = true;
                             if (filterBrand) {
-                                isMatch = isMatch && (String(slot.BrandId || slot.brandId).toUpperCase() === filterBrand.toUpperCase());
+                                isMatch = isMatch && (String(slot.brand_id || slot.brand_id).toUpperCase() === filterBrand.toUpperCase());
                             }
                             if (filterCategory) {
-                                isMatch = isMatch && (String(slot.Category || slot.category_id || slot.category).toUpperCase() === filterCategory.toUpperCase());
+                                isMatch = isMatch && (String(slot.category || slot.category_id || slot.category).toUpperCase() === filterCategory.toUpperCase());
                             }
                             if (filterLocation) {
-                                isMatch = isMatch && (String(slot.Location || slot.locationId || slot.location).trim() === filterLocation.trim());
+                                isMatch = isMatch && (String(slot.location || slot.location_id || slot.location).trim() === filterLocation.trim());
                             }
                             return isMatch;
                         });
@@ -197,8 +197,8 @@ const server = http.createServer(async (req, res) => {
                     
                     const payload = JSON.parse(rawBody);
                     const prefixConfig = {
-                        'brands':             { prefix: '',          key: 'brandId',          pad: 0, defaultMax: 106 },
-                        'locations':          { prefix: '',          key: 'locationId',       pad: 0, defaultMax: 1005 },
+                        'brands':             { prefix: '',          key: 'brand_id',          pad: 0, defaultMax: 106 },
+                        'locations':          { prefix: '',          key: 'location_id',       pad: 0, defaultMax: 1005 },
                         'user_profiles':      { prefix: 'USR-',      key: 'profile_id',       pad: 0, defaultMax: 9981 },
                         'service_types':      { prefix: 'ST-',       key: 'service_id',       pad: 2, defaultMax: 4 },
                         'categories':         { prefix: 'CAT-',      key: 'category_id',      pad: 2, defaultMax: 3 },
