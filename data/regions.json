@@ -1,29 +1,29 @@
 {
   "sub_regions": [
     {
-      "subRegionId": 17,
-      "nameEn": "Central Region",
-      "nameAr": "المنطقة الوسطى"
+      "sub_region_id": 17,
+      "name_en": "Central Region",
+      "name_ar": "المنطقة الوسطى"
     },
     {
-      "subRegionId": 18,
-      "nameEn": "Western Region",
-      "nameAr": "المنطقة الغربية"
+      "sub_region_id": 18,
+      "name_en": "Western Region",
+      "name_ar": "المنطقة الغربية"
     },
     {
-      "subRegionId": 19,
-      "nameEn": "Eastern Region",
-      "nameAr": "المنطقة الشرقية"
+      "sub_region_id": 19,
+      "name_en": "Eastern Region",
+      "name_ar": "المنطقة الشرقية"
     },
     {
-      "subRegionId": 20,
-      "nameEn": "Southern Region",
-      "nameAr": "المنطقة الجنوبية"
+      "sub_region_id": 20,
+      "name_en": "Southern Region",
+      "name_ar": "المنطقة الجنوبية"
     },
     {
-      "subRegionId": 21,
-      "nameEn": "Northern Region",
-      "nameAr": "المنطقة الشمالية"
+      "sub_region_id": 21,
+      "name_en": "Northern Region",
+      "name_ar": "المنطقة الشمالية"
     }
   ]
 }
